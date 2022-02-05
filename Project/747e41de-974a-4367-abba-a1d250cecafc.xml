@@ -9,7 +9,7 @@ _EN=Variables
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=BOOL	N=Execute_KM_Reading	G=VAR_EXTERNAL
 ++D=UINT	N=Modbus_RTU_KM_Slave_Address	G=VAR_EXTERNAL
-++D=ARRAY[0..124] OF BOOL	N=Modbus_RTU_Read_Data	G=VAR_EXTERNAL
+++D=ARRAY[0..19] OF WORD	N=Modbus_RTU_Read_Data	G=VAR_EXTERNAL
 ++D=BOOL	N=Modbus_RTU_KM_Abort	G=VAR_EXTERNAL
 ++D=BOOL	N=Modbus_RTU_KM_Busy	G=VAR_EXTERNAL
 ++D=BOOL	N=Modbus_RTU_KM_Command_Aborted	G=VAR_EXTERNAL
@@ -23,3 +23,27 @@ _EN=Variables
 ++D=_sSERIAL_MODBUSRTU_READ	N=Modbus_RTU_KM_Read_Command	G=VAR_EXTERNAL
 ++D=_sNXUNIT_ID	N=Modbus_RTU_Unit_Location_ID	Const=1	G=VAR_EXTERNAL
 ++D=BOOL	N=Modbus_RTU_KM_Read_Done	G=VAR_EXTERNAL
+++D=WORD	N=KM_50_Phase_1_Voltage_Measurement_Word	G=VAR_EXTERNAL
+++D=REAL	N=KM_50_Phase_1_Voltage_Measurement_Word_REAL	G=VAR_EXTERNAL
+++D=WORD	N=KM_50_Phase_1_Current_Measurement	G=VAR_EXTERNAL
+++D=WORD	N=KM_50_Phase_1_Power_Factor_Measurement	G=VAR_EXTERNAL
+++D=WORD	N=KM_50_Phase_1_Frequency_Measurement	G=VAR_EXTERNAL
+++D=WORD	N=KM_50_Phase_1_Active_Power_Measurement	G=VAR_EXTERNAL
+++D=WORD	N=KM_50_Phase_1_Maxiumum_Active_Power_Measurement	G=VAR_EXTERNAL
+++D=REAL	N=KM_50_Phase_1_Voltage_Measurement_REAL	G=VAR_EXTERNAL
+++D=REAL	N=KM_50_Phase_1_Current_Measurement_REAL	G=VAR_EXTERNAL
+++D=USINT	N=KM_50_Phase_1_Power_Factor_Measurement_Percentage	G=VAR_EXTERNAL
+++D=WORD	N=KM_50_Phase_1_Frequency_Measurement_Word	G=VAR_EXTERNAL
+++D=REAL	N=KM_50_Phase_1_Frequency_Measurement_Word_REAL	G=VAR_EXTERNAL
+++D=REAL	N=KM_50_Phase_1_Frequency_Measurement_REAL	G=VAR_EXTERNAL
+++D=WORD	N=KM_50_Phase_1_Maximum_Active_Power_Measurement	G=VAR_EXTERNAL
+++D=WORD	N=KM_50_Phase_1_Current_Measurement_Word	G=VAR_EXTERNAL
+++D=WORD	N=KM_50_Phase_1_Power_Factor_Measurement_Word	G=VAR_EXTERNAL
+++D=WORD	N=KM_50_Phase_1_Active_Power_Measurement_Word	G=VAR_EXTERNAL
+++D=REAL	N=KM_50_Phase_1_Active_Power_Measurement_Word_REAL	G=VAR_EXTERNAL
+++D=REAL	N=KM_50_Phase_1_Active_Power_Measurement_REAL	G=VAR_EXTERNAL
+++D=WORD	N=KM_50_Phase_1_Maximum_Active_Power_Measurement_Word	G=VAR_EXTERNAL
+++D=SINT	N=KM_50_Phase_1_Maximum_Active_Power_Measurement_Word_SINT	G=VAR_EXTERNAL
+++D=UINT	N=KM_50_Phase_1_Maximum_Active_Power_Measurement_Word_UINT	G=VAR_EXTERNAL
+++D=REAL	N=KM_50_Phase_1_Maximum_Active_Power_Measurement_Word_REAL	G=VAR_EXTERNAL
+++D=REAL	N=KM_50_Phase_1_Maximum_Active_Power_Measurement_Word_REAL_kW	G=VAR_EXTERNAL
