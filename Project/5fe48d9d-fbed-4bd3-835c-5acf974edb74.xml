@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <data>
+    <LibraryModel>
+      <Name>INV00x_Q2x_ECT</Name>
+      <NameSpace></NameSpace>
+      <Version>1.1.0</Version>
+      <Revision>1</Revision>
+      <LibraryId>7095dc03-e6ad-42f2-9625-aa408004efde</LibraryId>
+      <Author>Tomas Dunér</Author>
+      <Company>Omron Electronics</Company>
+      <DateCreated>2013-12-23T10:11:54.8777315+02:00</DateCreated>
+      <DateModified>2021-11-25T11:38:17.9267751+02:00</DateModified>
+      <Comment>Functionblocks that can be used for controlling Q2x with Omron NJ/NX/NY controller over EtherCAT communication.</Comment>
+      <Password></Password>
+      <AttachedFiles />
+      <AttachedFilesRelativePaths />
+      <PublicPartsNames>
+        <PublicName>INV000_Q2x_Alarm</PublicName>
+        <PublicName>INV001_Q2x_ECT</PublicName>
+        <PublicName>INV002_Q2x_ECT</PublicName>
+        <PublicName>INV003_Q2x_ECT</PublicName>
+        <PublicName>INV010_Q2x_ExternalTrip</PublicName>
+        <PublicName>INV012_Q2x_Analog_inputs</PublicName>
+        <PublicName>INV00x_Q2x\uWORD_BOOL_Q2x</PublicName>
+        <PublicName>INV00x_Q2x\sDriveStatus</PublicName>
+        <PublicName>INV00x_Q2x\eSignalLevelSelect</PublicName>
+      </PublicPartsNames>
+      <InternalPartsNames />
+      <BuildDevice>
+        <Category>Controller</Category>
+        <Family>Nex</Family>
+        <FullModel>NJ501-1500</FullModel>
+        <MajorVersion>1</MajorVersion>
+        <MinorVersion>17</MinorVersion>
+        <Revision>0</Revision>
+        <DisplayVersion>1.17</DisplayVersion>
+        <Packages>
+          <Package Name="Motion" Version="1.17" />
+          <Package Name="OPCUA" Version="1.17" />
+        </Packages>
+      </BuildDevice>
+      <DependencyId>54e26619-4db0-4559-b26d-2adc04d97c61</DependencyId>
+      <IsSource>true</IsSource>
+      <IsDisableSourceDisplay>false</IsDisableSourceDisplay>
+      <IsIncludeReferredLibraries>true</IsIncludeReferredLibraries>
+      <LibraryFilePath>C:\Users\Andreas\Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_Inverter_INVX\INV00x_Q2x_ECT.slr</LibraryFilePath>
+      <LibraryFileRelativePath>Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_Inverter_INVX\INV00x_Q2x_ECT.slr</LibraryFileRelativePath>
+      <LibrarySourceControlRelativeFilePath></LibrarySourceControlRelativeFilePath>
+      <AsOldVer>true</AsOldVer>
+      <SchemaVersion>1</SchemaVersion>
+      <Parameter1>false</Parameter1>
+    </LibraryModel>
+  </data>
+</data>

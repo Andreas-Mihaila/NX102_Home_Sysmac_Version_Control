@@ -1,0 +1,166 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR_GLOBAL	GVT=GlobalNamespaceGroup
+++D=BOOL	N=IO_DI_Sensor_At_Pusher_1_Exit	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tINPUTS
+++D=BOOL	N=IO_DI_Sensor_At_Pusher_2_Exit	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tINPUTS
+++D=BOOL	N=IO_DI_Sensor_Pusher_1_Back	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tINPUTS
+++D=BOOL	N=IO_DI_Sensor_Pusher_2_Back	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tINPUTS
+++D=BOOL	N=IO_DI_Sensor_Pusher_1_Front	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tINPUTS
+++D=BOOL	N=IO_DI_Sensor_Pusher_2_Front	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tINPUTS
+++D=BOOL	N=IO_DI_Sensor_1	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tINPUTS
+++D=BOOL	N=IO_DI_Sensor_2	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tINPUTS
+++D=BOOL	N=IO_DI_Panel_Auto	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tINPUTS
+++D=BOOL	N=IO_DI_Panel_Emergency_Stop	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tINPUTS
+++D=BOOL	N=IO_DI_Panel_Manual_Mode	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tINPUTS
+++D=BOOL	N=IO_DI_Panel_Reset	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tINPUTS
+++D=BOOL	N=IO_DI_Panel_Start	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tINPUTS
+++D=BOOL	N=IO_DI_Panel_Stop	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tINPUTS
+++D=BOOL	N=IO_DI_Panel_Jog_Mode	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tINPUTS
+++D=DINT	N=IO_AI_Vision_Sensor_1	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tINPUTS
+++D=DINT	N=IO_AI_Vision_Sensor_2	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tINPUTS
+++D=BOOL	N=IO_DQ_Conveyor_1	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tOUTPUTS
+++D=BOOL	N=IO_DQ_Conveyor_2	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tOUTPUTS
+++D=BOOL	N=IO_DQ_Emitter_1	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tOUTPUTS
+++D=BOOL	N=IO_DQ_Emitter_2	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tOUTPUTS
+++D=BOOL	N=IO_DQ_Entry_Conveyor_1	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tOUTPUTS
+++D=BOOL	N=IO_DQ_Entry_Conveyor_2	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tOUTPUTS
+++D=BOOL	N=IO_DQ_Pusher_1	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tOUTPUTS
+++D=BOOL	N=IO_DQ_Pusher_2	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tOUTPUTS
+++D=BOOL	N=IO_DQ_Panel_Reset_Light	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tOUTPUTS
+++D=BOOL	N=IO_DQ_Panel_Start_Light	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tOUTPUTS
+++D=BOOL	N=IO_DQ_Panel_Stop_Light	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tOUTPUTS
+++D=BOOL	N=Status_Machine_Ready	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tMACHINE_STATUS
+++D=BOOL	N=Status_Machine_Error	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tMACHINE_STATUS
+++D=BOOL	N=Status_Machine_Auto_Mode	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tMACHINE_STATUS
+++D=BOOL	N=Status_Machine_Manual_Mode	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tMACHINE_STATUS
+++D=BOOL	N=Status_Machine_Jog_Permissive	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tMACHINE_STATUS
+++D=BOOL	N=Status_Machine_Emergency	NTP=PublicationOnly	G=VAR_GLOBAL
+++D=BOOL	N=Status_Machine_Running	NTP=PublicationOnly	G=VAR_GLOBAL
+++D=BOOL	N=Status_Machine_Stopped	NTP=PublicationOnly	G=VAR_GLOBAL
+++D=DINT	N=Vision_Sensor_1_DINT_Memory	G=VAR_GLOBAL
+++D=DINT	N=Vision_Sensor_2_DINT_Memory	G=VAR_GLOBAL
+++D=DINT	N=Production_Counter_Blue	G=VAR_GLOBAL
+++D=DINT	N=Production_Counter_Green	G=VAR_GLOBAL
+++D=DINT	N=Production_Counter_Overall	G=VAR_GLOBAL
+++D=BOOL	N=N1_Output_Bit_00	G=VAR_GLOBAL
+++D=BOOL	N=NX_Coupler_Minor_Fault	AT=ECAT://node#1/Sysmac Error Status/Minor Fault	G=VAR_GLOBAL
+++D=BOOL	N=NX_Coupler_Partial_Fault	AT=ECAT://node#1/Sysmac Error Status/Partial Fault	G=VAR_GLOBAL
+++D=BOOL	N=NX_Coupler_Major_Fault	AT=ECAT://node#1/Sysmac Error Status/Major Fault	G=VAR_GLOBAL
+++D=BOOL	N=NX_Coupler_Observation	AT=ECAT://node#1/Sysmac Error Status/Observation	G=VAR_GLOBAL
+++D=BOOL	N=DQ_1st_Port	AT=ECAT://node#[1,1]/Output Bit 8 bits/Output Bit 00	G=VAR_GLOBAL
+++D=BYTE	N=NX_Coupler_Error_Status_Byte	AT=ECAT://node#1/Sysmac Error Status	G=VAR_GLOBAL
+++D=STRING[256]	N=Connection_Broker_IP	G=VAR_GLOBAL
+++D=UINT	N=Connection_Broker_Port	G=VAR_GLOBAL
+++D=STRING[128]	N=Connection_Client_ID	G=VAR_GLOBAL
+++D=UINT	N=Connection_Keep_Alive	G=VAR_GLOBAL
+++D=BOOL	N=Connection_Clean_Session	G=VAR_GLOBAL
+++D=MQTT\WillCnfg	N=Connection_Will_Configuration	G=VAR_GLOBAL
+++D=MQTT\Login	N=Connection_User_Login	G=VAR_GLOBAL
+++D=MQTT\ClientBuffer	N=MQTT_Data_Buffer	G=VAR_GLOBAL
+++D=BOOL	N=Connection_Client_Broker_Mosquitto_Established	G=VAR_GLOBAL
+++D=BOOL	N=Connection_Client_Broker_Mosquitto_Busy	G=VAR_GLOBAL
+++D=_sSOCKET	N=Connection_Client_Broker_Mosquitto_Socket_ID	G=VAR_GLOBAL
+++D=BOOL	N=Connection_Client_Broker_Mosquitto_Error	G=VAR_GLOBAL
+++D=WORD	N=Connection_Client_Broker_Mosquitto_Error_ID	G=VAR_GLOBAL
+++D=DWORD	N=Connection_Client_Broker_Mosquitto_Error_Index	G=VAR_GLOBAL
+++D=BOOL	N=Client_Broker_Mosquitto_Connection_Execute	G=VAR_GLOBAL
+++D=UINT	N=Connection_Client_Broker_Mosquitto_Response	G=VAR_GLOBAL
+++D=BOOL	N=Connection_Client_Broker_Mosquitto_Er	G=VAR_GLOBAL
+++D=UINT	N=Connection_Client_Broker_Mosquitto_Ping_Time_Out	G=VAR_GLOBAL
+++D=UINT	N=Connection_Client_Broker_Mosquitto_Ping_Time	G=VAR_GLOBAL
+++D=DWORD	N=Connection_Client_Broker_Mosquitto_Ping_Error_Index	G=VAR_GLOBAL
+++D=WORD	N=Connection_Client_Broker_Mosquitto_Ping_Error_ID	G=VAR_GLOBAL
+++D=BOOL	N=Connection_Client_Broker_Mosquitto_Ping_Error	G=VAR_GLOBAL
+++D=BOOL	N=Connection_Client_Broker_Mosquitto_Ping_Response	G=VAR_GLOBAL
+++D=BOOL	N=Connection_Client_Broker_Mosquitto_Ping_Busy	G=VAR_GLOBAL
+++D=UINT	N=Connection_Client_Broker_Mosquitto_Ping_RQ_RSP_Time_Milliseconds	G=VAR_GLOBAL
+++D=BOOL	N=Connection_Client_Broker_Mosquitto_Subscribed_To_Topic	G=VAR_GLOBAL
+++D=BOOL	N=IO_Link_Port_1_Photocell_Data_Enable	AT=ECAT://node#[1,2]/I/O Port Status/Port1 IN Data Enable	G=VAR_GLOBAL
+++D=BOOL	N=IO_Link_Port_2_Proximity_Switch_Data_Enable	AT=ECAT://node#[1,2]/I/O Port Status/Port2 IN Data Enable	G=VAR_GLOBAL
+++D=BOOL	N=IO_Link_Communication_Module_Error	AT=ECAT://node#[1,2]/I/O Port Status/Communication Module Error	G=VAR_GLOBAL
+++D=BOOL	N=IO_Link_Power_On	AT=ECAT://node#[1,2]/I/O Port Status/IO Pwr On	G=VAR_GLOBAL
+++D=BOOL	N=IO_Link_Port_1_Photocell_Communication_Error	AT=ECAT://node#[1,2]/Port1_2 I/O Port Error Status/Port1 Communication Error	G=VAR_GLOBAL
+++D=BOOL	N=IO_Link_Port_1_Photocell_Short_Error	AT=ECAT://node#[1,2]/Port1_2 I/O Port Error Status/Port1 Short Error	G=VAR_GLOBAL
+++D=BOOL	N=IO_Link_Port_1_Photocell_Compare_Error	AT=ECAT://node#[1,2]/Port1_2 I/O Port Error Status/Port1 Compare Error	G=VAR_GLOBAL
+++D=BOOL	N=IO_Link_Port_1_Photocell_IO_Size_Error	AT=ECAT://node#[1,2]/Port1_2 I/O Port Error Status/Port1 Device IO Size Error	G=VAR_GLOBAL
+++D=BOOL	N=IO_Link_Port_1_Photocell_Device_Error	AT=ECAT://node#[1,2]/Port1_2 I/O Port Error Status/Port1 Device Error	G=VAR_GLOBAL
+++D=BOOL	N=IO_Link_Port_1_Photocell_Device_Information	AT=ECAT://node#[1,2]/Port1_2 I/O Port Error Status/Port1 Device Information	G=VAR_GLOBAL
+++D=BOOL	N=IO_Link_Port_1_Photocell_PDO_Error	AT=ECAT://node#[1,2]/Port1_2 I/O Port Error Status/Port1 PDO Error	G=VAR_GLOBAL
+++D=BOOL	N=IO_Link_Port_2_Proximity_Switch_Communication_Error	AT=ECAT://node#[1,2]/Port1_2 I/O Port Error Status/Port2 Communication Error	G=VAR_GLOBAL
+++D=BOOL	N=IO_Link_Port_2_Proximity_Switch_Short_Error	AT=ECAT://node#[1,2]/Port1_2 I/O Port Error Status/Port2 Short Error	G=VAR_GLOBAL
+++D=BOOL	N=IO_Link_Port_2_Proximity_Switch_Compare_Error	AT=ECAT://node#[1,2]/Port1_2 I/O Port Error Status/Port2 Compare Error	G=VAR_GLOBAL
+++D=BOOL	N=IO_Link_Port_2_Proximity_Switch_IO_Size_Error	AT=ECAT://node#[1,2]/Port1_2 I/O Port Error Status/Port2 Device IO Size Error	G=VAR_GLOBAL
+++D=BOOL	N=IO_Link_Port_2_Proximity_Switch_Device_Error	AT=ECAT://node#[1,2]/Port1_2 I/O Port Error Status/Port2 Device Error	G=VAR_GLOBAL
+++D=BOOL	N=IO_Link_Port_2_Proximity_Switch_Device_Information	AT=ECAT://node#[1,2]/Port1_2 I/O Port Error Status/Port2 Device Information	G=VAR_GLOBAL
+++D=BOOL	N=IO_Link_Port_2_Proximity_Switch_PDO_Error	AT=ECAT://node#[1,2]/Port1_2 I/O Port Error Status/Port2 PDO Error	G=VAR_GLOBAL
+++D=BOOL	N=IO_Link_Port_1_Photocell_Digital_Input_Bit	AT=ECAT://node#[1,2]/Digital Input Data/Port1 Digital Input Bit	G=VAR_GLOBAL
+++D=BOOL	N=IO_Link_Port_2_Proximity_Switch_Digital_Input_Bit	AT=ECAT://node#[1,2]/Digital Input Data/Port2 Digital Input Bit	G=VAR_GLOBAL
+++D=BOOL	N=IO_Link_Port_1_Photocell_Digital_Output_Bit	AT=ECAT://node#[1,2]/Digital Output Data/Port1 Digital Output Bit	G=VAR_GLOBAL
+++D=BOOL	N=IO_Link_Port_2_Proximity_Switch_Digital_Output_Bit	AT=ECAT://node#[1,2]/Digital Output Data/Port2 Digital Output Bit	G=VAR_GLOBAL
+++D=ARRAY[0..1] OF BYTE	N=IO_Link_Port_1_Photocell_PDO_Array	AT=ECAT://node#[1,2]/Port1 Input Data01	G=VAR_GLOBAL
+++D=ARRAY[0..1] OF BYTE	N=IO_Link_Port_2_Proximity_Switch_PDO_Array	AT=ECAT://node#[1,2]/Port2 Input Data01	G=VAR_GLOBAL
+++D=BOOL	N=Port_1_Photocell_Sensor_Data_Reading_Active	G=VAR_GLOBAL
+++D=BOOL	N=Port_1_Photocell_Sensor_Communication_Error	G=VAR_GLOBAL
+++D=BOOL	N=Port_1_Photocell_Sensor_Short_Error	G=VAR_GLOBAL
+++D=BOOL	N=Port_1_Photocell_Sensor_Compare_Error	G=VAR_GLOBAL
+++D=BOOL	N=Port_1_Photocell_Sensor_Size_Error	G=VAR_GLOBAL
+++D=BOOL	N=Port_1_Photocell_Sensor_Device_Error	G=VAR_GLOBAL
+++D=BOOL	N=Port_1_Photocell_Sensor_Device_Information	G=VAR_GLOBAL
+++D=BOOL	N=Port_1_Photocell_Sensor_PDO_Error	G=VAR_GLOBAL
+++D=BOOL	N=Port_1_Photocell_Sensor_Digital_Input_Active	G=VAR_GLOBAL
+++D=BOOL	N=Port_1_Photocell_Sensor_Digital_Output_Active	G=VAR_GLOBAL
+++D=REAL	N=Port_1_Photocell_Sensor_Sensivity_Value_REAL_Raw	G=VAR_GLOBAL
+++D=REAL	N=Port_1_Photocell_Sensor_Sensivity_Value_REAL_Percentage	G=VAR_GLOBAL
+++D=BOOL	N=Port_1_Photocell_Sensor_Control_Output_1_Active	G=VAR_GLOBAL
+++D=BOOL	N=Port_1_Photocell_Sensor_Control_Output_2_Active	G=VAR_GLOBAL
+++D=BOOL	N=Port_1_Photocell_Sensor_Control_Stable_No_Light_Receiving	G=VAR_GLOBAL
+++D=BOOL	N=Port_1_Photocell_Sensor_Control_Stable_Light_Receiving	G=VAR_GLOBAL
+++D=BOOL	N=Port_1_Photocell_Sensor_Control_Warning_Flag	G=VAR_GLOBAL
+++D=BOOL	N=Port_1_Photocell_Sensor_Control_Fatal_Error_Flag	G=VAR_GLOBAL
+++D=BOOL	N=Port_2_Proximity_Switch_Data_Reading_Active	G=VAR_GLOBAL
+++D=BOOL	N=Port_2_Proximity_Switch_Device_Information	G=VAR_GLOBAL
+++D=BOOL	N=Port_2_Proximity_Switch_Communication_Error	G=VAR_GLOBAL
+++D=BOOL	N=Port_2_Proximity_Switch_Short_Error	G=VAR_GLOBAL
+++D=BOOL	N=Port_2_Proximity_Switch_Compare_Error	G=VAR_GLOBAL
+++D=BOOL	N=Port_2_Proximity_Switch_Size_Error	G=VAR_GLOBAL
+++D=BOOL	N=Port_2_Proximity_Switch_Device_Error	G=VAR_GLOBAL
+++D=BOOL	N=Port_2_Proximity_Switch_PDO_Error	G=VAR_GLOBAL
+++D=BOOL	N=Port_2_Proximity_Switch_Digital_Input_Active	G=VAR_GLOBAL
+++D=BOOL	N=Port_2_Proximity_Switch_Digital_Output_Active	G=VAR_GLOBAL
+++D=REAL	N=Port_2_Proximity_Switch_Sensivity_Value_REAL_Raw	G=VAR_GLOBAL
+++D=REAL	N=Port_2_Proximity_Switch_Sensing_Value_REAL_Raw	G=VAR_GLOBAL
+++D=REAL	N=Port_2_Proximity_Switch_Sensing_Value_REAL_Percentage	G=VAR_GLOBAL
+++D=BOOL	N=Port_2_Proximity_Switch_Control_Output_1_Active	G=VAR_GLOBAL
+++D=BOOL	N=Port_2_Proximity_Switch_Control_Instability_Detection	G=VAR_GLOBAL
+++D=BOOL	N=Port_2_Proximity_Switch_Control_Target_Too_Close_Detection	G=VAR_GLOBAL
+++D=BOOL	N=Port_2_Proximity_Switch_Control_Fatal_Error_Flag	G=VAR_GLOBAL
+++D=BOOL	N=Item_Deteced_Aluminium	G=VAR_GLOBAL
+++D=BOOL	N=Item_Detected_No_Item	G=VAR_GLOBAL
+++D=BOOL	N=Item_Detected_Stainless_Steel	G=VAR_GLOBAL
+++D=BOOL	N=Item_Detected_Iron	G=VAR_GLOBAL
+++D=_sNXUNIT_ID	N=IOL_Link_Unit_Location_ID	IV=(NodeAdr := 1, IPAdr := [5(16#FF)], UnitNo := 2, Path := [16#11, 16#0, 16#2, 16#0, 16#1, 16#0, 16#1, 16#0, 16#2, 16#0, 16#2, 53(16#0)], PathLength := 12)	RO=1	Const=1	G=VAR_GLOBAL
+++D=DWORD	N=IOL_Link_Proximity_Switch_Total_Operating_Hours_DWORD	G=VAR_GLOBAL
+++D=UDINT	N=IOL_Link_Proximity_Switch_Total_Operating_Hours_UDINT	G=VAR_GLOBAL
+++D=UINT	N=IOL_Proximity_Switch_Read_Data_Size	G=VAR_GLOBAL
+++D=WORD	N=IOL_Proximity_Switch_Error_Type	G=VAR_GLOBAL
+++D=WORD	N=IOL_Proximity_Switch_Error_ID	G=VAR_GLOBAL
+++D=BOOL	N=IOL_Proximity_Switch_Error	G=VAR_GLOBAL
+++D=BOOL	N=IOL_Proximity_Switch_Busy	G=VAR_GLOBAL
+++D=BOOL	N=IOL_Proximity_Switch_Read_Done	G=VAR_GLOBAL
+++D=DWORD	N=IOL_Proximity_Switch_SDO_Read_Data	G=VAR_GLOBAL
+++D=BOOL	N=Execute_KM_Reading	G=VAR_GLOBAL
+++D=UINT	N=Modbus_RTU_KM_Slave_Address	G=VAR_GLOBAL
+++D=ARRAY[0..124] OF BOOL	N=Modbus_RTU_Read_Data	G=VAR_GLOBAL
+++D=BOOL	N=Modbus_RTU_KM_Abort	G=VAR_GLOBAL
+++D=BOOL	N=Modbus_RTU_KM_Busy	G=VAR_GLOBAL
+++D=BOOL	N=Modbus_RTU_KM_Command_Aborted	G=VAR_GLOBAL
+++D=BOOL	N=Modbus_RTU_KM_Errro	G=VAR_GLOBAL
+++D=BOOL	N=Modbus_RTU_KM_Error	G=VAR_GLOBAL
+++D=WORD	N=Modbus_RTU_KM_Error_ID	G=VAR_GLOBAL
+++D=DWORD	N=Modbus_RTU_KM_Error_Index	G=VAR_GLOBAL
+++D=UINT	N=Modbus_RTU_KM_Read_Data_Size	G=VAR_GLOBAL
+++D=_sDEVICE_PORT	N=Modbus_RTU_Device_Port_Configuration	G=VAR_GLOBAL
+++D=_sSERIAL_MODBUSRTU_OPTION	N=Modbus_RTU_KM_Option	G=VAR_GLOBAL
+++D=_sSERIAL_MODBUSRTU_READ	N=Modbus_RTU_KM_Read_Command	G=VAR_GLOBAL
+++D=_sNXUNIT_ID	N=Modbus_RTU_Unit_Location_ID	IV=(NodeAdr := 1, IPAdr := [5(16#FF)], UnitNo := 3, Path := [16#11, 16#0, 16#2, 16#0, 16#1, 16#0, 16#1, 16#0, 16#2, 16#0, 16#3, 53(16#0)], PathLength := 12)	RO=1	Const=1	G=VAR_GLOBAL
+++D=BOOL	N=Modbus_RTU_KM_Read_Done	G=VAR_GLOBAL

@@ -1,0 +1,27 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=EC_CoESDORead	N=ReadSDO	G=VAR
+++D=INV00x_Q2x\uWORD_BOOL_Q2x	N=tmp_Status	G=VAR
+++D=_sSDO_ACCESS	N=SDOObjError	G=VAR
+++D=BOOL	N=Init	G=VAR
+++D=INT	N=Stage	G=VAR
+++D=BOOL	N=RdExecute	G=VAR
+++D=WORD	N=ErrorID	G=VAR
+++D=DWORD	N=AbortCode	G=VAR
+++D=UDINT	N=AuxData	G=VAR
+++D=BOOL	N=Done	G=VAR
+++D=STRING[256]	N=Alarm_Status	Ord=5	G=VAR
+++D=BOOL	N=ErrorSdo	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=UINT	N=Status	Ord=0	G=VAR_IN_OUT	Com=Output frequency Index: 2110:01 (RO; UINT)$tInverter Status word
+++D=BOOL	N=Enable	Ord=1	G=VAR_INPUT	Com=Enables the Functionblock
+++D=BOOL	N=Error	Ord=2	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=3	G=VAR_OUTPUT
+++D=UINT	N=NodeAddress	Ord=4	G=VAR_INPUT	Com=Node number to the drive
+++D=UDINT	N=ErrorCode	Ord=5	G=VAR_OUTPUT	Com=Error code (HEX)
+++D=STRING[256]	N=ErrorCodeInfo	Ord=6	G=VAR_OUTPUT	Com=Meaning ofthe error code
+++D=STRING[256]	N=ErrorCodeDrive	Ord=7	G=VAR_OUTPUT	Com=Error code in the drive display
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=BOOL	N=_EC_LinkOffErr	Const=1	G=VAR_EXTERNAL
+++D=ARRAY[1..192] OF BOOL	N=_EC_EntrySlavTbl	Const=1	G=VAR_EXTERNAL

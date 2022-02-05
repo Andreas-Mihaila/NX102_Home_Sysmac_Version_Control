@@ -1,0 +1,25 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=NX_ModbusRtuRead	N=KM_Modbus_RTU_Reading_Instance	G=VAR
+++D=WORD	N=Read_Modbus_Coil	G=VAR
+++D=ModbusTCPCmd	N=KM_Modbus_RTU_Command_Instance	G=VAR
+++D=BOOL	N=Execute_Modbus_CMC	G=VAR
+++D=NX_ModbusRtuCmd	N=Modbus_CMD_Instance	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=BOOL	N=Execute_KM_Reading	G=VAR_EXTERNAL
+++D=UINT	N=Modbus_RTU_KM_Slave_Address	G=VAR_EXTERNAL
+++D=ARRAY[0..124] OF BOOL	N=Modbus_RTU_Read_Data	G=VAR_EXTERNAL
+++D=BOOL	N=Modbus_RTU_KM_Abort	G=VAR_EXTERNAL
+++D=BOOL	N=Modbus_RTU_KM_Busy	G=VAR_EXTERNAL
+++D=BOOL	N=Modbus_RTU_KM_Command_Aborted	G=VAR_EXTERNAL
+++D=BOOL	N=Modbus_RTU_KM_Errro	G=VAR_EXTERNAL
+++D=BOOL	N=Modbus_RTU_KM_Error	G=VAR_EXTERNAL
+++D=WORD	N=Modbus_RTU_KM_Error_ID	G=VAR_EXTERNAL
+++D=DWORD	N=Modbus_RTU_KM_Error_Index	G=VAR_EXTERNAL
+++D=UINT	N=Modbus_RTU_KM_Read_Data_Size	G=VAR_EXTERNAL
+++D=_sDEVICE_PORT	N=Modbus_RTU_Device_Port_Configuration	G=VAR_EXTERNAL
+++D=_sSERIAL_MODBUSRTU_OPTION	N=Modbus_RTU_KM_Option	G=VAR_EXTERNAL
+++D=_sSERIAL_MODBUSRTU_READ	N=Modbus_RTU_KM_Read_Command	G=VAR_EXTERNAL
+++D=_sNXUNIT_ID	N=Modbus_RTU_Unit_Location_ID	Const=1	G=VAR_EXTERNAL
+++D=BOOL	N=Modbus_RTU_KM_Read_Done	G=VAR_EXTERNAL

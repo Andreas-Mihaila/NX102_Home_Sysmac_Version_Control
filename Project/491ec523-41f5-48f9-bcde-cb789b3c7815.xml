@@ -1,0 +1,29 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UINT	N=pStep	G=VAR
+++D=EC_CoESDOWrite	N=WriteMotorSetupID	G=VAR
+++D=UINT	N=tmpNodeNo	G=VAR
+++D=DINT	N=SetMotorID	G=VAR
+++D=STRING[256]	N=ResetDrive	G=VAR
+++D=UINT	N=WriteSize	G=VAR
+++D=ResetECError	N=FB_ResetECError	G=VAR
+++D=TON	N=FB_TONwait1Sreset	G=VAR
+++D=_sSDO_ACCESS	N=SDOObject	G=VAR
+++D=EC_CoESDOWrite	N=WriteDriveResetCmd	G=VAR
+++D=EC_CoESDORead	N=ReadSetupStatus	G=VAR
+++D=DWORD	N=ReadData	G=VAR
+++D=UINT	N=ReadSize	G=VAR
+++D=BOOL	N=execSetup	G=VAR
+++D=BOOL	N=execCheckSetupStatus	G=VAR
+++D=BOOL	N=execRestartDrive	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Execute	E=UpDirection	Ord=0	G=VAR_INPUT
+++D=BOOL	N=Reset	Ord=1	G=VAR_INPUT
+++D=UINT	N=NodeNo	Ord=2	G=VAR_INPUT	Com=Node Number
+++D=UINT	N=Timeout	Ord=3	G=VAR_INPUT	Com=Timeout (sec.)
+++D=BOOL	N=Busy	Ord=4	G=VAR_OUTPUT	Com=Busy
+++D=BOOL	N=Done	Ord=5	G=VAR_OUTPUT	Com=Done
+++D=BOOL	N=Error	Ord=6	G=VAR_OUTPUT	Com=Error
+++D=WORD	N=ErrorID	Ord=7	G=VAR_OUTPUT	Com=ErrorID
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

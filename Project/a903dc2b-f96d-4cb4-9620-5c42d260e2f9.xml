@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <DataType Name="Data Types0" BaseType="" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
+    <DataType Name="uWORD_BOOL_Q2x" BaseType="UNION" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
+      <DataType Name="bit" BaseType="ARRAY[0..15] OF BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ch" BaseType="WORD" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="sDriveStatus" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Structure of the Drive Status" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="20" OffsetType="NJ">
+      <DataType Name="DuringRun" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment=" 1: During Run 0: During Stop" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="DuringZeroSpeed" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment=" 1: During Zero Speed" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ReverseRunning" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment=" 1: During Reverse Running 0: During Forward Running" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="DuringFaultResetSignalInput" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment=" 1: During Fault Reset Signal Input" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="DuringSpeedAgree" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment=" 1: During Speed Agree" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="DuringDriveReady" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment=" 1: During Drive Ready 0: Not Ready" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="DuringAlarm" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment=" 1: During Alarm" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="DuringFault" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment=" 1: During Fault" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="DuringOperationError" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment=" 1: During Operation Error" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="DuringMomentaryPowerLoss" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment=" 1: During Momentary Power Loss 0: During Power Loss" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="NetCtrlStatus" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment=" 1: NetCtrl" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="DigitalOutput1Status" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment=" (function set in drive parameter H2-01) 1: ON 0: OFF" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="DigitalOutput2Status" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment=" (function set in drive parameter H2-02) 1: ON 0: OFF" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="DigitalOutput3Status" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="(function set in drive parameter H2-03) 1: ON 0: OFF" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Motor2Selected" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="1: Motor 2 Selected (not available for D1000 and R1000)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ZeroServoEnd" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="1: Zero-Servo End (not available for D1000 and R1000)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Frequency0HzWarning" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="1: Warning if the Frequency reference is bellow 0Hz, 0: No warning " OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="eSignalLevelSelect" BaseType="ENUM" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Sets the input signal level for MFAI terminal AI2. H3-09: AI2 Signal Level Select" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
+      <DataType Name="act_0_to_10V" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="0" Comment="0 to 10V (Lower Limit at 0)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="act_0_to_10V_woLowerLimit" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1" Comment="0 to +10V (Without Lower Limit)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="act_4_to_20mA" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="2" Comment="4 to 20 mA" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="act_0_to_20mA" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="3" Comment="0 to 20 mA" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+  </DataType>
+</data>

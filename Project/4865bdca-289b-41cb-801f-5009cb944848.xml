@@ -1,0 +1,13 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=EC_CoESDOWrite	N=Sblocca	G=VAR
+++D=EC_CoESDOWrite	N=blocca	G=VAR
+++D=_sSDO_ACCESS	N=SdoObj	G=VAR
+++D=DWORD	N=WriteSblocca	G=VAR
+++D=DWORD	N=WriteBlocca	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=enable	Ord=0	G=VAR_INPUT
+++D=UINT	N=node	Ord=1	G=VAR_INPUT
+++D=BOOL	N=Done	Ord=2	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

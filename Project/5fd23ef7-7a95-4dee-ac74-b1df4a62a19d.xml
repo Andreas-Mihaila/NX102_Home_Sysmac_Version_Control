@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <data>
+    <LibraryModel>
+      <Name>KMN2_DataRead</Name>
+      <NameSpace></NameSpace>
+      <Version>0.0.2</Version>
+      <Revision>1</Revision>
+      <LibraryId>0320e257-1b8d-4737-a9b6-ab04fa5e6bb3</LibraryId>
+      <Author></Author>
+      <Company></Company>
+      <DateCreated>2021-01-08T15:42:03.737339+02:00</DateCreated>
+      <DateModified>2021-01-29T17:47:09.6693202+02:00</DateModified>
+      <Comment></Comment>
+      <Password></Password>
+      <AttachedFiles>
+        <AttachedFile>C:\OMRON\Data\Lib\KMN2_DataRead.pdf</AttachedFile>
+      </AttachedFiles>
+      <AttachedFilesRelativePaths />
+      <PublicPartsNames>
+        <PublicName>KMN2_DataRead</PublicName>
+        <PublicName>lib_KMN2\s_KMN2</PublicName>
+      </PublicPartsNames>
+      <InternalPartsNames />
+      <BuildDevice>
+        <Category>Controller</Category>
+        <Family>Nex</Family>
+        <FullModel>NX1P2-1040DT1</FullModel>
+        <MajorVersion>1</MajorVersion>
+        <MinorVersion>42</MinorVersion>
+        <Revision>0</Revision>
+        <DisplayVersion>1.42</DisplayVersion>
+        <Packages>
+          <Package Name="Motion" Version="1.42" />
+        </Packages>
+      </BuildDevice>
+      <DependencyId>c8a13871-ed1a-4cd7-b29d-fe3361e7afdc</DependencyId>
+      <IsSource>true</IsSource>
+      <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+      <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+      <LibraryFilePath>C:\Users\Andreas\Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_KM2_Power_Monitoring_Reading\KMN2_DataRead.slr</LibraryFilePath>
+      <LibraryFileRelativePath>Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_KM2_Power_Monitoring_Reading\KMN2_DataRead.slr</LibraryFileRelativePath>
+      <LibrarySourceControlRelativeFilePath></LibrarySourceControlRelativeFilePath>
+      <AsOldVer>true</AsOldVer>
+      <SchemaVersion>1</SchemaVersion>
+      <Parameter1>false</Parameter1>
+    </LibraryModel>
+  </data>
+</data>

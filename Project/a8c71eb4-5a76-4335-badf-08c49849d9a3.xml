@@ -1,0 +1,24 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UINT	N=uiBufferPointer	G=VAR
+++D=BOOL	N=bSend	G=VAR
+++D=UINT	N=uiSendSize	G=VAR
+++D=SktTCPSend	N=fbSocketSend	G=VAR
+++D=UINT	N=uiSize	G=VAR
+++D=UINT	N=uiSktControl	IV=10	G=VAR
+++D=UINT	N=uiSteps	G=VAR
+++D=UINT	N=uiRemainder	G=VAR
+++D=UINT	N=uiCurrentStep	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Enable	Ord=0	G=VAR_INPUT
+++D=_sSOCKET	N=SocketID	Ord=1	G=VAR_INPUT
+++D=BOOL	N=Done	Ord=2	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=3	G=VAR_OUTPUT
+++D=MQTT\eControlPacket	N=mqStatus	Ord=4	G=VAR_OUTPUT
+++D=UINT	N=BufferSize	Ord=5	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=6	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=7	G=VAR_OUTPUT
+++D=DWORD	N=ErrorIDEx	Ord=8	G=VAR_OUTPUT
+++D=MQTT\ClientBuffer	N=BufferIn	Ord=9	G=VAR_IN_OUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

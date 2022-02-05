@@ -1,0 +1,55 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=INT	N=Sequence	G=VAR
+++D=EC_CoESDOWrite	N=Write1SUDINTObject	G=VAR
+++D=EC_CoESDOWrite	N=Write1SDINTObject	G=VAR
+++D=EC_CoESDORead	N=Read1SStringObject	G=VAR
+++D=UINT	N=WorkNodeAdr	G=VAR
+++D=_sSDO_ACCESS	N=WorkSdoObj	G=VAR
+++D=DINT	N=WriteDataDint	G=VAR
+++D=UDINT	N=WriteDataUDint	G=VAR
+++D=STRING[200]	N=ReadDataString	G=VAR
+++D=BOOL	N=ReadDone	G=VAR
+++D=BOOL	N=ReadBusy	G=VAR
+++D=BOOL	N=ReadError	G=VAR
+++D=WORD	N=ReadErrorID	G=VAR
+++D=DWORD	N=ReadAbortCode	G=VAR
+++D=string[200]	N=Shortstring	G=VAR
+++D=BOOL	N=Ex_read1SString	G=VAR
+++D=BOOL	N=Ex_write1SDINT	G=VAR
+++D=BOOL	N=Ex_write1SUDINT	G=VAR
+++D=UINT	N=mystringsize	G=VAR
+++D=ATC_E\Tools1S\DataTraceSetup1S	N=WorkTraceSetup	G=VAR
+++D=EC_CoESDORead	N=Read1SDINT	G=VAR
+++D=BOOL	N=Ex_read1SDINT	G=VAR
+++D=DINT	N=ReadDataDINT	G=VAR
+++D=DINT	N=NumberOfDataTrace	G=VAR
+++D=EC_CoESDORead	N=Read1SByte	G=VAR
+++D=BOOL	N=Ex_read1SByte	G=VAR
+++D=BYTE	N=ReadDataByte	G=VAR
+++D=DINT	N=NumberofEntries	G=VAR
+++D=DINT	N=datasize	G=VAR
+++D=USINT	N=Index	G=VAR
+++D=EC_CoESDORead	N=Read1SAryByte	G=VAR
+++D=ARRAY[0..255] OF BYTE	N=ArrayOf256Byte	G=VAR
+++D=BOOL	N=Ex_read1SAryByte	G=VAR
+++D=DINT	N=Index2	G=VAR
+++D=DINT	N=index1	G=VAR
+++D=INT	N=TempData	G=VAR
+++D=DWORD	N=NamespaceN	IV=16#9A000000	Const=1	G=VAR
+++D=DWORD	N=ThisFBErrorCode	G=VAR
+++D=BOOL	N=ExecuteOld	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Execute	Ord=0	G=VAR_INPUT
+++D=UINT	N=NodeAdr	Ord=1	G=VAR_INPUT
+++D=ATC_E\Tools1S\DataTraceSetup1S	N=TraceSetup	Ord=2	G=VAR_INPUT
+++D=BOOL	N=Done	Ord=3	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=4	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=5	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=6	G=VAR_OUTPUT
+++D=DWORD	N=ErrorIDEx	Ord=7	G=VAR_OUTPUT
+++D=DINT	N=Status	Ord=8	G=VAR_OUTPUT
+++D=DINT	N=NumberOfData	Ord=9	G=VAR_OUTPUT
+++D=ARRAY[*,*] OF DINT	N=TraceOutput	Ord=10	G=VAR_IN_OUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

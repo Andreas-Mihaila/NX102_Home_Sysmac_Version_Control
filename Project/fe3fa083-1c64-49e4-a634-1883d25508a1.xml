@@ -1,0 +1,12 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BYTE	N=byCode	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=EN	Ord=0	RO=1	G=VAR_INPUT
+++D=BOOL	N=ENO	Ord=1	RO=1	G=VAR_OUTPUT
+++D=MQTT\ClientBuffer	N=Buffer	Ord=2	G=VAR_IN_OUT
+++D=UINT	N=pointer	Ord=3	G=VAR_INPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
++GN=RETURN	GA=Return	GVT=ReturnGroup
+++D=SINT	N=getQoS_old	G=RETURN

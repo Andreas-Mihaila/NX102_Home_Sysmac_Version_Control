@@ -1,0 +1,7 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=GetNTPStatus_Bit	G=VAR
+++D=BOOL	N=TimeOK	G=VAR
+++D=DATE_AND_TIME	N=ActualTime	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

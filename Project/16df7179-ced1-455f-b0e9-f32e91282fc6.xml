@@ -1,0 +1,4 @@
+﻿{"CLs":[{"__type":"IST","EID":"e0029abf-350a-4dae-ac9f-da025307b2b8","H":74.000000000000057,"TXT":"Command := WORD_TO_UINT( tmp_Command.ch);","W":594}],"LRI":1,"RRI":2,"VLs":[]}
+{"CLs":[{"__type":"LD","Var":"Execute"},{"__type":"ST","Ix":1,"Var":"tmp_Command.bit[2]","X":1}],"LRI":2,"RRI":3,"VLs":[]}
+{"CLs":[{"__type":"LD","Var":"FaultReset"},{"__type":"ST","Ix":1,"Var":"tmp_Command.bit[3]","X":1}],"LRI":2,"RRI":3,"VLs":[]}
+{"CLs":[{"__type":"LD","Var":"tmp_Command.bit[2]"},{"__type":"LD","Ix":1,"Var":"tmp_Command.bit[3]","Y":1},{"__type":"ST","Ix":2,"Var":"Done","X":1}],"LRI":3,"RRI":4,"VLs":[{"Ix":5,"X":1}]}

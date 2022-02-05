@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <data>
+    <LibraryModel>
+      <Name>KM_Modbus</Name>
+      <NameSpace></NameSpace>
+      <Version>0.0.2</Version>
+      <Revision>1</Revision>
+      <LibraryId>5b70f5ad-9bf0-41fd-95f5-7bd499272441</LibraryId>
+      <Author>gomsan</Author>
+      <Company></Company>
+      <DateCreated>2018-03-16T15:10:10.6560664+02:00</DateCreated>
+      <DateModified>2018-03-23T11:05:51.3778882+02:00</DateModified>
+      <Comment></Comment>
+      <Password></Password>
+      <AttachedFiles />
+      <AttachedFilesRelativePaths />
+      <PublicPartsNames>
+        <PublicName>KM_ReadEnergy</PublicName>
+        <PublicName>KM\EnergyData</PublicName>
+        <PublicName>KM\GeneralData</PublicName>
+        <PublicName>KM\Measures</PublicName>
+        <PublicName>KM\MeasureUnits</PublicName>
+        <PublicName>KM\MeasureType</PublicName>
+      </PublicPartsNames>
+      <InternalPartsNames />
+      <BuildDevice>
+        <Category>Controller</Category>
+        <Family>Nex</Family>
+        <FullModel>NJ501-1300</FullModel>
+        <MajorVersion>1</MajorVersion>
+        <MinorVersion>16</MinorVersion>
+        <Revision>0</Revision>
+        <DisplayVersion>1.16</DisplayVersion>
+        <Packages>
+          <Package Name="Motion" Version="1.16" />
+        </Packages>
+      </BuildDevice>
+      <DependencyId>e164cec6-c393-437a-bfc5-6753e0190f33</DependencyId>
+      <IsSource>true</IsSource>
+      <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+      <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+      <LibraryFilePath>C:\Users\Andreas\Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\KM_Power_Monitoring_Reading\KM_Modbus.slr</LibraryFilePath>
+      <LibraryFileRelativePath>Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\KM_Power_Monitoring_Reading\KM_Modbus.slr</LibraryFileRelativePath>
+      <LibrarySourceControlRelativeFilePath>..\..\..\..\..\..\Users\Andreas\Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\KM_Power_Monitoring_Reading\KM_Modbus.slr</LibrarySourceControlRelativeFilePath>
+      <AsOldVer>true</AsOldVer>
+      <SchemaVersion>1</SchemaVersion>
+      <Parameter1>false</Parameter1>
+    </LibraryModel>
+  </data>
+</data>

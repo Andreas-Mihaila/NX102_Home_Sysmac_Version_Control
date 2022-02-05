@@ -1,0 +1,23 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=FB2_Panel	N=Panel_IO_Instance	G=VAR
+++D=FB1_Administration	N=Administration_Instance	G=VAR
+++D=FB3_Conveyors_Action	N=Conveyors_Action_Instance	G=VAR
+++D=FB4_Vision_Sensors	N=Vision_Sensors_Instance	G=VAR
+++D=FB5_Pushers_Action	N=Pushers_Action	G=VAR
+++D=FB6_Emitters_Action	N=Emitters_Action	G=VAR
+++D=FB7_Production_Counter	N=Production_Counter	G=VAR
+++D=BOOL	N=SET_0_V	G=VAR
+++D=BOOL	N=SET_25_V	G=VAR
+++D=BOOL	N=SET_5_V	G=VAR
+++D=BOOL	N=SET_75_V	G=VAR
+++D=BOOL	N=SET_10_V	G=VAR
+++D=INT	N=DA_Percentage_INT	G=VAR
+++D=REAL	N=DA_Percentage_REAL	G=VAR
+++D=REAL	N=AD_Value_REAL	G=VAR
+++D=INT	N=AD_Value_INT	G=VAR
+++D=INT	N=ANALOG_OUTPUT_VALUE	G=VAR
+++D=BOOL	N=DQ_1Port_ON	G=VAR
+++D=BOOL	N=Test_Bit	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

@@ -1,0 +1,20 @@
+<StructuredTextModel xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.StructuredText.Core" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Text>(* &#xD;
+This FB referrs to the Data which is coming from both Vision Sensors and move to internal PLC Memory&#xD;
+always saved the last DINT of one item (SET)&#xD;
+&#xD;
+Colours:&#xD;
+Blue: 1&#xD;
+Green: 4&#xD;
+&#xD;
+	Created: 15/12/2021 Andreas Mihaila&#xD;
+	Tested: 17/12/2021&#xD;
+	Status: OK&#xD;
+*)&#xD;
+&#xD;
+IF IO_AI_Vision_Sensor_1 &lt;&gt; 0 THEN&#xD;
+	Vision_Sensor_1_DINT_Memory := IO_AI_Vision_Sensor_1;&#xD;
+END_IF;&#xD;
+&#xD;
+IF IO_AI_Vision_Sensor_2 &lt;&gt; 0 THEN&#xD;
+	Vision_Sensor_2_DINT_Memory := IO_AI_Vision_Sensor_2;&#xD;
+END_IF;</Text></StructuredTextModel>

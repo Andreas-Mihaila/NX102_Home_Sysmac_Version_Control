@@ -1,0 +1,32 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BYTE	N=byOPCode	G=VAR
+++D=UINT	N=uiBufferPointer	G=VAR
+++D=ARRAY[0..3] OF BYTE	N=arrRL	G=VAR
+++D=UINT	N=uiRcvSize	G=VAR
+++D=UINT	N=uiStage	IV=10	G=VAR
+++D=BOOL	N=bReceive	G=VAR
+++D=sktTCPRcv	N=fbSocketRcv	Ord=11	G=VAR
+++D=BOOL	N=bInit	G=VAR
+++D=UDINT	N=db_pData	G=VAR
+++D=WORD	N=db_ErrorCode	G=VAR
+++D=ARRAY[0..1999] OF byte	N=arrRcvData	G=VAR
+++D=BOOL	N=bStop	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Enable	Ord=0	G=VAR_INPUT
+++D=BOOL	N=Execute	Ord=1	G=VAR_INPUT
+++D=_sSOCKET	N=SocketID	Ord=2	G=VAR_INPUT
+++D=BOOL	N=Enabled	Ord=3	G=VAR_OUTPUT
+++D=BOOL	N=Done	Ord=4	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=5	G=VAR_OUTPUT
+++D=MQTT\ClientBuffer	N=Buffer	Ord=6	G=VAR_IN_OUT
+++D=ARRAY[0..65534] OF BYTE	N=Data	Ord=7	G=VAR_IN_OUT
+++D=UINT	N=DataSize	Ord=8	G=VAR_OUTPUT
+++D=UINT	N=RemLength	Ord=9	G=VAR_OUTPUT
+++D=UINT	N=RLBoffset	Ord=10	G=VAR_OUTPUT
+++D=MQTT\eControlPacket	N=ControlPacket	Ord=11	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=12	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=13	G=VAR_OUTPUT
+++D=DWORD	N=ErrorIDEx	Ord=14	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

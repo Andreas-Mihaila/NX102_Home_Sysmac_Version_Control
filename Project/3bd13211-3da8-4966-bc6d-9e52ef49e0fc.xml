@@ -1,0 +1,11 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=UINT	N=AnalogInput	Ord=0	G=VAR_INPUT	Com=Analog Input Monitor AI1, AI2 or AI3
+++D=BOOL	N=Enable	Ord=1	G=VAR_INPUT	Com=Enables the Functionblock
+++D=INV00x_Q2x\eSignalLevelSelect	N=AnalogSignalLevelSelect	Ord=2	G=VAR_INPUT	Com=Sets the input signal level that is set in the (AI1= H3-01 (Only for Q2A, Q2V has only 0 to 10V in AI1 ), AI2 = H3-09 (Q2V and Q2A), AI3 = H3-05 (Only for Q2A))
+++D=BOOL	N=Active	Ord=3	G=VAR_OUTPUT	Com=The FB is Active
+++D=REAL	N=AnalogMonitor	Ord=4	G=VAR_OUTPUT	Com=Monitors the MFAI terminal AI. Value depends on the settings in AnalogSignalLevelSelect
+++D=REAL	N=AnalogPercentage	Ord=5	G=VAR_OUTPUT	Com=AI Signal Level, 0-100%
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

@@ -1,0 +1,26 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UINT	N=uiMBread	G=VAR
+++D=_sSERIAL_MODBUSRTU_READ	N=sReadCommand	G=VAR
+++D=BOOL	N=bRead	G=VAR
+++D=NX_ModbusRtuRead	N=fb_mbRead	G=VAR
+++D=UINT	N=uiSlaveAddr	G=VAR
+++D=_sSERIAL_MODBUSRTU_OPTION	N=sOption	G=VAR
+++D=UINT	N=uiReadSize	G=VAR
+++D=BOOL	N=bInit	G=VAR
+++D=ARRAY[0..99] OF WORD	N=arrData	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Execute	Ord=0	G=VAR_INPUT
+++D=UINT	N=Station	Ord=1	G=VAR_INPUT
+++D=_sDEVICE_PORT	N=DevicePort	Ord=2	G=VAR_INPUT
+++D=_sSERIAL_MODBUSRTU_OPTION	N=Option	Ord=3	G=VAR_INPUT
+++D=KM\MeasureType	N=MeasureSelect	Ord=4	G=VAR_INPUT
+++D=KM\MeasureUnits	N=MeasureUnit	Ord=5	G=VAR_INPUT
+++D=KM\EnergyData	N=EnergyStruct	Ord=6	G=VAR_IN_OUT
+++D=BOOL	N=Done	Ord=7	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=8	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=9	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=10	G=VAR_OUTPUT
+++D=DWORD	N=ErrorIDEX	Ord=11	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

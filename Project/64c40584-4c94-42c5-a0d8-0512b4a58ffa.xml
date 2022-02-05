@@ -1,0 +1,13 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UINT	N=uiLenToComp	Ord=3	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=EN	Ord=0	RO=1	G=VAR_INPUT
+++D=STRING[128]	N=Topic	Ord=1	G=VAR_IN_OUT
+++D=MQTT\ClientBuffer	N=Buffer	Ord=2	G=VAR_IN_OUT
+++D=UINT	N=uiRcvTopicLen	Ord=3	G=VAR_OUTPUT
+++D=BOOL	N=bUseWildcard	Ord=4	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
++GN=RETURN	GA=Return	GVT=ReturnGroup
+++D=BOOL	N=mqTopicCmp	G=RETURN

@@ -1,0 +1,13 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UINT	N=I	G=VAR
+++D=UINT	N=DataStart	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=EN	Ord=0	RO=1	G=VAR_INPUT
+++D=ARRAY[0..499] OF BYTE	N=Data	Ord=1	G=VAR_IN_OUT
+++D=UINT	N=Size	Ord=2	G=VAR_INPUT
+++D=ARRAY[0..15] OF BYTE	N=DataValue	Ord=3	G=VAR_IN_OUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
++GN=RETURN	GA=Return	GVT=ReturnGroup
+++D=BOOL	N=GetESC_EPPROMResponse	G=RETURN

@@ -1,0 +1,38 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BYTE	N=c_byAppID	IV=16#95	Const=1	G=VAR
+++D=WORD	N=c_wFBErrorID	IV=16#2801	Const=1	G=VAR
+++D=WORD	N=c_wUsedInstErrorID	IV=16#2800	Const=1	G=VAR	Com=ID for errors that come from standard FB instances
+++D=INT	N=iState	G=VAR
+++D=CIPUCMMSend	N=fbUCMMSend	G=VAR
+++D=BYTE	N=byServiceCode	G=VAR
+++D=_sREQUEST_PATH_EX	N=stRqPath	IV=(ClassIDLogicalFormat := _8BIT, ClassID := 16#6A, InstanceIDLogicalFormat := _8BIT, InstanceID := 0, isAttributeID := False, AttributeIDLogicalFormat := _8BIT, AttributeID := 104)	G=VAR
+++D=ARRAY[0..9] OF byte	N=abyServDat	G=VAR
+++D=UINT	N=uiServSize	G=VAR
+++D=ARRAY[0..491] OF byte	N=abyRespDat	G=VAR
+++D=UINT	N=uiRespSize	G=VAR
+++D=R_TRIG	N=fbRTExe	G=VAR
+++D=UDINT	N=udiNrOfAvailVar	G=VAR
+++D=UINT	N=uiNrVarReadLastChunk	G=VAR
+++D=UINT	N=uiNrVarRead	G=VAR
+++D=BOOL	N=xLastChunk	G=VAR
+++D=UINT	N=uiIter	G=VAR
+++D=UINT	N=uiIndexVarHeader	G=VAR
+++D=UINT	N=uiNrOfBytesToNextVarHeader	G=VAR
+++D=UINT	N=uiVarNameLength	G=VAR
+++D=UINT	N=uiStartingVarIDNextChunk	G=VAR
+++D=UINT	N=uiVarID	G=VAR
+++D=UDINT	N=udiNrRemainingVars	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Execute	Ord=0	G=VAR_INPUT
+++D=STRING[256]	N=RoutePath	Ord=1	G=VAR_INPUT
+++D=array[*] of string[256]	N=VarNames	Ord=2	G=VAR_IN_OUT
+++D=BOOL	N=Done	Ord=3	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=4	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=5	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=6	G=VAR_OUTPUT
+++D=DWORD	N=ErrorIDEx	Ord=7	G=VAR_OUTPUT
+++D=DWORD	N=ErrorIDEx2	Ord=8	G=VAR_OUTPUT
+++D=UDINT	N=NrAvailableVars	Ord=9	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

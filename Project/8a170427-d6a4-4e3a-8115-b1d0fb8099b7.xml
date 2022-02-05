@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <data>
+    <LibraryModel>
+      <Name>EthercatExtendedFunctions</Name>
+      <NameSpace></NameSpace>
+      <Version>2.0.9</Version>
+      <Revision>1</Revision>
+      <LibraryId>b7ec42ab-7ae6-4a2e-a73e-c2a5898d5d0b</LibraryId>
+      <Author>Cristobal Sanchez</Author>
+      <Company>Omron</Company>
+      <DateCreated>2016-01-21T17:56:27.0066632+02:00</DateCreated>
+      <DateModified>2021-10-29T11:47:51.705487+03:00</DateModified>
+      <Comment></Comment>
+      <Password></Password>
+      <AttachedFiles />
+      <AttachedFilesRelativePaths />
+      <PublicPartsNames>
+        <PublicName>EthercatExtendedFunctions\EEF_NXBus_ModifyMountingSettingOfflineConfiguration</PublicName>
+        <PublicName>EthercatExtendedFunctions\EEF_ClearSlavePortsFrameErrors</PublicName>
+        <PublicName>EthercatExtendedFunctions\EEF_ClearAllSlavePortsFrameErrors</PublicName>
+        <PublicName>EthercatExtendedFunctions\EEF_EtherCAT_Scan</PublicName>
+        <PublicName>EthercatExtendedFunctions\EEF_ReadESCRegister</PublicName>
+        <PublicName>EthercatExtendedFunctions\EEF_GetVPRSfromSII</PublicName>
+        <PublicName>EthercatExtendedFunctions\EEF_GetSlavePortsFrameErrors</PublicName>
+        <PublicName>EthercatExtendedFunctions\EEF_GetAllSlavePortsFrameErrors</PublicName>
+        <PublicName>EthercatExtendedFunctions\EEF_NXCoupler_ChangeNXUnitMountingSetting</PublicName>
+        <PublicName>EthercatExtendedFunctions\EEF_NXCoupler_ClearAllMemory</PublicName>
+        <PublicName>EthercatExtendedFunctions\EEF_NXCoupler_ClearNXUnit</PublicName>
+        <PublicName>EthercatExtendedFunctions\EEF_NXCoupler_ReadNXUnitActualInformation</PublicName>
+        <PublicName>EthercatExtendedFunctions\EEF_NXCoupler_ReadNXUnitRegisteredInformation</PublicName>
+        <PublicName>EthercatExtendedFunctions\EEF_NXCoupler_ReadRegisteredConfiguration</PublicName>
+        <PublicName>EthercatExtendedFunctions\EEF_NXCoupler_Restart</PublicName>
+        <PublicName>EthercatExtendedFunctions\EEF_NXCoupler_WriteRegisteredConfiguration</PublicName>
+        <PublicName>EthercatExtendedFunctions\EEF_SetSlaveAddress</PublicName>
+        <PublicName>EthercatExtendedFunctions\LinkPort</PublicName>
+        <PublicName>EthercatExtendedFunctions\Node</PublicName>
+        <PublicName>EthercatExtendedFunctions\PortFrameError</PublicName>
+        <PublicName>EthercatExtendedFunctions\eEEF_CLEAR_PARAMETER_TYPE</PublicName>
+        <PublicName>EthercatExtendedFunctions\UnitConfig</PublicName>
+      </PublicPartsNames>
+      <InternalPartsNames>
+        <InternalName>EthercatExtendedFunctions\PrivateParts\IsHTTPOk</InternalName>
+        <InternalName>EthercatExtendedFunctions\PrivateParts\GetESC_EPPROMResponse2</InternalName>
+        <InternalName>EthercatExtendedFunctions\PrivateParts\CRC8_ROHC_Byte</InternalName>
+        <InternalName>EthercatExtendedFunctions\PrivateParts\CRC8_ROHC_Stream</InternalName>
+        <InternalName>EthercatExtendedFunctions\PrivateParts\GetESC_EPPROMResponse</InternalName>
+        <InternalName>EthercatExtendedFunctions\PrivateParts\HTTPDataIniIndex</InternalName>
+        <InternalName>EthercatExtendedFunctions\PrivateParts\FindB</InternalName>
+        <InternalName>EthercatExtendedFunctions\PrivateParts\GetHTTPDataStartIndex</InternalName>
+        <InternalName>EEF_BufferSearch</InternalName>
+        <InternalName>EthercatExtendedFunctions\PrivateParts\EEF_GetMTUSizeOverHTTP</InternalName>
+        <InternalName>EthercatExtendedFunctions\PrivateParts\EEF_NASCommandOverHTTP</InternalName>
+        <InternalName>EthercatExtendedFunctions\EEF_XML_Reader</InternalName>
+        <InternalName>EthercatExtendedFunctions\EEF_NXCoupler_SaveToEEPROM</InternalName>
+        <InternalName>EthercatExtendedFunctions\eEEF_DEVICE_TYPE</InternalName>
+        <InternalName>EthercatExtendedFunctions\eEEF_PRODUCT_TYPE</InternalName>
+        <InternalName>EthercatExtendedFunctions\ElementInfo</InternalName>
+        <InternalName>EthercatExtendedFunctions\eEEF_XML_READER_OPTIONS</InternalName>
+        <InternalName>EthercatExtendedFunctions\PrivateParts\LinkInfo</InternalName>
+        <InternalName>EthercatExtendedFunctions\PrivateParts\BusMasterManagementInfo</InternalName>
+        <InternalName>EthercatExtendedFunctions\PrivateParts\struct_IP_Settings</InternalName>
+      </InternalPartsNames>
+      <BuildDevice>
+        <Category>Controller</Category>
+        <Family>Nex</Family>
+        <FullModel>NX102-1100</FullModel>
+        <MajorVersion>1</MajorVersion>
+        <MinorVersion>42</MinorVersion>
+        <Revision>0</Revision>
+        <DisplayVersion>1.42</DisplayVersion>
+        <Packages>
+          <Package Name="Motion" Version="1.42" />
+          <Package Name="OPCUA" Version="1.42" />
+        </Packages>
+      </BuildDevice>
+      <DependencyId>008ed189-7ee3-4b38-9b5d-2ecaba1d6ddc</DependencyId>
+      <IsSource>true</IsSource>
+      <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+      <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+      <LibraryFilePath>C:\Users\Andreas\Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_Ethercat_Extended_Functions\EthercatExtendedFunctions.slr</LibraryFilePath>
+      <LibraryFileRelativePath>Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_Ethercat_Extended_Functions\EthercatExtendedFunctions.slr</LibraryFileRelativePath>
+      <LibrarySourceControlRelativeFilePath></LibrarySourceControlRelativeFilePath>
+      <AsOldVer>false</AsOldVer>
+      <SchemaVersion>3</SchemaVersion>
+      <Parameter1>false</Parameter1>
+    </LibraryModel>
+  </data>
+</data>

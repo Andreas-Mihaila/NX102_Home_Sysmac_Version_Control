@@ -1,0 +1,46 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BYTE	N=c_byAppID	IV=16#95	Const=1	G=VAR
+++D=WORD	N=c_wFBErrorID	IV=16#2801	Const=1	G=VAR
+++D=WORD	N=c_wUsedInstErrorID	IV=16#2800	Const=1	G=VAR	Com=ID for errors that come from standard FB instances
+++D=CIPOpen	N=fbCIPOpen	G=VAR
+++D=CIPSend	N=fbCIPSend	G=VAR
+++D=CIPClose	N=fbCIPClose	G=VAR
+++D=TON	N=fbTCycle	G=VAR
+++D=_sCIP_HANDLE	N=stHandle	G=VAR
+++D=INT	N=iState	G=VAR
+++D=ARRAY[0..1993] OF byte	N=abyWrData	G=VAR
+++D=ARRAY[0..1993] OF byte	N=abyRespData	G=VAR
+++D=_sREQUEST_PATH_EX	N=stRqPathExt	IV=(ClassIDLogicalFormat := _8BIT, ClassID := 16#02, InstanceIDLogicalFormat := _8BIT, InstanceID := 1, isAttributeID := False, AttributeIDLogicalFormat := _8BIT, AttributeID := 0)	G=VAR
+++D=UINT	N=uiWrSize	G=VAR
+++D=UINT	N=uiRespSize	G=VAR
+++D=WORD	N=wAux	G=VAR
+++D=UINT	N=uiInitOffset	G=VAR
+++D=UINT	N=uiIter	G=VAR
+++D=UINT	N=uiIndexListOfOffsets	G=VAR	Com=Index for the offsets list
+++D=UINT	N=uiIndex	G=VAR	Com=Index for the service packets
+++D=ARRAY[0..255] OF byte	N=abyAux	G=VAR
+++D=UINT	N=uiDelta	G=VAR
+++D=UINT	N=uiNrOfServices	G=VAR
+++D=BYTE	N=byAux	G=VAR
+++D=UINT	N=uiChivatoOffset	G=VAR
+++D=UINT	N=uiChivateSize	G=VAR
+++D=UINT	N=uiAccessWrDataSize	G=VAR
+++D=UINT	N=uiWrDataMinPos	G=VAR
+++D=UINT	N=uiWrDataMaxPos	G=VAR
+++D=UINT	N=uiWrongAccessWrDataEntry	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Enable	Ord=0	G=VAR_INPUT
+++D=STRING[256]	N=RoutePath	IV='01\#00'	Ord=1	G=VAR_INPUT
+++D=ESC\ST_TagList	N=TagList	Ord=2	G=VAR_IN_OUT
+++D=TIME	N=TimeCycle	IV=t#50ms	Ord=3	G=VAR_INPUT
+++D=ARRAY[0..49] OF ESC\ST_VarData	N=AccessWrData	Ord=4	G=VAR_IN_OUT
+++D=ARRAY[*] OF byte	N=WrData	Ord=5	G=VAR_IN_OUT
+++D=BOOL	N=Done	Ord=6	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=7	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=8	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=9	G=VAR_OUTPUT
+++D=DWORD	N=ErrorIDEx	Ord=10	G=VAR_OUTPUT
+++D=DWORD	N=ErrorIDEx2	Ord=11	G=VAR_OUTPUT	Com=ErrorIDEx from FB communication instance.
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

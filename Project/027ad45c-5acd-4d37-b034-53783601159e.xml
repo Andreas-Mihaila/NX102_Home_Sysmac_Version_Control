@@ -1,0 +1,32 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=bInit	G=VAR
+++D=UINT	N=uiStage	G=VAR
+++D=UINT	N=uiSize	G=VAR
+++D=UINT	N=uiBufferPointer	G=VAR
+++D=USINT	N=uiInstanceID	Ord=11	G=VAR
+++D=MQTT\pubFlags	N=stOptions	G=VAR
+++D=BOOL	N=bClientReady	G=VAR
+++D=BOOL	N=xPub	G=VAR
+++D=UINT	N=uiMaxBufferSize	IV=65535	Const=1	G=VAR
+++D=UINT	N=uiMaxMsgSize	IV=65000	Const=1	G=VAR
+++D=UINT	N=uiPubRELCOUNT	G=VAR
+++D=UINT	N=uiPubSize	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Execute	Ord=0	G=VAR_INPUT
+++D=STRING[128]	N=Topic	Ord=1	G=VAR_INPUT
+++D=ARRAY[*] OF BYTE	N=Message	Ord=2	G=VAR_IN_OUT
+++D=UINT	N=MsgSize	Ord=3	G=VAR_INPUT
+++D=MQTT\ClientBuffer	N=Buffer	Ord=4	G=VAR_IN_OUT
+++D=BYTE	N=QoS	Ord=5	G=VAR_INPUT
+++D=BOOL	N=Retained	Ord=6	G=VAR_INPUT
+++D=BOOL	N=Dup	Ord=7	G=VAR_INPUT
+++D=BOOL	N=Done	Ord=8	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=9	G=VAR_OUTPUT
+++D=UINT	N=Size	Ord=10	G=VAR_OUTPUT
+++D=UINT	N=PacketID	Ord=11	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=12	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=13	G=VAR_OUTPUT
+++D=DWORD	N=ErrorIDEx	Ord=14	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

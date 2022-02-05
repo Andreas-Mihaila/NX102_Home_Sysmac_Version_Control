@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <DataType Name="Data Types1" BaseType="" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
+    <DataType Name="sInfo1S" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="38" OffsetType="NJ">
+      <DataType Name="Drive" BaseType="OMR_CH_PP_Pos\sDrive1S" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="LifeTimeInfo" BaseType="OMR_CH_PP_Pos\sLifeTimeInfo1S" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="EncoderInfo" BaseType="OMR_CH_PP_Pos\sEncoder1S" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="MotorInfo" BaseType="OMR_CH_PP_Pos\sMotor1S" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="sDrive1S" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="11" OffsetType="NJ">
+      <DataType Name="MainPowerSupplyPN" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="4320:81" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ServoDriveTemperature" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="4320:82" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ManufacturerDeviceName" BaseType="STRING[21]" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="1008" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ManufacturerHardwareVersion" BaseType="STRING[21]" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="1009" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ManufacturerSoftwareVersion" BaseType="STRING[21]" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="100A" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ErrorFullCode" BaseType="DWORD" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="4000:81" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Warning" BaseType="OMR_CH_PP_Pos\sWarnings1S" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="sLifeTimeInfo1S" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="10" OffsetType="NJ">
+      <DataType Name="TotalPowerOnTime_min" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="4140:81" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="TotalCapacitorOperatingTime_min" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="4140:82" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="CapacitorOperationTimeRatio_pm" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="4140:83" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="InrushCurrentPreventionRelayON_Count" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="4140:84" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="DynamicBrakeRelayON_Count" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="4140:85" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="MotorOperatingTime" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="4140:86" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="BrakeInterlockOutputRelayON_Count" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="4140:87" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="sEncoder1S" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="9" OffsetType="NJ">
+      <DataType Name="EncoderTemperature" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="4510:89" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="SerialNumber" BaseType="STRING[17]" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="4510:81" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ElectricAngle" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="4510:87" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="MechanicalAngle" BaseType="UDINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="4510:88" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Resolution" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="4510:82" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="OneRotationData" BaseType="UDINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="4510:84" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="MultiRotationData" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="4510.85" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="sMotor1S" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="8" OffsetType="NJ">
+      <DataType Name="MotorModel" BaseType="STRING[21]" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="4410:81" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="SerialNumber" BaseType="STRING[17]" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="4410:82" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="LastConnectedMotorModel" BaseType="STRING[21]" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="4410:83" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="LastConnectedSerialNumber" BaseType="STRING[17]" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="4410:84" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="sWarnings1S" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="1" OffsetType="NJ">
+      <DataType Name="EthercatCommunications" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="B2" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="CommandWarning" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="B1" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="DataSettingWarning" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="B0" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="AbsoluteEncoderCounterOverflow" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="AB" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="EncoderLifetime" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="A7:6" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="LifetimeInformationCorruption" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="A7:5" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="BrakeInterlockOutputRelayLifetime" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="A7:4" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="InrushCurrentPreventionRelayLifetime" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="A7:2" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="CapacitorLifetime" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="A7:1" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Vibration" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="A6" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="FanRotation" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="EncoderCommunication" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="A4" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="RegenerationOverload" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="A1" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Overload" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="A0" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+  </DataType>
+</data>

@@ -1,0 +1,21 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=Done_Connect	G=VAR
+++D=STRING[256]	N=NX102_SQL	G=VAR
+++D=BOOL	N=Busy_Connect	G=VAR
+++D=BOOL	N=Error_Connect	G=VAR
+++D=WORD	N=ErrorID_Connect	G=VAR
+++D=DWORD	N=SQL_Connection	G=VAR
+++D=DB_Connect	N=DB_SQL_Connect	G=VAR
+++D=BOOL	N=Close_DB_Connection	G=VAR
+++D=DB_Close	N=DB_SQL_Close	G=VAR
+++D=BOOL	N=Busy_Close	G=VAR
+++D=BOOL	N=Error_Close	G=VAR
+++D=WORD	N=ErrorID_Close	G=VAR
+++D=BOOL	N=Connect_DB_Connection	G=VAR
+++D=BOOL	N=Done_Close	G=VAR
+++D=BOOL	N=test	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=BOOL	N=_EIP_EtnOnlineSta	Const=1	G=VAR_EXTERNAL
+++D=_sDBC_STATUS	N=_DBC_Status	Const=1	G=VAR_EXTERNAL

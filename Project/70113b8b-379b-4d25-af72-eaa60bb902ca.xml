@@ -1,0 +1,13 @@
+<StructuredTextModel xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.StructuredText.Core" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Text>(* &#xD;
+This FB referrs to both emitters which are triggered by both exits sensors&#xD;
+&#xD;
+	Created: 17/12/2021 Andreas Mihaila&#xD;
+	Tested: 17/12/2021 Andreas Mihaila&#xD;
+	Status: OK&#xD;
+*)&#xD;
+&#xD;
+// Emitter 1&#xD;
+IO_DQ_Emitter_1 := IO_DI_Sensor_At_Pusher_1_Exit;&#xD;
+&#xD;
+// Emitter 2&#xD;
+IO_DQ_Emitter_2 := IO_DI_Sensor_At_Pusher_2_Exit;</Text></StructuredTextModel>

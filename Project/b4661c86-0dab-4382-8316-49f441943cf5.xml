@@ -1,0 +1,702 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <data>
+    <ReferredLibrariesModel>
+      <ReferredLibraries>
+        <ReferredLibrary>
+          <data>
+            <LibraryModel>
+              <Name>1SDatatraceLibrary_V1</Name>
+              <NameSpace></NameSpace>
+              <Version>1.0.0</Version>
+              <Revision>1</Revision>
+              <LibraryId>6f901c3f-37cc-4df5-88c3-0a25f9a3b9a2</LibraryId>
+              <Author>ruicar</Author>
+              <Company>Omron - ATC-E</Company>
+              <DateCreated>2020-11-12T13:17:41.0722268+02:00</DateCreated>
+              <DateModified>2020-11-20T14:15:52.2819811+02:00</DateModified>
+              <Comment></Comment>
+              <Password></Password>
+              <AttachedFiles />
+              <AttachedFilesRelativePaths />
+              <PublicPartsNames>
+                <PublicName>ATC_E\Tools1S\DataTrace1S_V1</PublicName>
+                <PublicName>ATC_E\Tools1S\Trigger</PublicName>
+                <PublicName>ATC_E\Tools1S\TriggerSettings</PublicName>
+                <PublicName>ATC_E\Tools1S\DataTraceSetup1S</PublicName>
+              </PublicPartsNames>
+              <InternalPartsNames />
+              <BuildDevice>
+                <Category>Controller</Category>
+                <Family>Nex</Family>
+                <FullModel>NJ501-1320</FullModel>
+                <MajorVersion>1</MajorVersion>
+                <MinorVersion>23</MinorVersion>
+                <Revision>0</Revision>
+                <DisplayVersion>1.23</DisplayVersion>
+                <Packages>
+                  <Package Name="DBCon" Version="2.0" />
+                  <Package Name="Motion" Version="1.23" />
+                  <Package Name="jre8" Version="8.3" />
+                </Packages>
+              </BuildDevice>
+              <DependencyId>562e8271-1fc8-4eb0-995a-ce01508b5150</DependencyId>
+              <IsSource>true</IsSource>
+              <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+              <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+              <LibraryFilePath>C:\Users\Andreas\Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_1S_Servo_Drive_Datatrace\1SDatatraceLibrary_V1.slr</LibraryFilePath>
+              <LibraryFileRelativePath>Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_1S_Servo_Drive_Datatrace\1SDatatraceLibrary_V1.slr</LibraryFileRelativePath>
+              <LibrarySourceControlRelativeFilePath></LibrarySourceControlRelativeFilePath>
+              <AsOldVer>true</AsOldVer>
+              <SchemaVersion>1</SchemaVersion>
+              <Parameter1>false</Parameter1>
+            </LibraryModel>
+          </data>
+        </ReferredLibrary>
+        <ReferredLibrary>
+          <data>
+            <LibraryModel>
+              <Name>OneS_FB_v1.02</Name>
+              <NameSpace></NameSpace>
+              <Version>1.0.2</Version>
+              <Revision>1</Revision>
+              <LibraryId>20b3d2e8-6231-4bfd-bdd4-225ebd7cd319</LibraryId>
+              <Author></Author>
+              <Company>Omron</Company>
+              <DateCreated>2012-07-02T18:03:12.4682575+03:00</DateCreated>
+              <DateModified>2017-11-27T17:46:38.8644552+02:00</DateModified>
+              <Comment>1S  FB's
+</Comment>
+              <Password></Password>
+              <AttachedFiles>
+                <AttachedFile>D:\Daten\Projects\NJ\Librarys\OneS_FB\1S_FB_V1_02.pdf</AttachedFile>
+              </AttachedFiles>
+              <AttachedFilesRelativePaths />
+              <PublicPartsNames>
+                <PublicName>OMR_CH_PP_Pos\MC_Restart1S</PublicName>
+                <PublicName>OMR_CH_PP_Pos\MC_MotorReplacement1S</PublicName>
+                <PublicName>OMR_CH_PP_Pos\Get1sInfo</PublicName>
+                <PublicName>OMR_CH_PP_Pos\MC_BrakeRelease</PublicName>
+                <PublicName>OMR_CH_PP_Pos\sInfo1S</PublicName>
+                <PublicName>OMR_CH_PP_Pos\sDrive1S</PublicName>
+                <PublicName>OMR_CH_PP_Pos\sLifeTimeInfo1S</PublicName>
+                <PublicName>OMR_CH_PP_Pos\sEncoder1S</PublicName>
+                <PublicName>OMR_CH_PP_Pos\sMotor1S</PublicName>
+                <PublicName>OMR_CH_PP_Pos\sWarnings1S</PublicName>
+              </PublicPartsNames>
+              <InternalPartsNames />
+              <BuildDevice>
+                <Category>Controller</Category>
+                <Family>Nex</Family>
+                <FullModel>NJ501-1500</FullModel>
+                <MajorVersion>1</MajorVersion>
+                <MinorVersion>11</MinorVersion>
+                <Revision>0</Revision>
+                <DisplayVersion>1.11</DisplayVersion>
+                <Packages>
+                  <Package Name="Motion" Version="1.11" />
+                </Packages>
+              </BuildDevice>
+              <DependencyId>642b675a-ab7d-4f41-a42f-5e87ce02b313</DependencyId>
+              <IsSource>true</IsSource>
+              <IsDisableSourceDisplay>false</IsDisableSourceDisplay>
+              <IsIncludeReferredLibraries>true</IsIncludeReferredLibraries>
+              <LibraryFilePath>C:\Users\Andreas\Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_1S_Servo_Drive_Libraries\OneS_FB_v1.02.slr</LibraryFilePath>
+              <LibraryFileRelativePath>Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_1S_Servo_Drive_Libraries\OneS_FB_v1.02.slr</LibraryFileRelativePath>
+              <LibrarySourceControlRelativeFilePath></LibrarySourceControlRelativeFilePath>
+              <AsOldVer>true</AsOldVer>
+              <SchemaVersion>1</SchemaVersion>
+              <Parameter1>false</Parameter1>
+            </LibraryModel>
+          </data>
+        </ReferredLibrary>
+        <ReferredLibrary>
+          <data>
+            <LibraryModel>
+              <Name>ESC_ExtSysmacCIPServices</Name>
+              <NameSpace></NameSpace>
+              <Version>1.0.2</Version>
+              <Revision>1</Revision>
+              <LibraryId>bb56f9c5-4df7-43af-8e85-d72759a4173f</LibraryId>
+              <Author>maujor1</Author>
+              <Company></Company>
+              <DateCreated>2020-03-02T16:02:16.283596+02:00</DateCreated>
+              <DateModified>2021-10-06T11:24:59.3393689+03:00</DateModified>
+              <Comment></Comment>
+              <Password></Password>
+              <AttachedFiles />
+              <AttachedFilesRelativePaths />
+              <PublicPartsNames>
+                <PublicName>ESC\FB_EIP_MultipleTagRead</PublicName>
+                <PublicName>ESC\FB_EIP_MultipleTagWrite</PublicName>
+                <PublicName>ESC\FB_EIP_WriteTCPIPItf</PublicName>
+                <PublicName>ESC\FB_EIP_ReadTCPIPItf</PublicName>
+                <PublicName>ESC\FB_EIP_ReadVarNames</PublicName>
+                <PublicName>ESC\FB_EIP_GetEventLog</PublicName>
+                <PublicName>ESC\ST_TagProperties</PublicName>
+                <PublicName>ESC\ST_TagList</PublicName>
+                <PublicName>ESC\eCIPDataType</PublicName>
+                <PublicName>ESC\ST_VarData</PublicName>
+                <PublicName>ESC\eItfType</PublicName>
+                <PublicName>ESC\ST_TcpIpItf</PublicName>
+                <PublicName>ESC\ST_CIPTCPIP</PublicName>
+                <PublicName>ESC\eEventLevel</PublicName>
+                <PublicName>ESC\eEventSource</PublicName>
+                <PublicName>ESC\ST_Event</PublicName>
+                <PublicName>ESC\ST_EventLogOpt</PublicName>
+                <PublicName>ESC\ST_AvailableEventEntries</PublicName>
+              </PublicPartsNames>
+              <InternalPartsNames>
+                <InternalName>ESC\FC_RequestPathToBytes</InternalName>
+                <InternalName>ESC\FC_UdintIPToStringIP</InternalName>
+                <InternalName>ESC\FC_StringIPToUdintIP</InternalName>
+                <InternalName>ESC\FC_ComposeErrorIDEx</InternalName>
+                <InternalName>ESC\FC_CheckAccessWrData</InternalName>
+                <InternalName>ESC\ST_TestStruct</InternalName>
+                <InternalName>ESC\ST_TestStructMini</InternalName>
+                <InternalName>ESC\eEventCategory</InternalName>
+              </InternalPartsNames>
+              <BuildDevice>
+                <Category>Controller</Category>
+                <Family>Nex</Family>
+                <FullModel>NX102-1200</FullModel>
+                <MajorVersion>1</MajorVersion>
+                <MinorVersion>31</MinorVersion>
+                <Revision>0</Revision>
+                <DisplayVersion>1.31</DisplayVersion>
+                <Packages>
+                  <Package Name="Motion" Version="1.31" />
+                  <Package Name="OPCUA" Version="1.31" />
+                </Packages>
+              </BuildDevice>
+              <DependencyId>4297a98b-6793-457a-9db2-2fba5c565a70</DependencyId>
+              <IsSource>true</IsSource>
+              <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+              <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+              <LibraryFilePath>C:\Users\Andreas\Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_CIP_Services_Extended\ESC_ExtSysmacCIPServices_v1_0_2.slr</LibraryFilePath>
+              <LibraryFileRelativePath>Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_CIP_Services_Extended\ESC_ExtSysmacCIPServices_v1_0_2.slr</LibraryFileRelativePath>
+              <LibrarySourceControlRelativeFilePath></LibrarySourceControlRelativeFilePath>
+              <AsOldVer>false</AsOldVer>
+              <SchemaVersion>3</SchemaVersion>
+              <Parameter1>false</Parameter1>
+            </LibraryModel>
+          </data>
+        </ReferredLibrary>
+        <ReferredLibrary>
+          <data>
+            <LibraryModel>
+              <Name>EthercatExtendedFunctions</Name>
+              <NameSpace></NameSpace>
+              <Version>2.0.9</Version>
+              <Revision>1</Revision>
+              <LibraryId>b7ec42ab-7ae6-4a2e-a73e-c2a5898d5d0b</LibraryId>
+              <Author>Cristobal Sanchez</Author>
+              <Company>Omron</Company>
+              <DateCreated>2016-01-21T17:56:27.0066632+02:00</DateCreated>
+              <DateModified>2021-10-29T11:47:51.705487+03:00</DateModified>
+              <Comment></Comment>
+              <Password></Password>
+              <AttachedFiles />
+              <AttachedFilesRelativePaths />
+              <PublicPartsNames>
+                <PublicName>EthercatExtendedFunctions\EEF_NXBus_ModifyMountingSettingOfflineConfiguration</PublicName>
+                <PublicName>EthercatExtendedFunctions\EEF_ClearSlavePortsFrameErrors</PublicName>
+                <PublicName>EthercatExtendedFunctions\EEF_ClearAllSlavePortsFrameErrors</PublicName>
+                <PublicName>EthercatExtendedFunctions\EEF_EtherCAT_Scan</PublicName>
+                <PublicName>EthercatExtendedFunctions\EEF_ReadESCRegister</PublicName>
+                <PublicName>EthercatExtendedFunctions\EEF_GetVPRSfromSII</PublicName>
+                <PublicName>EthercatExtendedFunctions\EEF_GetSlavePortsFrameErrors</PublicName>
+                <PublicName>EthercatExtendedFunctions\EEF_GetAllSlavePortsFrameErrors</PublicName>
+                <PublicName>EthercatExtendedFunctions\EEF_NXCoupler_ChangeNXUnitMountingSetting</PublicName>
+                <PublicName>EthercatExtendedFunctions\EEF_NXCoupler_ClearAllMemory</PublicName>
+                <PublicName>EthercatExtendedFunctions\EEF_NXCoupler_ClearNXUnit</PublicName>
+                <PublicName>EthercatExtendedFunctions\EEF_NXCoupler_ReadNXUnitActualInformation</PublicName>
+                <PublicName>EthercatExtendedFunctions\EEF_NXCoupler_ReadNXUnitRegisteredInformation</PublicName>
+                <PublicName>EthercatExtendedFunctions\EEF_NXCoupler_ReadRegisteredConfiguration</PublicName>
+                <PublicName>EthercatExtendedFunctions\EEF_NXCoupler_Restart</PublicName>
+                <PublicName>EthercatExtendedFunctions\EEF_NXCoupler_WriteRegisteredConfiguration</PublicName>
+                <PublicName>EthercatExtendedFunctions\EEF_SetSlaveAddress</PublicName>
+                <PublicName>EthercatExtendedFunctions\LinkPort</PublicName>
+                <PublicName>EthercatExtendedFunctions\Node</PublicName>
+                <PublicName>EthercatExtendedFunctions\PortFrameError</PublicName>
+                <PublicName>EthercatExtendedFunctions\eEEF_CLEAR_PARAMETER_TYPE</PublicName>
+                <PublicName>EthercatExtendedFunctions\UnitConfig</PublicName>
+              </PublicPartsNames>
+              <InternalPartsNames>
+                <InternalName>EthercatExtendedFunctions\PrivateParts\IsHTTPOk</InternalName>
+                <InternalName>EthercatExtendedFunctions\PrivateParts\GetESC_EPPROMResponse2</InternalName>
+                <InternalName>EthercatExtendedFunctions\PrivateParts\CRC8_ROHC_Byte</InternalName>
+                <InternalName>EthercatExtendedFunctions\PrivateParts\CRC8_ROHC_Stream</InternalName>
+                <InternalName>EthercatExtendedFunctions\PrivateParts\GetESC_EPPROMResponse</InternalName>
+                <InternalName>EthercatExtendedFunctions\PrivateParts\HTTPDataIniIndex</InternalName>
+                <InternalName>EthercatExtendedFunctions\PrivateParts\FindB</InternalName>
+                <InternalName>EthercatExtendedFunctions\PrivateParts\GetHTTPDataStartIndex</InternalName>
+                <InternalName>EEF_BufferSearch</InternalName>
+                <InternalName>EthercatExtendedFunctions\PrivateParts\EEF_GetMTUSizeOverHTTP</InternalName>
+                <InternalName>EthercatExtendedFunctions\PrivateParts\EEF_NASCommandOverHTTP</InternalName>
+                <InternalName>EthercatExtendedFunctions\EEF_XML_Reader</InternalName>
+                <InternalName>EthercatExtendedFunctions\EEF_NXCoupler_SaveToEEPROM</InternalName>
+                <InternalName>EthercatExtendedFunctions\eEEF_DEVICE_TYPE</InternalName>
+                <InternalName>EthercatExtendedFunctions\eEEF_PRODUCT_TYPE</InternalName>
+                <InternalName>EthercatExtendedFunctions\ElementInfo</InternalName>
+                <InternalName>EthercatExtendedFunctions\eEEF_XML_READER_OPTIONS</InternalName>
+                <InternalName>EthercatExtendedFunctions\PrivateParts\LinkInfo</InternalName>
+                <InternalName>EthercatExtendedFunctions\PrivateParts\BusMasterManagementInfo</InternalName>
+                <InternalName>EthercatExtendedFunctions\PrivateParts\struct_IP_Settings</InternalName>
+              </InternalPartsNames>
+              <BuildDevice>
+                <Category>Controller</Category>
+                <Family>Nex</Family>
+                <FullModel>NX102-1100</FullModel>
+                <MajorVersion>1</MajorVersion>
+                <MinorVersion>42</MinorVersion>
+                <Revision>0</Revision>
+                <DisplayVersion>1.42</DisplayVersion>
+                <Packages>
+                  <Package Name="Motion" Version="1.42" />
+                  <Package Name="OPCUA" Version="1.42" />
+                </Packages>
+              </BuildDevice>
+              <DependencyId>008ed189-7ee3-4b38-9b5d-2ecaba1d6ddc</DependencyId>
+              <IsSource>true</IsSource>
+              <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+              <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+              <LibraryFilePath>C:\Users\Andreas\Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_Ethercat_Extended_Functions\EthercatExtendedFunctions.slr</LibraryFilePath>
+              <LibraryFileRelativePath>Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_Ethercat_Extended_Functions\EthercatExtendedFunctions.slr</LibraryFileRelativePath>
+              <LibrarySourceControlRelativeFilePath></LibrarySourceControlRelativeFilePath>
+              <AsOldVer>false</AsOldVer>
+              <SchemaVersion>3</SchemaVersion>
+              <Parameter1>false</Parameter1>
+            </LibraryModel>
+          </data>
+        </ReferredLibrary>
+        <ReferredLibrary>
+          <data>
+            <LibraryModel>
+              <Name>SDOBatch</Name>
+              <NameSpace></NameSpace>
+              <Version>1.0.6</Version>
+              <Revision>1</Revision>
+              <LibraryId>50ea28ce-db97-43f9-ab28-77dda8865e73</LibraryId>
+              <Author></Author>
+              <Company></Company>
+              <DateCreated>2014-09-22T12:39:06.1919305+03:00</DateCreated>
+              <DateModified>2022-01-17T13:57:15.8030893+02:00</DateModified>
+              <Comment></Comment>
+              <Password></Password>
+              <AttachedFiles />
+              <AttachedFilesRelativePaths />
+              <PublicPartsNames>
+                <PublicName>SDOUtils\WriteSDOArray</PublicName>
+                <PublicName>SDOUtils\ReadSDOArray</PublicName>
+                <PublicName>SDOUtils\SDOData</PublicName>
+              </PublicPartsNames>
+              <InternalPartsNames />
+              <BuildDevice>
+                <Category>Controller</Category>
+                <Family>Nex</Family>
+                <FullModel>NJ501-1500</FullModel>
+                <MajorVersion>1</MajorVersion>
+                <MinorVersion>40</MinorVersion>
+                <Revision>0</Revision>
+                <DisplayVersion>1.40</DisplayVersion>
+                <Packages>
+                  <Package Name="Motion" Version="1.40" />
+                  <Package Name="OPCUA" Version="1.40" />
+                </Packages>
+              </BuildDevice>
+              <DependencyId>07c9fd9d-3fee-44fd-a5ed-488c74e83b99</DependencyId>
+              <IsSource>true</IsSource>
+              <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+              <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+              <LibraryFilePath>C:\Users\Andreas\Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_Ethercat_SDO_Read_Write\SDOBatch_1_06.slr</LibraryFilePath>
+              <LibraryFileRelativePath>Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_Ethercat_SDO_Read_Write\SDOBatch_1_06.slr</LibraryFileRelativePath>
+              <LibrarySourceControlRelativeFilePath></LibrarySourceControlRelativeFilePath>
+              <AsOldVer>true</AsOldVer>
+              <SchemaVersion>1</SchemaVersion>
+              <Parameter1>false</Parameter1>
+            </LibraryModel>
+          </data>
+        </ReferredLibrary>
+        <ReferredLibrary>
+          <data>
+            <LibraryModel>
+              <Name>INV00x_Q2x_ECT</Name>
+              <NameSpace></NameSpace>
+              <Version>1.1.0</Version>
+              <Revision>1</Revision>
+              <LibraryId>7095dc03-e6ad-42f2-9625-aa408004efde</LibraryId>
+              <Author>Tomas Dunér</Author>
+              <Company>Omron Electronics</Company>
+              <DateCreated>2013-12-23T10:11:54.8777315+02:00</DateCreated>
+              <DateModified>2021-11-25T11:38:17.9267751+02:00</DateModified>
+              <Comment>Functionblocks that can be used for controlling Q2x with Omron NJ/NX/NY controller over EtherCAT communication.</Comment>
+              <Password></Password>
+              <AttachedFiles />
+              <AttachedFilesRelativePaths />
+              <PublicPartsNames>
+                <PublicName>INV000_Q2x_Alarm</PublicName>
+                <PublicName>INV001_Q2x_ECT</PublicName>
+                <PublicName>INV002_Q2x_ECT</PublicName>
+                <PublicName>INV003_Q2x_ECT</PublicName>
+                <PublicName>INV010_Q2x_ExternalTrip</PublicName>
+                <PublicName>INV012_Q2x_Analog_inputs</PublicName>
+                <PublicName>INV00x_Q2x\uWORD_BOOL_Q2x</PublicName>
+                <PublicName>INV00x_Q2x\sDriveStatus</PublicName>
+                <PublicName>INV00x_Q2x\eSignalLevelSelect</PublicName>
+              </PublicPartsNames>
+              <InternalPartsNames />
+              <BuildDevice>
+                <Category>Controller</Category>
+                <Family>Nex</Family>
+                <FullModel>NJ501-1500</FullModel>
+                <MajorVersion>1</MajorVersion>
+                <MinorVersion>17</MinorVersion>
+                <Revision>0</Revision>
+                <DisplayVersion>1.17</DisplayVersion>
+                <Packages>
+                  <Package Name="Motion" Version="1.17" />
+                  <Package Name="OPCUA" Version="1.17" />
+                </Packages>
+              </BuildDevice>
+              <DependencyId>54e26619-4db0-4559-b26d-2adc04d97c61</DependencyId>
+              <IsSource>true</IsSource>
+              <IsDisableSourceDisplay>false</IsDisableSourceDisplay>
+              <IsIncludeReferredLibraries>true</IsIncludeReferredLibraries>
+              <LibraryFilePath>C:\Users\Andreas\Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_Inverter_INVX\INV00x_Q2x_ECT.slr</LibraryFilePath>
+              <LibraryFileRelativePath>Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_Inverter_INVX\INV00x_Q2x_ECT.slr</LibraryFileRelativePath>
+              <LibrarySourceControlRelativeFilePath></LibrarySourceControlRelativeFilePath>
+              <AsOldVer>true</AsOldVer>
+              <SchemaVersion>1</SchemaVersion>
+              <Parameter1>false</Parameter1>
+            </LibraryModel>
+          </data>
+        </ReferredLibrary>
+        <ReferredLibrary>
+          <data>
+            <LibraryModel>
+              <Name>KMN2_DataRead</Name>
+              <NameSpace></NameSpace>
+              <Version>0.0.2</Version>
+              <Revision>1</Revision>
+              <LibraryId>0320e257-1b8d-4737-a9b6-ab04fa5e6bb3</LibraryId>
+              <Author></Author>
+              <Company></Company>
+              <DateCreated>2021-01-08T15:42:03.737339+02:00</DateCreated>
+              <DateModified>2021-01-29T17:47:09.6693202+02:00</DateModified>
+              <Comment></Comment>
+              <Password></Password>
+              <AttachedFiles>
+                <AttachedFile>C:\OMRON\Data\Lib\KMN2_DataRead.pdf</AttachedFile>
+              </AttachedFiles>
+              <AttachedFilesRelativePaths />
+              <PublicPartsNames>
+                <PublicName>KMN2_DataRead</PublicName>
+                <PublicName>lib_KMN2\s_KMN2</PublicName>
+              </PublicPartsNames>
+              <InternalPartsNames />
+              <BuildDevice>
+                <Category>Controller</Category>
+                <Family>Nex</Family>
+                <FullModel>NX1P2-1040DT1</FullModel>
+                <MajorVersion>1</MajorVersion>
+                <MinorVersion>42</MinorVersion>
+                <Revision>0</Revision>
+                <DisplayVersion>1.42</DisplayVersion>
+                <Packages>
+                  <Package Name="Motion" Version="1.42" />
+                </Packages>
+              </BuildDevice>
+              <DependencyId>c8a13871-ed1a-4cd7-b29d-fe3361e7afdc</DependencyId>
+              <IsSource>true</IsSource>
+              <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+              <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+              <LibraryFilePath>C:\Users\Andreas\Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_KM2_Power_Monitoring_Reading\KMN2_DataRead.slr</LibraryFilePath>
+              <LibraryFileRelativePath>Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_KM2_Power_Monitoring_Reading\KMN2_DataRead.slr</LibraryFileRelativePath>
+              <LibrarySourceControlRelativeFilePath></LibrarySourceControlRelativeFilePath>
+              <AsOldVer>true</AsOldVer>
+              <SchemaVersion>1</SchemaVersion>
+              <Parameter1>false</Parameter1>
+            </LibraryModel>
+          </data>
+        </ReferredLibrary>
+        <ReferredLibrary>
+          <data>
+            <LibraryModel>
+              <Name>MQTT 0.46b</Name>
+              <NameSpace></NameSpace>
+              <Version>0.0.46</Version>
+              <Revision>1</Revision>
+              <LibraryId>c926d3e2-7b1f-4e7c-afe3-070e2c19fcbc</LibraryId>
+              <Author>gomsan</Author>
+              <Company></Company>
+              <DateCreated>2019-02-20T19:14:45.9284109+02:00</DateCreated>
+              <DateModified>2021-05-25T18:49:00.7676154+03:00</DateModified>
+              <Comment></Comment>
+              <Password></Password>
+              <AttachedFiles />
+              <AttachedFilesRelativePaths />
+              <PublicPartsNames>
+                <PublicName>MQTT\MQTTClient</PublicName>
+                <PublicName>MQTT\MQTTSubscribe</PublicName>
+                <PublicName>MQTT\MQTTPing</PublicName>
+                <PublicName>MQTT\MQTTPublish</PublicName>
+                <PublicName>MQTT\MQTTPublishArr</PublicName>
+                <PublicName>MQTT\MQTTSubscribeArr</PublicName>
+                <PublicName>MQTT\WillCnfg</PublicName>
+                <PublicName>MQTT\Login</PublicName>
+                <PublicName>MQTT\eControlPacket</PublicName>
+                <PublicName>MQTT\ClientRcv</PublicName>
+                <PublicName>MQTT\Status</PublicName>
+                <PublicName>MQTT\Settings</PublicName>
+                <PublicName>MQTT\ClientBuffer</PublicName>
+              </PublicPartsNames>
+              <InternalPartsNames>
+                <InternalName>MQTT\PktConnect_old</InternalName>
+                <InternalName>MQTT\mqGetPublishData_old</InternalName>
+                <InternalName>MQTT\mqGetPublishData_old2</InternalName>
+                <InternalName>MQTT\PktPublish</InternalName>
+                <InternalName>MQTT\PktPublishArr</InternalName>
+                <InternalName>MQTT\getOverallQoS</InternalName>
+                <InternalName>MQTT\PktPubComp</InternalName>
+                <InternalName>MQTT\PktPubRec</InternalName>
+                <InternalName>MQTT\PktPubRel</InternalName>
+                <InternalName>MQTT\PktPubAck</InternalName>
+                <InternalName>MQTT\getQoS_old</InternalName>
+                <InternalName>MQTT\PktUnsubscribe</InternalName>
+                <InternalName>MQTT\PktDisconnect</InternalName>
+                <InternalName>MQTT\PktPublishArr_old</InternalName>
+                <InternalName>MQTT\PktPingReq</InternalName>
+                <InternalName>MQTT\mqGetMessage</InternalName>
+                <InternalName>MQTT\PktSubscribe</InternalName>
+                <InternalName>MQTT\getPubPacketID</InternalName>
+                <InternalName>MQTT\RLDecode</InternalName>
+                <InternalName>MQTT\mqCode</InternalName>
+                <InternalName>MQTT\PktMultSubscribe</InternalName>
+                <InternalName>MQTT\PktPublish_old</InternalName>
+                <InternalName>MQTT\PubFlagEncode</InternalName>
+                <InternalName>MQTT\BOOL_TO_BYTE</InternalName>
+                <InternalName>MQTT\ConnectionFlagEncode</InternalName>
+                <InternalName>MQTT\RLEncode</InternalName>
+                <InternalName>MQTT\mqGetPointer</InternalName>
+                <InternalName>MQTT\mqGetPacketID</InternalName>
+                <InternalName>MQTT\getQoS</InternalName>
+                <InternalName>MQTT\mqGetPublishData</InternalName>
+                <InternalName>MQTT\mqTopicCmp</InternalName>
+                <InternalName>MQTT\mqRingToMem</InternalName>
+                <InternalName>MQTT\mqMemToRing</InternalName>
+                <InternalName>MQTT\PktConnect</InternalName>
+                <InternalName>MQTT\ReadMqttMessage_old</InternalName>
+                <InternalName>MQTT\MQTTSubscribe_old</InternalName>
+                <InternalName>MQTT\MQTTClient_old</InternalName>
+                <InternalName>MQTT\MQTTConnect_old</InternalName>
+                <InternalName>MQTT\ServerConnect</InternalName>
+                <InternalName>MQTT\MQTTSend</InternalName>
+                <InternalName>MQTT\MQTTConnect</InternalName>
+                <InternalName>MQTT\MQTTDisconnect</InternalName>
+                <InternalName>MQTT\RcvSocketStack</InternalName>
+                <InternalName>MQTT\MQTTrcv</InternalName>
+                <InternalName>MQTT\ReadMqttMessage</InternalName>
+                <InternalName>MQTT\flags</InternalName>
+                <InternalName>MQTT\pubFlags</InternalName>
+                <InternalName>MQTT\SubsTopics</InternalName>
+                <InternalName>MQTT\eSubscribeMode</InternalName>
+              </InternalPartsNames>
+              <BuildDevice>
+                <Category>Controller</Category>
+                <Family>Nex</Family>
+                <FullModel>NX102-1000</FullModel>
+                <MajorVersion>1</MajorVersion>
+                <MinorVersion>43</MinorVersion>
+                <Revision>0</Revision>
+                <DisplayVersion>1.43</DisplayVersion>
+                <Packages>
+                  <Package Name="Motion" Version="1.43" />
+                  <Package Name="OPCUA" Version="1.43" />
+                </Packages>
+              </BuildDevice>
+              <DependencyId>20f92fc3-40ae-498d-9eb7-ad71ab667bd4</DependencyId>
+              <IsSource>true</IsSource>
+              <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+              <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+              <LibraryFilePath>C:\Users\Andreas\Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_MQTT_Client_Library\MQTT 0.46b.slr</LibraryFilePath>
+              <LibraryFileRelativePath>Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_MQTT_Client_Library\MQTT 0.46b.slr</LibraryFileRelativePath>
+              <LibrarySourceControlRelativeFilePath></LibrarySourceControlRelativeFilePath>
+              <AsOldVer>false</AsOldVer>
+              <SchemaVersion>3</SchemaVersion>
+              <Parameter1>false</Parameter1>
+            </LibraryModel>
+          </data>
+        </ReferredLibrary>
+        <ReferredLibrary>
+          <data>
+            <LibraryModel>
+              <Name>JSONEncoding v0.56</Name>
+              <NameSpace></NameSpace>
+              <Version>0.0.56</Version>
+              <Revision>1</Revision>
+              <LibraryId>918d7b21-6d6c-4cc2-8a12-9c406c386cc2</LibraryId>
+              <Author>SGG</Author>
+              <Company>OMRON ATCE</Company>
+              <DateCreated>2016-09-19T15:42:18.866015+03:00</DateCreated>
+              <DateModified>2019-03-08T12:53:54.0526439+02:00</DateModified>
+              <Comment>Uses as output Byte Array</Comment>
+              <Password></Password>
+              <AttachedFiles />
+              <AttachedFilesRelativePaths />
+              <PublicPartsNames>
+                <PublicName>JSON\JSON_REAL</PublicName>
+                <PublicName>JSON\JSON_LREAL</PublicName>
+                <PublicName>JSON\JSON_INT</PublicName>
+                <PublicName>JSON\JSON_DINT</PublicName>
+                <PublicName>JSON\JSON_UINT</PublicName>
+                <PublicName>JSON\JSON_ULINT</PublicName>
+                <PublicName>JSON\JSON_UDINT</PublicName>
+                <PublicName>JSON\JSON_STRING</PublicName>
+                <PublicName>JSON\JSON_BOOL</PublicName>
+                <PublicName>JSON\JSON_DATE</PublicName>
+                <PublicName>JSON\JSON_formatLREAL</PublicName>
+                <PublicName>JSON\JSON_formatREAL</PublicName>
+                <PublicName>JSON\JSONBuild</PublicName>
+                <PublicName>JSON\JSONObj</PublicName>
+                <PublicName>JSON\JSONCloseObj</PublicName>
+                <PublicName>JSON\JSONCloseList</PublicName>
+                <PublicName>JSON\JSONAdd</PublicName>
+                <PublicName>JSON\JSONList</PublicName>
+                <PublicName>JSON\JSONBuildArr</PublicName>
+                <PublicName>JSON\JSONBuffer</PublicName>
+              </PublicPartsNames>
+              <InternalPartsNames>
+                <InternalName>JSON\InsertVariable</InternalName>
+                <InternalName>JSON\FindReplace</InternalName>
+                <InternalName>JSON\JSONEncoder</InternalName>
+                <InternalName>JSON\JSONArr</InternalName>
+              </InternalPartsNames>
+              <BuildDevice>
+                <Category>Controller</Category>
+                <Family>Nex</Family>
+                <FullModel>NX1P2-1140DT1</FullModel>
+                <MajorVersion>1</MajorVersion>
+                <MinorVersion>18</MinorVersion>
+                <Revision>0</Revision>
+                <DisplayVersion>1.18</DisplayVersion>
+                <Packages>
+                  <Package Name="Motion" Version="1.18" />
+                </Packages>
+              </BuildDevice>
+              <DependencyId>8173faf6-9ba0-46aa-adad-c9097bc8c63f</DependencyId>
+              <IsSource>true</IsSource>
+              <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+              <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+              <LibraryFilePath>C:\Users\Andreas\Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_MQTT_Client_Library\JSON v0.56.slr</LibraryFilePath>
+              <LibraryFileRelativePath>Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_MQTT_Client_Library\JSON v0.56.slr</LibraryFileRelativePath>
+              <LibrarySourceControlRelativeFilePath>..\..\..\..\..\..\Users\Andreas\Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_MQTT_Client_Library\JSON v0.56.slr</LibrarySourceControlRelativeFilePath>
+              <AsOldVer>false</AsOldVer>
+              <SchemaVersion>3</SchemaVersion>
+              <Parameter1>false</Parameter1>
+            </LibraryModel>
+          </data>
+        </ReferredLibrary>
+        <ReferredLibrary>
+          <data>
+            <LibraryModel>
+              <Name>KM_Modbus</Name>
+              <NameSpace></NameSpace>
+              <Version>0.0.2</Version>
+              <Revision>1</Revision>
+              <LibraryId>5b70f5ad-9bf0-41fd-95f5-7bd499272441</LibraryId>
+              <Author>gomsan</Author>
+              <Company></Company>
+              <DateCreated>2018-03-16T15:10:10.6560664+02:00</DateCreated>
+              <DateModified>2018-03-23T11:05:51.3778882+02:00</DateModified>
+              <Comment></Comment>
+              <Password></Password>
+              <AttachedFiles />
+              <AttachedFilesRelativePaths />
+              <PublicPartsNames>
+                <PublicName>KM_ReadEnergy</PublicName>
+                <PublicName>KM\EnergyData</PublicName>
+                <PublicName>KM\GeneralData</PublicName>
+                <PublicName>KM\Measures</PublicName>
+                <PublicName>KM\MeasureUnits</PublicName>
+                <PublicName>KM\MeasureType</PublicName>
+              </PublicPartsNames>
+              <InternalPartsNames />
+              <BuildDevice>
+                <Category>Controller</Category>
+                <Family>Nex</Family>
+                <FullModel>NJ501-1300</FullModel>
+                <MajorVersion>1</MajorVersion>
+                <MinorVersion>16</MinorVersion>
+                <Revision>0</Revision>
+                <DisplayVersion>1.16</DisplayVersion>
+                <Packages>
+                  <Package Name="Motion" Version="1.16" />
+                </Packages>
+              </BuildDevice>
+              <DependencyId>e164cec6-c393-437a-bfc5-6753e0190f33</DependencyId>
+              <IsSource>true</IsSource>
+              <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+              <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+              <LibraryFilePath>C:\Users\Andreas\Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\KM_Power_Monitoring_Reading\KM_Modbus.slr</LibraryFilePath>
+              <LibraryFileRelativePath>Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\KM_Power_Monitoring_Reading\KM_Modbus.slr</LibraryFileRelativePath>
+              <LibrarySourceControlRelativeFilePath>..\..\..\..\..\..\Users\Andreas\Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\KM_Power_Monitoring_Reading\KM_Modbus.slr</LibrarySourceControlRelativeFilePath>
+              <AsOldVer>true</AsOldVer>
+              <SchemaVersion>1</SchemaVersion>
+              <Parameter1>false</Parameter1>
+            </LibraryModel>
+          </data>
+        </ReferredLibrary>
+      </ReferredLibraries>
+      <BuildOption>
+        <data>
+          <LibraryModel>
+            <Name>Home_Labb</Name>
+            <NameSpace></NameSpace>
+            <Version>1.0.0</Version>
+            <Revision>1</Revision>
+            <LibraryId>00000000-0000-0000-0000-000000000000</LibraryId>
+            <Author>Andreas</Author>
+            <Company></Company>
+            <DateCreated>2021-12-02T22:05:08.5993782+02:00</DateCreated>
+            <DateModified>2021-12-02T22:05:08.5993782+02:00</DateModified>
+            <Comment></Comment>
+            <Password></Password>
+            <AttachedFiles />
+            <AttachedFilesRelativePaths />
+            <PublicPartsNames />
+            <InternalPartsNames />
+            <BuildDevice>
+              <Category></Category>
+              <Family></Family>
+              <FullModel></FullModel>
+              <MajorVersion>0</MajorVersion>
+              <MinorVersion>0</MinorVersion>
+              <Revision>0</Revision>
+              <DisplayVersion></DisplayVersion>
+              <Packages />
+            </BuildDevice>
+            <DependencyId>00000000-0000-0000-0000-000000000000</DependencyId>
+            <IsSource>false</IsSource>
+            <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+            <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+            <LibraryFilePath></LibraryFilePath>
+            <LibraryFileRelativePath></LibraryFileRelativePath>
+            <LibrarySourceControlRelativeFilePath></LibrarySourceControlRelativeFilePath>
+            <AsOldVer>false</AsOldVer>
+            <SchemaVersion>0</SchemaVersion>
+            <Parameter1>false</Parameter1>
+          </LibraryModel>
+        </data>
+      </BuildOption>
+      <ExcludedParts />
+      <InternalParts />
+      <LibraryTrackingIdConversionTable>
+        <LibraryEntityTrackingId>00000000-0000-0000-0000-000000000000</LibraryEntityTrackingId>
+        <PartTrackingIds />
+      </LibraryTrackingIdConversionTable>
+      <AreLibrariesIncluded>true</AreLibrariesIncluded>
+      <IsLibraryIdsDifferenceNotified>false</IsLibraryIdsDifferenceNotified>
+    </ReferredLibrariesModel>
+  </data>
+</data>

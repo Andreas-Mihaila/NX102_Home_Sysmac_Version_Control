@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <data>
+    <LibraryModel>
+      <Name>ESC_ExtSysmacCIPServices</Name>
+      <NameSpace></NameSpace>
+      <Version>1.0.2</Version>
+      <Revision>1</Revision>
+      <LibraryId>bb56f9c5-4df7-43af-8e85-d72759a4173f</LibraryId>
+      <Author>maujor1</Author>
+      <Company></Company>
+      <DateCreated>2020-03-02T16:02:16.283596+02:00</DateCreated>
+      <DateModified>2021-10-06T11:24:59.3393689+03:00</DateModified>
+      <Comment></Comment>
+      <Password></Password>
+      <AttachedFiles />
+      <AttachedFilesRelativePaths />
+      <PublicPartsNames>
+        <PublicName>ESC\FB_EIP_MultipleTagRead</PublicName>
+        <PublicName>ESC\FB_EIP_MultipleTagWrite</PublicName>
+        <PublicName>ESC\FB_EIP_WriteTCPIPItf</PublicName>
+        <PublicName>ESC\FB_EIP_ReadTCPIPItf</PublicName>
+        <PublicName>ESC\FB_EIP_ReadVarNames</PublicName>
+        <PublicName>ESC\FB_EIP_GetEventLog</PublicName>
+        <PublicName>ESC\ST_TagProperties</PublicName>
+        <PublicName>ESC\ST_TagList</PublicName>
+        <PublicName>ESC\eCIPDataType</PublicName>
+        <PublicName>ESC\ST_VarData</PublicName>
+        <PublicName>ESC\eItfType</PublicName>
+        <PublicName>ESC\ST_TcpIpItf</PublicName>
+        <PublicName>ESC\ST_CIPTCPIP</PublicName>
+        <PublicName>ESC\eEventLevel</PublicName>
+        <PublicName>ESC\eEventSource</PublicName>
+        <PublicName>ESC\ST_Event</PublicName>
+        <PublicName>ESC\ST_EventLogOpt</PublicName>
+        <PublicName>ESC\ST_AvailableEventEntries</PublicName>
+      </PublicPartsNames>
+      <InternalPartsNames>
+        <InternalName>ESC\FC_RequestPathToBytes</InternalName>
+        <InternalName>ESC\FC_UdintIPToStringIP</InternalName>
+        <InternalName>ESC\FC_StringIPToUdintIP</InternalName>
+        <InternalName>ESC\FC_ComposeErrorIDEx</InternalName>
+        <InternalName>ESC\FC_CheckAccessWrData</InternalName>
+        <InternalName>ESC\ST_TestStruct</InternalName>
+        <InternalName>ESC\ST_TestStructMini</InternalName>
+        <InternalName>ESC\eEventCategory</InternalName>
+      </InternalPartsNames>
+      <BuildDevice>
+        <Category>Controller</Category>
+        <Family>Nex</Family>
+        <FullModel>NX102-1200</FullModel>
+        <MajorVersion>1</MajorVersion>
+        <MinorVersion>31</MinorVersion>
+        <Revision>0</Revision>
+        <DisplayVersion>1.31</DisplayVersion>
+        <Packages>
+          <Package Name="Motion" Version="1.31" />
+          <Package Name="OPCUA" Version="1.31" />
+        </Packages>
+      </BuildDevice>
+      <DependencyId>4297a98b-6793-457a-9db2-2fba5c565a70</DependencyId>
+      <IsSource>true</IsSource>
+      <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+      <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+      <LibraryFilePath>C:\Users\Andreas\Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_CIP_Services_Extended\ESC_ExtSysmacCIPServices_v1_0_2.slr</LibraryFilePath>
+      <LibraryFileRelativePath>Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_CIP_Services_Extended\ESC_ExtSysmacCIPServices_v1_0_2.slr</LibraryFileRelativePath>
+      <LibrarySourceControlRelativeFilePath></LibrarySourceControlRelativeFilePath>
+      <AsOldVer>false</AsOldVer>
+      <SchemaVersion>3</SchemaVersion>
+      <Parameter1>false</Parameter1>
+    </LibraryModel>
+  </data>
+</data>

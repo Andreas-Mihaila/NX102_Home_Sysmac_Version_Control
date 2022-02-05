@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest manifestSchemaVersion="1" modelSchemaVersion="1">
+  <Application applicationName="sysmac" applicationVersion="Infinity" />
+  <Solution solutionName="Home_Lab_NX102_1020" id="39e5614b-b617-4f52-9351-62525ea052a6" trackingId="2a0bbfbf-7037-4f9f-ba8b-0a3a4100f6d7" solutionSchemaVersion="2">
+    <ApplicationFeatures>
+      <ApplicationFeature name="V102Project" />
+      <ApplicationFeature name="DBCon V2.01" />
+      <ApplicationFeature name="SetUnit NX102-1020 Ver. 1.37" />
+      <ApplicationFeature name="NexLibraryInternalUsed" />
+      <ApplicationFeature name="SetUnit V1_11IncompatibleNXUnit Ver. 1.0" />
+      <ApplicationFeature name="TransferInfoAndBuildResultsEntitiesReduced" />
+    </ApplicationFeatures>
+  </Solution>
+</Manifest>

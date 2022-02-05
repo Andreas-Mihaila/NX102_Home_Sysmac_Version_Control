@@ -1,0 +1,45 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UINT	N=State	Ord=4	G=VAR
+++D=_sSERIAL_MODBUSRTU_READ	N=MB_ReadCmd	G=VAR
+++D=_sSERIAL_MODBUSRTU_OPTION	N=MB_ReadOption	G=VAR
+++D=BOOL	N=MB_Busy	G=VAR
+++D=TON	N=inst_MB_DelayBeforeRetryTimer	G=VAR
+++D=BOOL	N=ClearBuffers_Error	G=VAR
+++D=BOOL	N=MB_Execute	G=VAR
+++D=BOOL	N=MB_Error	G=VAR
+++D=NX_SerialBufClear	N=inst_ClearBuffers	G=VAR
+++D=BOOL	N=ClearBuffers_Busy	G=VAR
+++D=WORD	N=ClearBuffers_ErrorID	G=VAR
+++D=BOOL	N=MB_Done	G=VAR
+++D=NX_ModbusRtuRead	N=inst_MB_Read	G=VAR
+++D=ARRAY[0..49] OF WORD	N=MB_ReadData	G=VAR
+++D=BOOL	N=MB_Aborted	G=VAR
+++D=WORD	N=MB_ErrorID	G=VAR
+++D=DWORD	N=MB_ErrorIDEx	G=VAR
+++D=UINT	N=MB_ReadSize	G=VAR
+++D=BOOL	N=MB_OK_To_Execute	G=VAR
+++D=DWORD	N=tempDWORD	G=VAR
+++D=BOOL	N=MB_Reset_Execute	G=VAR
+++D=NX_ModbusRtuWrite	N=inst_MB_Write	G=VAR
+++D=_sSERIAL_MODBUSRTU_WRITE	N=MB_WriteCmd	G=VAR
+++D=WORD	N=MB_WriteData	G=VAR
+++D=BOOL	N=MB_Write_Done	G=VAR
+++D=BOOL	N=MB_Write_Busy	G=VAR
+++D=BOOL	N=MB_Write_Aborted	G=VAR
+++D=BOOL	N=MB_Write_Error	G=VAR
+++D=WORD	N=MB_Write_ErrorID	G=VAR
+++D=DWORD	N=MB_Write_ErrorIDEx	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Execute	Ord=0	G=VAR_INPUT
+++D=_sDEVICE_PORT	N=PortDetails	Ord=1	G=VAR_INPUT
+++D=UINT	N=SlaveAddress	Ord=2	G=VAR_INPUT
+++D=BOOL	N=Reset_ActiveEnergyValues	Ord=3	G=VAR_INPUT
+++D=lib_KMN2\s_KMN2	N=RcvDat	Ord=4	G=VAR_IN_OUT
+++D=BOOL	N=Active	Ord=5	G=VAR_OUTPUT	Com=TRUE when communications active
+++D=BOOL	N=Busy	Ord=6	G=VAR_OUTPUT	Com=TRUE when the instruction is acknowledged
+++D=BOOL	N=CycleComplete	Ord=7	G=VAR_OUTPUT	Com=TRUE for 1 cycle when all Modbus registers have been read/written
+++D=BOOL	N=Error	Ord=8	G=VAR_OUTPUT	Com=TRUE when Communications error
+++D=BOOL	N=Reset_ActiveEnergyValues_Done	Ord=9	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

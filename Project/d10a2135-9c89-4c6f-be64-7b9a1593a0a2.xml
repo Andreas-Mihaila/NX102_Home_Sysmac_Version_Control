@@ -1,0 +1,17 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=CTU_DINT	N=Counter_Blue	G=VAR
+++D=CTU_DINT	N=Counter_Green	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=EN_I	Ord=0	G=VAR_INPUT
+++D=BOOL	N=EN_Q	Ord=1	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=DINT	N=Production_Counter_Blue	G=VAR_EXTERNAL
+++D=DINT	N=Production_Counter_Green	G=VAR_EXTERNAL
+++D=DINT	N=Production_Counter_Overall	G=VAR_EXTERNAL
+++D=BOOL	N=IO_DI_Sensor_1	G=VAR_EXTERNAL
+++D=BOOL	N=IO_DI_Sensor_2	G=VAR_EXTERNAL
+++D=DINT	N=Vision_Sensor_1_DINT_Memory	G=VAR_EXTERNAL
+++D=DINT	N=Vision_Sensor_2_DINT_Memory	G=VAR_EXTERNAL
+++D=BOOL	N=IO_DI_Panel_Emergency_Stop	G=VAR_EXTERNAL

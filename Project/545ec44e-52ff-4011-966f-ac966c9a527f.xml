@@ -1,0 +1,11 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=EN_I	Ord=0	G=VAR_INPUT
+++D=BOOL	N=EN_Q	Ord=1	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=DINT	N=IO_AI_Vision_Sensor_1	G=VAR_EXTERNAL
+++D=DINT	N=IO_AI_Vision_Sensor_2	G=VAR_EXTERNAL
+++D=DINT	N=Vision_Sensor_1_DINT_Memory	G=VAR_EXTERNAL
+++D=DINT	N=Vision_Sensor_2_DINT_Memory	G=VAR_EXTERNAL

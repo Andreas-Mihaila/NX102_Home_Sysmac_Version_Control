@@ -1,0 +1,10 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=OPCUA_Shutdown	N=OPC_UA_Shutdown	G=VAR
+++D=BOOL	N=Shutdown_OPC_UA_Server	G=VAR
+++D=BOOL	N=OPC_Shutdone_Done	G=VAR
+++D=BOOL	N=TimeOK	G=VAR
+++D=DATE_AND_TIME	N=ActualTime	G=VAR
+++D=BOOL	N=GetNTPStatus_Bit	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

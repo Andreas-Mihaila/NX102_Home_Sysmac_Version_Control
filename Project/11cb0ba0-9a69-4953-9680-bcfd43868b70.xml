@@ -1,0 +1,24 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=DI_Start_Button	G=VAR
+++D=BOOL	N=DI_Stop_Button	G=VAR
+++D=BOOL	N=DI_Reset_Button	G=VAR
+++D=BOOL	N=DI_Emergency_Button	G=VAR
+++D=BOOL	N=DQ_Start_Light	G=VAR
+++D=BOOL	N=DQ_Reset_Light	G=VAR
+++D=BOOL	N=DQ_Stop_Light	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=EN_I	Ord=0	G=VAR_INPUT
+++D=BOOL	N=EN_Q	Ord=1	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=BOOL	N=IO_DI_Panel_Start	G=VAR_EXTERNAL
+++D=BOOL	N=IO_DI_Panel_Stop	G=VAR_EXTERNAL
+++D=BOOL	N=IO_DI_Panel_Reset	G=VAR_EXTERNAL
+++D=BOOL	N=IO_DI_Panel_Emergency_Stop	G=VAR_EXTERNAL
+++D=BOOL	N=IO_DI_Panel_Jog_Mode	G=VAR_EXTERNAL
+++D=BOOL	N=IO_DI_Panel_Manual_Mode	G=VAR_EXTERNAL
+++D=BOOL	N=IO_DI_Panel_Auto	G=VAR_EXTERNAL
+++D=BOOL	N=IO_DQ_Panel_Start_Light	G=VAR_EXTERNAL
+++D=BOOL	N=IO_DQ_Panel_Stop_Light	G=VAR_EXTERNAL
+++D=BOOL	N=IO_DQ_Panel_Reset_Light	G=VAR_EXTERNAL

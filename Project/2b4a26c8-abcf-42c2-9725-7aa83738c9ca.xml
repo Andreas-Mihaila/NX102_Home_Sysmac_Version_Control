@@ -1,0 +1,10 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=INV00x_Q2x\uWORD_BOOL_Q2x	N=tmp_Command	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=UINT	N=Command	Ord=0	G=VAR_IN_OUT	Com=Operation Command Index: 2000:01 (RW, UINT)$tInverter Command word
+++D=BOOL	N=Done	Ord=1	G=VAR_OUTPUT	Com=Function has ben reseted or 
+++D=BOOL	N=Execute	Ord=2	G=VAR_INPUT	Com=Execute external Fault Input (EF0)
+++D=BOOL	N=FaultReset	Ord=3	G=VAR_INPUT	Com=Reset external Fault Input (EF0)
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

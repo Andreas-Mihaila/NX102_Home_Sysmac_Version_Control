@@ -1,0 +1,11 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=EN	Ord=0	RO=1	G=VAR_INPUT
+++D=BYTE	N=crc	Ord=1	G=VAR_INPUT
+++D=BYTE	N=In	Ord=2	G=VAR_INPUT
+++D=ARRAY[0..255] OF BYTE	N=CRC8Table	Ord=3	Const=1	G=VAR_IN_OUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
++GN=RETURN	GA=Return	GVT=ReturnGroup
+++D=BYTE	N=CRC8_ROHC_Byte	G=RETURN

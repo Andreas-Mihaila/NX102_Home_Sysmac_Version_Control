@@ -1,0 +1,12 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UINT	N=StartingAddress	G=VAR
+++D=INT	N=i	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=EN	Ord=0	RO=1	G=VAR_INPUT
+++D=ARRAY[0..16200] OF BYTE	N=ConfigData	Ord=1	G=VAR_IN_OUT
+++D=ARRAY[1..125] OF BOOL	N=MountingSetting	Ord=2	G=VAR_INPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
++GN=RETURN	GA=Return	GVT=ReturnGroup
+++D=BOOL	N=EEF_NXBus_ModifyMountingSettingOfflineConfiguration	G=RETURN

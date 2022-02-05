@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <data>
+    <LibraryModel>
+      <Name>JSONEncoding v0.56</Name>
+      <NameSpace></NameSpace>
+      <Version>0.0.56</Version>
+      <Revision>1</Revision>
+      <LibraryId>918d7b21-6d6c-4cc2-8a12-9c406c386cc2</LibraryId>
+      <Author>SGG</Author>
+      <Company>OMRON ATCE</Company>
+      <DateCreated>2016-09-19T15:42:18.866015+03:00</DateCreated>
+      <DateModified>2019-03-08T12:53:54.0526439+02:00</DateModified>
+      <Comment>Uses as output Byte Array</Comment>
+      <Password></Password>
+      <AttachedFiles />
+      <AttachedFilesRelativePaths />
+      <PublicPartsNames>
+        <PublicName>JSON\JSON_REAL</PublicName>
+        <PublicName>JSON\JSON_LREAL</PublicName>
+        <PublicName>JSON\JSON_INT</PublicName>
+        <PublicName>JSON\JSON_DINT</PublicName>
+        <PublicName>JSON\JSON_UINT</PublicName>
+        <PublicName>JSON\JSON_ULINT</PublicName>
+        <PublicName>JSON\JSON_UDINT</PublicName>
+        <PublicName>JSON\JSON_STRING</PublicName>
+        <PublicName>JSON\JSON_BOOL</PublicName>
+        <PublicName>JSON\JSON_DATE</PublicName>
+        <PublicName>JSON\JSON_formatLREAL</PublicName>
+        <PublicName>JSON\JSON_formatREAL</PublicName>
+        <PublicName>JSON\JSONBuild</PublicName>
+        <PublicName>JSON\JSONObj</PublicName>
+        <PublicName>JSON\JSONCloseObj</PublicName>
+        <PublicName>JSON\JSONCloseList</PublicName>
+        <PublicName>JSON\JSONAdd</PublicName>
+        <PublicName>JSON\JSONList</PublicName>
+        <PublicName>JSON\JSONBuildArr</PublicName>
+        <PublicName>JSON\JSONBuffer</PublicName>
+      </PublicPartsNames>
+      <InternalPartsNames>
+        <InternalName>JSON\InsertVariable</InternalName>
+        <InternalName>JSON\FindReplace</InternalName>
+        <InternalName>JSON\JSONEncoder</InternalName>
+        <InternalName>JSON\JSONArr</InternalName>
+      </InternalPartsNames>
+      <BuildDevice>
+        <Category>Controller</Category>
+        <Family>Nex</Family>
+        <FullModel>NX1P2-1140DT1</FullModel>
+        <MajorVersion>1</MajorVersion>
+        <MinorVersion>18</MinorVersion>
+        <Revision>0</Revision>
+        <DisplayVersion>1.18</DisplayVersion>
+        <Packages>
+          <Package Name="Motion" Version="1.18" />
+        </Packages>
+      </BuildDevice>
+      <DependencyId>8173faf6-9ba0-46aa-adad-c9097bc8c63f</DependencyId>
+      <IsSource>true</IsSource>
+      <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+      <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+      <LibraryFilePath>C:\Users\Andreas\Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_MQTT_Client_Library\JSON v0.56.slr</LibraryFilePath>
+      <LibraryFileRelativePath>Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_MQTT_Client_Library\JSON v0.56.slr</LibraryFileRelativePath>
+      <LibrarySourceControlRelativeFilePath>..\..\..\..\..\..\Users\Andreas\Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_MQTT_Client_Library\JSON v0.56.slr</LibrarySourceControlRelativeFilePath>
+      <AsOldVer>false</AsOldVer>
+      <SchemaVersion>3</SchemaVersion>
+      <Parameter1>false</Parameter1>
+    </LibraryModel>
+  </data>
+</data>

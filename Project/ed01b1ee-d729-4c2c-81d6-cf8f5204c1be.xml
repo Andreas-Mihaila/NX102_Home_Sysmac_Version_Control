@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <data>
+    <LibraryModel>
+      <Name>OneS_FB_v1.02</Name>
+      <NameSpace></NameSpace>
+      <Version>1.0.2</Version>
+      <Revision>1</Revision>
+      <LibraryId>20b3d2e8-6231-4bfd-bdd4-225ebd7cd319</LibraryId>
+      <Author></Author>
+      <Company>Omron</Company>
+      <DateCreated>2012-07-02T18:03:12.4682575+03:00</DateCreated>
+      <DateModified>2017-11-27T17:46:38.8644552+02:00</DateModified>
+      <Comment>1S  FB's
+</Comment>
+      <Password></Password>
+      <AttachedFiles>
+        <AttachedFile>D:\Daten\Projects\NJ\Librarys\OneS_FB\1S_FB_V1_02.pdf</AttachedFile>
+      </AttachedFiles>
+      <AttachedFilesRelativePaths />
+      <PublicPartsNames>
+        <PublicName>OMR_CH_PP_Pos\MC_Restart1S</PublicName>
+        <PublicName>OMR_CH_PP_Pos\MC_MotorReplacement1S</PublicName>
+        <PublicName>OMR_CH_PP_Pos\Get1sInfo</PublicName>
+        <PublicName>OMR_CH_PP_Pos\MC_BrakeRelease</PublicName>
+        <PublicName>OMR_CH_PP_Pos\sInfo1S</PublicName>
+        <PublicName>OMR_CH_PP_Pos\sDrive1S</PublicName>
+        <PublicName>OMR_CH_PP_Pos\sLifeTimeInfo1S</PublicName>
+        <PublicName>OMR_CH_PP_Pos\sEncoder1S</PublicName>
+        <PublicName>OMR_CH_PP_Pos\sMotor1S</PublicName>
+        <PublicName>OMR_CH_PP_Pos\sWarnings1S</PublicName>
+      </PublicPartsNames>
+      <InternalPartsNames />
+      <BuildDevice>
+        <Category>Controller</Category>
+        <Family>Nex</Family>
+        <FullModel>NJ501-1500</FullModel>
+        <MajorVersion>1</MajorVersion>
+        <MinorVersion>11</MinorVersion>
+        <Revision>0</Revision>
+        <DisplayVersion>1.11</DisplayVersion>
+        <Packages>
+          <Package Name="Motion" Version="1.11" />
+        </Packages>
+      </BuildDevice>
+      <DependencyId>642b675a-ab7d-4f41-a42f-5e87ce02b313</DependencyId>
+      <IsSource>true</IsSource>
+      <IsDisableSourceDisplay>false</IsDisableSourceDisplay>
+      <IsIncludeReferredLibraries>true</IsIncludeReferredLibraries>
+      <LibraryFilePath>C:\Users\Andreas\Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_1S_Servo_Drive_Libraries\OneS_FB_v1.02.slr</LibraryFilePath>
+      <LibraryFileRelativePath>Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_1S_Servo_Drive_Libraries\OneS_FB_v1.02.slr</LibraryFileRelativePath>
+      <LibrarySourceControlRelativeFilePath></LibrarySourceControlRelativeFilePath>
+      <AsOldVer>true</AsOldVer>
+      <SchemaVersion>1</SchemaVersion>
+      <Parameter1>false</Parameter1>
+    </LibraryModel>
+  </data>
+</data>

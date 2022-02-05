@@ -1,0 +1,33 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=MQTT\MQTTClient	N=MQTT_Client_Broker_Mosquitto_Connection	G=VAR
+++D=MQTT\MQTTPing	N=MQTT_Client_Broker_Mosquitto_Connection_Ping	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=BOOL	N=_EIP1_EtnOnlineSta	Const=1	G=VAR_EXTERNAL
+++D=STRING[256]	N=Connection_Broker_IP	G=VAR_EXTERNAL
+++D=UINT	N=Connection_Broker_Port	G=VAR_EXTERNAL
+++D=STRING[128]	N=Connection_Client_ID	G=VAR_EXTERNAL
+++D=UINT	N=Connection_Keep_Alive	G=VAR_EXTERNAL
+++D=BOOL	N=Connection_Clean_Session	G=VAR_EXTERNAL
+++D=MQTT\WillCnfg	N=Connection_Will_Configuration	G=VAR_EXTERNAL
+++D=MQTT\Login	N=Connection_User_Login	G=VAR_EXTERNAL
+++D=MQTT\ClientBuffer	N=MQTT_Data_Buffer	G=VAR_EXTERNAL
+++D=BOOL	N=Connection_Client_Broker_Mosquitto_Established	G=VAR_EXTERNAL
+++D=_sSOCKET	N=Connection_Client_Broker_Mosquitto_Socket_ID	G=VAR_EXTERNAL
+++D=BOOL	N=Connection_Client_Broker_Mosquitto_Error	G=VAR_EXTERNAL
+++D=WORD	N=Connection_Client_Broker_Mosquitto_Error_ID	G=VAR_EXTERNAL
+++D=DWORD	N=Connection_Client_Broker_Mosquitto_Error_Index	G=VAR_EXTERNAL
+++D=BOOL	N=Connection_Client_Broker_Mosquitto_Busy	G=VAR_EXTERNAL
+++D=BOOL	N=Client_Broker_Mosquitto_Connection_Execute	G=VAR_EXTERNAL
+++D=UINT	N=Connection_Client_Broker_Mosquitto_Response	G=VAR_EXTERNAL
+++D=BOOL	N=Connection_Client_Broker_Mosquitto_Er	G=VAR_EXTERNAL
+++D=UINT	N=Connection_Client_Broker_Mosquitto_Ping_Time_Out	G=VAR_EXTERNAL
+++D=UINT	N=Connection_Client_Broker_Mosquitto_Ping_Time	G=VAR_EXTERNAL
+++D=DWORD	N=Connection_Client_Broker_Mosquitto_Ping_Error_Index	G=VAR_EXTERNAL
+++D=WORD	N=Connection_Client_Broker_Mosquitto_Ping_Error_ID	G=VAR_EXTERNAL
+++D=BOOL	N=Connection_Client_Broker_Mosquitto_Ping_Error	G=VAR_EXTERNAL
+++D=BOOL	N=Connection_Client_Broker_Mosquitto_Ping_Response	G=VAR_EXTERNAL
+++D=BOOL	N=Connection_Client_Broker_Mosquitto_Ping_Busy	G=VAR_EXTERNAL
+++D=BOOL	N=Connection_Client_Broker_Mosquitto_Subscribed_To_Topic	G=VAR_EXTERNAL
+++D=UINT	N=Connection_Client_Broker_Mosquitto_Ping_RQ_RSP_Time_Milliseconds	G=VAR_EXTERNAL

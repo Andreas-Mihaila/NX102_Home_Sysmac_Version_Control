@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <data>
+    <LibraryModel>
+      <Name>1SDatatraceLibrary_V1</Name>
+      <NameSpace></NameSpace>
+      <Version>1.0.0</Version>
+      <Revision>1</Revision>
+      <LibraryId>6f901c3f-37cc-4df5-88c3-0a25f9a3b9a2</LibraryId>
+      <Author>ruicar</Author>
+      <Company>Omron - ATC-E</Company>
+      <DateCreated>2020-11-12T13:17:41.0722268+02:00</DateCreated>
+      <DateModified>2020-11-20T14:15:52.2819811+02:00</DateModified>
+      <Comment></Comment>
+      <Password></Password>
+      <AttachedFiles />
+      <AttachedFilesRelativePaths />
+      <PublicPartsNames>
+        <PublicName>ATC_E\Tools1S\DataTrace1S_V1</PublicName>
+        <PublicName>ATC_E\Tools1S\Trigger</PublicName>
+        <PublicName>ATC_E\Tools1S\TriggerSettings</PublicName>
+        <PublicName>ATC_E\Tools1S\DataTraceSetup1S</PublicName>
+      </PublicPartsNames>
+      <InternalPartsNames />
+      <BuildDevice>
+        <Category>Controller</Category>
+        <Family>Nex</Family>
+        <FullModel>NJ501-1320</FullModel>
+        <MajorVersion>1</MajorVersion>
+        <MinorVersion>23</MinorVersion>
+        <Revision>0</Revision>
+        <DisplayVersion>1.23</DisplayVersion>
+        <Packages>
+          <Package Name="DBCon" Version="2.0" />
+          <Package Name="Motion" Version="1.23" />
+          <Package Name="jre8" Version="8.3" />
+        </Packages>
+      </BuildDevice>
+      <DependencyId>562e8271-1fc8-4eb0-995a-ce01508b5150</DependencyId>
+      <IsSource>true</IsSource>
+      <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+      <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+      <LibraryFilePath>C:\Users\Andreas\Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_1S_Servo_Drive_Datatrace\1SDatatraceLibrary_V1.slr</LibraryFilePath>
+      <LibraryFileRelativePath>Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_1S_Servo_Drive_Datatrace\1SDatatraceLibrary_V1.slr</LibraryFileRelativePath>
+      <LibrarySourceControlRelativeFilePath></LibrarySourceControlRelativeFilePath>
+      <AsOldVer>true</AsOldVer>
+      <SchemaVersion>1</SchemaVersion>
+      <Parameter1>false</Parameter1>
+    </LibraryModel>
+  </data>
+</data>

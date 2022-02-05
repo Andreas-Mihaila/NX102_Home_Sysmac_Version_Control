@@ -1,0 +1,67 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UINT	N=StepNo	G=VAR
+++D=STRING[500]	N=SetNodeStateDownloading	IV='GET /cgi-bin/ecat.fcgi HTTP/1.1$$R$$LAuthorization: Digest username=$$"NewSysmate$$",realm=$$"CPU-Unit Interface$$",nonce=$$"9a1bec5f904de6eebe7d993ee7b5c432$$",uri=$$"/cgi-bin/ecat.fcgi$$",cnonce=$$"bdfc3112aee17ce404e9d8394f108bb2$$",nc=0000013e,qop=$$"auth$$",response=$$"e463343ee1a733ee8e8a02b25997c805$$"$$R$$LHost: 127.0.0.1$$R$$LContent-Length '	Const=1	G=VAR
+++D=ARRAY[0..999] OF BYTE	N=HTTParsedRequestAry	G=VAR
+++D=SktTCPSend	N=HttpSendPostCommand	G=VAR
+++D=SktTCPRcv	N=HttpReceivePostCommand	G=VAR
+++D=INT	N=HTTParsedRequestLen	G=VAR
+++D=UINT	N=InternalAddress	G=VAR
+++D=ARRAY[0..2047] OF BYTE	N=NXRCommand	G=VAR
+++D=ARRAY[0..2047] OF BYTE	N=NXResponse	G=VAR
+++D=EthercatExtendedFunctions\PrivateParts\EEF_NASCommandOverHTTP	N=SendNASCommand	G=VAR
+++D=EthercatExtendedFunctions\PrivateParts\EEF_GetMTUSizeOverHTTP	N=GetMTUSize	G=VAR
+++D=UINT	N=MTUSize	G=VAR
+++D=UINT	N=ParameterLength	G=VAR
+++D=UINT	N=CurrentStartOffset	G=VAR
+++D=UINT	N=MaxSizeDueToCanOpenAndMTUSize	G=VAR
+++D=BOOL	N=PreviousExecute	G=VAR
+++D=UINT	N=CurrentSize	G=VAR
+++D=WORD	N=iErrorID	G=VAR
+++D=UINT	N=ParameterLength2	G=VAR
+++D=EthercatExtendedFunctions\eEEF_DEVICE_TYPE	N=InternalDeviceType	G=VAR
+++D=_sSOCKET	N=SocketData	G=VAR
+++D=SktTCPConnect	N=Open_Socket	G=VAR
+++D=SktClose	N=Close_Socket	G=VAR
+++D=SktClearBuf	N=Clear_Buffer	G=VAR
+++D=SktGetTCPStatus	N=GetTCPStatus	G=VAR
+++D=INT	N=NXRCommandSize	G=VAR
+++D=STRING[256]	N=RoutePath	G=VAR
+++D=_sREQUEST_PATH	N=GetIP_Path	G=VAR
+++D=UDINT	N=Blank	G=VAR
+++D=EthercatExtendedFunctions\PrivateParts\struct_IP_Settings	N=Read_IPSettings	G=VAR
+++D=CIPUCMMSend	N=Read_IPAddress	G=VAR
+++D=ARRAY[0..3] OF STRING[20]	N=Byte_String	G=VAR
+++D=STRING[256]	N=String_Temp	G=VAR
+++D=STRING[256]	N=IP_Address	G=VAR
+++D=EthercatExtendedFunctions\eEEF_PRODUCT_TYPE	N=InternalProductType	G=VAR
+++D=_sREQUEST_PATH	N=ProductCode_Path	G=VAR
+++D=STRING[256]	N=ProductCodeData	G=VAR
+++D=CIPUCMMSend	N=Read_ProductCode	G=VAR
+++D=STRING[256]	N=FirstTwoChar	G=VAR
+++D=BOOL	N=IsNX1P2	G=VAR
+++D=USINT	N=NumberOfUnits	G=VAR
+++D=USINT	N=CurrentUnit	G=VAR
+++D=ARRAY[0..1999] OF BYTE	N=GetResponse	G=VAR
+++D=INT	N=PositionOffsetINT	G=VAR
+++D=UINT	N=InternalPosition	G=VAR
+++D=STRING[5]	N=StringPositionOffset	G=VAR
+++D=STRING[50]	N=Command	G=VAR
+++D=UINT	N=CommandSize	G=VAR
+++D=STRING[500]	N=HTTParsedRequest	G=VAR
+++D=STRING[500]	N=SetNodeStateBaseCommand	IV='POST /cgi-bin/ecat.fcgi HTTP/1.1$$R$$LAuthorization: Digest username=$$"NewSysmate$$",realm=$$"CPU-Unit Interface$$",nonce=$$"00fc942b9ed1a880f093891dda7c7145$$",uri=$$"/cgi-bin/ecat.fcgi$$",cnonce=$$"0919d9146de16fbaf420f7882035b8e8$$",nc=000001c1,qop=$$"auth$$",response=$$"fcf08db6957fc996f9072564de305fb2$$"$$R$$LHost: 127.0.0.1$$R$$LContent-Length: '	Const=1	G=VAR
+++D=ARRAY[0..499] OF BYTE	N=SetNodeStateReceive	G=VAR
+++D=INT	N=DataStart	G=VAR
+++D=INT	N=i	G=VAR
+++D=STRING[5]	N=StringInternalAddress	G=VAR
+++D=TON	N=WaitTime	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Execute	Ord=0	G=VAR_INPUT
+++D=BOOL	N=Done	Ord=1	G=VAR_OUTPUT	Com=Process Completed Properly
+++D=BOOL	N=Busy	Ord=2	G=VAR_OUTPUT	Com=Process is running
+++D=BOOL	N=Error	Ord=3	G=VAR_OUTPUT	Com=Process finished with errors.
+++D=WORD	N=ErrorID	Ord=4	G=VAR_OUTPUT	Com=Error Code
+++D=UINT	N=NXCouplerEthercatAddress	Ord=5	G=VAR_INPUT	Com=Ethercat Slave Address
+++D=ARRAY[0..16200] OF BYTE	N=ConfigData	Ord=6	G=VAR_IN_OUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

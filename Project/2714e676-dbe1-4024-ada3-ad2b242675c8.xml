@@ -1,0 +1,22 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UINT	N=uiStage	G=VAR
+++D=UINT	N=uiSize	G=VAR
+++D=BOOL	N=bInit	G=VAR
+++D=UINT	N=uiMaxBufferSize	IV=65535	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Execute	Ord=0	G=VAR_INPUT
+++D=STRING[128]	N=ClientID	Ord=1	G=VAR_INPUT
+++D=MQTT\Login	N=UserLogin	Ord=2	G=VAR_INPUT
+++D=MQTT\WillCnfg	N=WillConfig	Ord=3	G=VAR_INPUT
+++D=BOOL	N=CleanSession	Ord=4	G=VAR_INPUT
+++D=UINT	N=KeepAlive	Ord=5	G=VAR_INPUT
+++D=MQTT\ClientBuffer	N=Buffer	Ord=6	G=VAR_IN_OUT
+++D=BOOL	N=Done	Ord=7	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=8	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=9	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=10	G=VAR_OUTPUT
+++D=DWORD	N=ErrorIDEx	Ord=11	G=VAR_OUTPUT
+++D=UINT	N=Size	Ord=12	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

@@ -1,0 +1,14 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=DWORD	N=dwAppID	G=VAR
+++D=DWORD	N=dwInstaceID	G=VAR
+++D=DWORD	N=dwErrorIDEx	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=EN	Ord=0	RO=1	G=VAR_INPUT
+++D=BYTE	N=i_byAppID	Ord=1	G=VAR_INPUT	Com=Application ID
+++D=BYTE	N=i_byInstanceNr	Ord=2	G=VAR_INPUT	Com=Instance number of the FB that triggered the error
+++D=WORD	N=i_wExtErrorID	Ord=3	G=VAR_INPUT	Com=Detailed error diag info
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
++GN=RETURN	GA=Return	GVT=ReturnGroup
+++D=DWORD	N=FC_ComposeErrorIDEx	G=RETURN

@@ -1,0 +1,52 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UINT	N=StepNo	G=VAR
+++D=UINT	N=InternalAddress	G=VAR
+++D=ARRAY[0..2047] OF BYTE	N=NXRCommand	G=VAR
+++D=ARRAY[0..2047] OF BYTE	N=NXResponse	G=VAR
+++D=EthercatExtendedFunctions\PrivateParts\EEF_NASCommandOverHTTP	N=SendNASCommand	G=VAR
+++D=EthercatExtendedFunctions\PrivateParts\EEF_GetMTUSizeOverHTTP	N=GetMTUSize	G=VAR
+++D=ARRAY[0..6535] OF BYTE	N=DataRead	G=VAR
+++D=UINT	N=MTUSize	G=VAR
+++D=UINT	N=ParameterLength	G=VAR
+++D=UINT	N=CurrentStartOffset	G=VAR
+++D=EthercatExtendedFunctions\PrivateParts\BusMasterManagementInfo	N=BusMasterManagementInfovar	G=VAR
+++D=ARRAY[0..124] OF EthercatExtendedFunctions\PrivateParts\LinkInfo	N=LinkInfovar	G=VAR
+++D=INT	N=i	G=VAR
+++D=INT	N=StartingAddress	G=VAR
+++D=UINT	N=MaxSizeDueToCanOpenAndMTUSize	G=VAR
+++D=BOOL	N=PreviousExecute	G=VAR
+++D=UINT	N=CurrentSize	G=VAR
+++D=WORD	N=iErrorID	G=VAR
+++D=_sSOCKET	N=SocketData	G=VAR
+++D=SktTCPConnect	N=Open_Socket	G=VAR
+++D=SktClearBuf	N=Clear_Buffer	G=VAR
+++D=SktGetTCPStatus	N=GetTCPStatus	G=VAR
+++D=EthercatExtendedFunctions\eEEF_DEVICE_TYPE	N=InternalDeviceType	G=VAR
+++D=INT	N=NXRCommandSize	G=VAR
+++D=SktClose	N=Close_Socket	G=VAR
+++D=STRING[256]	N=RoutePath	G=VAR
+++D=_sREQUEST_PATH	N=GetIP_Path	G=VAR
+++D=UDINT	N=Blank	G=VAR
+++D=EthercatExtendedFunctions\PrivateParts\struct_IP_Settings	N=Read_IPSettings	G=VAR
+++D=CIPUCMMSend	N=Read_IPAddress	G=VAR
+++D=ARRAY[0..3] OF STRING[20]	N=Byte_String	G=VAR
+++D=STRING[256]	N=String_Temp	G=VAR
+++D=STRING[256]	N=IP_Address	G=VAR
+++D=EthercatExtendedFunctions\eEEF_PRODUCT_TYPE	N=InternalProductType	G=VAR
+++D=_sREQUEST_PATH	N=ProductCode_Path	G=VAR
+++D=STRING[256]	N=ProductCodeData	G=VAR
+++D=CIPUCMMSend	N=Read_ProductCode	G=VAR
+++D=STRING[256]	N=FirstTwoChar	G=VAR
+++D=BOOL	N=IsNX1P2	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Execute	Ord=0	G=VAR_INPUT
+++D=BOOL	N=Done	Ord=1	G=VAR_OUTPUT	Com=Process Completed Properly
+++D=BOOL	N=Busy	Ord=2	G=VAR_OUTPUT	Com=Process is running
+++D=BOOL	N=Error	Ord=3	G=VAR_OUTPUT	Com=Process finished with errors.
+++D=WORD	N=ErrorID	Ord=4	G=VAR_OUTPUT	Com=Error Code
+++D=UINT	N=NXCouplerEthercatAddress	Ord=5	G=VAR_INPUT	Com=Ethercat Slave Address
+++D=ARRAY[1..125] OF EthercatExtendedFunctions\UnitConfig	N=UnitConfiguration	Ord=6	G=VAR_IN_OUT
+++D=USINT	N=NumOfUnits	Ord=7	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

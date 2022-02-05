@@ -1,0 +1,36 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=DINT	N=lx	G=VAR
+++D=INT	N=StepNumber	G=VAR
+++D=R_TRIG	N=R_TRIGExe	G=VAR
+++D=DINT	N=LowerBoundBuffer	G=VAR
+++D=DINT	N=LowerBoundData	G=VAR
+++D=DINT	N=UpperBoundBuffer	G=VAR
+++D=DINT	N=UpperBoundData	G=VAR
+++D=BOOL	N=iError	G=VAR
+++D=WORD	N=iErrorID	G=VAR
+++D=DINT	N=EndIndexBuffer	G=VAR
+++D=BYTE	N=chx	G=VAR
+++D=DINT	N=k	G=VAR
+++D=DINT	N=i	G=VAR
+++D=DINT	N=iPosition	G=VAR
+++D=BOOL	N=NotMatched	G=VAR
+++D=BOOL	N=Matched	G=VAR
+++D=UINT	N=iProcessedCharByCycle	G=VAR
+++D=UINT	N=index	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Execute	Ord=0	G=VAR_INPUT
+++D=ARRAY[*] OF BYTE	N=Buffer	Ord=1	G=VAR_IN_OUT
+++D=DINT	N=StartPos	Ord=2	G=VAR_INPUT
+++D=UINT	N=Length	Ord=3	G=VAR_INPUT
+++D=ARRAY[*] OF BYTE	N=Data	Ord=4	G=VAR_IN_OUT
+++D=UINT	N=DataLength	Ord=5	G=VAR_INPUT
+++D=BOOL	N=MatchCase	Ord=6	G=VAR_INPUT
+++D=UINT	N=ProcessedCharByCycle	Ord=7	G=VAR_INPUT
+++D=BOOL	N=Done	Ord=8	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=9	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=10	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=11	G=VAR_OUTPUT
+++D=DINT	N=Position	Ord=12	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

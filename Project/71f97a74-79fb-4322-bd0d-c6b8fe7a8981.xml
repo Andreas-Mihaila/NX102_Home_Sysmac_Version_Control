@@ -1,0 +1,31 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UINT	N=uiConState	G=VAR
+++D=MQTT\ServerConnect	N=fb_srvConnect	G=VAR
+++D=MQTT\MQTTConnect	N=fb_mqCONNECT	G=VAR
+++D=MQTT\MQTTSend	N=fb_clSEND	G=VAR
+++D=MQTT\MQTTrcv	N=fb_clRCV	G=VAR
+++D=MQTT\MQTTDisconnect	N=fb_clDisconnect	G=VAR
+++D=BOOL	N=bConnect	G=VAR
+++D=BOOL	N=bInit	G=VAR
+++D=BOOL	N=bDisconnect	G=VAR
+++D=BOOL	N=bSrvConnect	G=VAR
+++D=TON	N=tmr	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Enable	Ord=0	G=VAR_INPUT
+++D=STRING[256]	N=Host	Ord=1	G=VAR_INPUT
+++D=UINT	N=ServerPort	IV=1883	Ord=2	G=VAR_INPUT
+++D=STRING[64]	N=ClientID	Ord=3	G=VAR_INPUT
+++D=UINT	N=KeepAlive	IV=60	Ord=4	G=VAR_INPUT
+++D=BOOL	N=CleanSession	IV=True	Ord=5	G=VAR_INPUT
+++D=MQTT\WillCnfg	N=WillConfig	Ord=6	G=VAR_INPUT
+++D=MQTT\Login	N=UserLogin	Ord=7	G=VAR_INPUT
+++D=BOOL	N=Connected	Ord=8	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=9	G=VAR_OUTPUT
+++D=_sSOCKET	N=SocketID	Ord=10	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=11	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=12	G=VAR_OUTPUT
+++D=DWORD	N=ErrorIDEx	Ord=13	G=VAR_OUTPUT
+++D=MQTT\ClientBuffer	N=BufferIn	Ord=14	G=VAR_IN_OUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

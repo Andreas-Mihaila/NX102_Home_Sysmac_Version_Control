@@ -1,0 +1,28 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=bReceive	G=VAR
+++D=UINT	N=uiRcvSize	G=VAR
+++D=BYTE	N=byOPCode	G=VAR
+++D=UINT	N=uiSktRcv	IV=101	G=VAR
+++D=USINT	N=usiRetry	G=VAR
+++D=UINT	N=uiSkip	G=VAR
+++D=BOOL	N=bClear	G=VAR
+++D=INT	N=aaa	G=VAR
+++D=MQTT\ReadMqttMessage	N=fbReadMQTTMessage	G=VAR
+++D=BOOL	N=bReadBufferEnabled	G=VAR
+++D=ARRAY[0..65534] OF BYTE	N=arrData	G=VAR
+++D=BYTE	N=byReturnCode	G=VAR
+++D=MQTT\eControlPacket	N=xxx	G=VAR
+++D=MQTT\eControlPacket	N=enuCtrlPacket	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Enable	Ord=0	G=VAR_INPUT
+++D=_sSOCKET	N=SocketID	Ord=1	G=VAR_INPUT
+++D=BOOL	N=Done	Ord=2	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=3	G=VAR_OUTPUT
+++D=UINT	N=PacketID	Ord=4	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=5	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=6	G=VAR_OUTPUT
+++D=DWORD	N=ErrorIDEx	Ord=7	G=VAR_OUTPUT
+++D=MQTT\ClientBuffer	N=Buffer	Ord=8	G=VAR_IN_OUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

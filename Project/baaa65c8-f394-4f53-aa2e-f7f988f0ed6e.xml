@@ -1,0 +1,14 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=STRING[256]	N=strValue	G=VAR
+++D=STRING[256]	N=strDate	G=VAR
+++D=STRING[256]	N=strTime	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=EN	Ord=0	RO=1	G=VAR_INPUT
+++D=STRING[32]	N=VariableName	Ord=1	G=VAR_INPUT
+++D=DATE_AND_TIME	N=VariableValue	Ord=2	G=VAR_INPUT
+++D=JSON\JSONBuffer	N=Buffer	Ord=3	G=VAR_IN_OUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
++GN=RETURN	GA=Return	GVT=ReturnGroup
+++D=BOOL	N=JSON_DATE	G=RETURN

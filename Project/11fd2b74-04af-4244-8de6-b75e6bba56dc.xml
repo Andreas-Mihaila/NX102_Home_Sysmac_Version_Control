@@ -1,0 +1,18 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=INV00x_Q2x\uWORD_BOOL_Q2x	N=tmp_Command	G=VAR
+++D=INV00x_Q2x\uWORD_BOOL_Q2x	N=tmp_Status	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=UINT	N=Command	Ord=0	G=VAR_IN_OUT	Com=Operation Command Index: 2000:01 (RW, UINT)$tInverter Command word
+++D=UINT	N=FrequencyReference	Ord=1	G=VAR_IN_OUT	Com=Speed Reference/Limit Index: 2010:01 (RW; UINT)$tSpecify the frequency in increments of 0.01 Hz 
+++D=UINT	N=OutputFrequencyMonitor	Ord=2	G=VAR_IN_OUT	Com=Drive status Index: 2100:01 (RO; UINT)$tDisplays the output frequency in increments of 0.01 Hz 
+++D=UINT	N=Status	Ord=3	G=VAR_IN_OUT	Com=Output frequency Index: 2110:01 (RO; UINT)$tInverter Status word
+++D=BOOL	N=Active	Ord=4	G=VAR_OUTPUT	Com=The FB is Active
+++D=INV00x_Q2x\sDriveStatus	N=DriveStatus	Ord=5	G=VAR_OUTPUT	Com=Structure of the Drive Status	EC=<ECs><EC EK="DuringRun" C=" 1: During Run 0: During Stop" /><EC EK="DuringZeroSpeed" C=" 1: During Zero Speed" /><EC EK="ReverseRunning" C=" 1: During Reverse Running 0: During Forward Running" /><EC EK="DuringFaultResetSignalInput" C=" 1: During Fault Reset Signal Input" /><EC EK="DuringSpeedAgree" C=" 1: During Speed Agree" /><EC EK="DuringDriveReady" C=" 1: During Drive Ready 0: Not Ready" /><EC EK="DuringAlarm" C=" 1: During Alarm" /><EC EK="DuringFault" C=" 1: During Fault" /><EC EK="DuringOperationError" C=" 1: During Operation Error" /><EC EK="DuringMomentaryPowerLoss" C=" 1: During Momentary Power Loss 0: During Power Loss" /><EC EK="NetCtrlStatus" C=" 1: NetCtrl" /><EC EK="DigitalOutput1Status" C=" (function set in drive parameter H2-01) 1: ON 0: OFF" /><EC EK="DigitalOutput2Status" C=" (function set in drive parameter H2-02) 1: ON 0: OFF" /><EC EK="DigitalOutput3Status" C=" (function set in drive parameter H2-03) 1: ON 0: OFF" /><EC EK="Motor2Selected" C=" 1: Motor 2 Selected (not available for D1000 and R1000)" /><EC EK="ZeroServoEnd" C=" 1: Zero-Servo End (not available for D1000 and R1000)" /></ECs>
+++D=BOOL	N=Frequency0HzWarning	Ord=6	G=VAR_OUTPUT	Com=0: No warning, 1: Warning if the Frequency reference is bellow 0Hz 
+++D=BOOL	N=Enable	Ord=7	G=VAR_INPUT	Com=Enables the Functionblock$tEnable the Functionblock
+++D=BOOL	N=Fwd	Ord=8	G=VAR_INPUT	Com=H5-12 = 0: Forward Run Command = 0: Stop, 1: Forward run / H5-12 = 1: Run Command = 0: Stop, 1: Run$t0: Stop, 1: Forward command
+++D=BOOL	N=Rev	Ord=9	G=VAR_INPUT	Com=H5-12 = 0: Reverse Run Command = 0: Stop, 1: Reverse run / H5-12 = 1: Forward/Reverse = 0: Forward, 1: Reverse$t0: Stop, 1: Reverse command
+++D=BOOL	N=FaultReset	Ord=10	G=VAR_INPUT	Com=1: Fault reset$tResets an error or trip for the unit
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

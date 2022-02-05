@@ -1,0 +1,21 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=EC_CoESDORead	N=ReadSDO	G=VAR
+++D=BOOL	N=RdExecute	G=VAR
+++D=INT	N=Stage	G=VAR
+++D=BOOL	N=Init	G=VAR
+++D=DINT	N=AuxData	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Execute	Ord=0	G=VAR_INPUT
+++D=UINT	N=NodeAddress	Ord=1	G=VAR_INPUT
+++D=UINT	N=ItemNbr	IV=0	Ord=2	G=VAR_INPUT
+++D=UINT	N=Timeout	IV=0	Ord=3	G=VAR_INPUT
+++D=BOOL	N=Done	Ord=4	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=5	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=6	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=7	G=VAR_OUTPUT
+++D=DWORD	N=AbortCode	Ord=8	G=VAR_OUTPUT
+++D=UINT	N=Index	Ord=9	G=VAR_OUTPUT
+++D=ARRAY[0..199] OF SDOUtils\SDOData	N=Data	Ord=10	G=VAR_IN_OUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

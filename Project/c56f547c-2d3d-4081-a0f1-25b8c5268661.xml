@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <data>
+    <LibraryModel>
+      <Name>MQTT 0.46b</Name>
+      <NameSpace></NameSpace>
+      <Version>0.0.46</Version>
+      <Revision>1</Revision>
+      <LibraryId>c926d3e2-7b1f-4e7c-afe3-070e2c19fcbc</LibraryId>
+      <Author>gomsan</Author>
+      <Company></Company>
+      <DateCreated>2019-02-20T19:14:45.9284109+02:00</DateCreated>
+      <DateModified>2021-05-25T18:49:00.7676154+03:00</DateModified>
+      <Comment></Comment>
+      <Password></Password>
+      <AttachedFiles />
+      <AttachedFilesRelativePaths />
+      <PublicPartsNames>
+        <PublicName>MQTT\MQTTClient</PublicName>
+        <PublicName>MQTT\MQTTSubscribe</PublicName>
+        <PublicName>MQTT\MQTTPing</PublicName>
+        <PublicName>MQTT\MQTTPublish</PublicName>
+        <PublicName>MQTT\MQTTPublishArr</PublicName>
+        <PublicName>MQTT\MQTTSubscribeArr</PublicName>
+        <PublicName>MQTT\WillCnfg</PublicName>
+        <PublicName>MQTT\Login</PublicName>
+        <PublicName>MQTT\eControlPacket</PublicName>
+        <PublicName>MQTT\ClientRcv</PublicName>
+        <PublicName>MQTT\Status</PublicName>
+        <PublicName>MQTT\Settings</PublicName>
+        <PublicName>MQTT\ClientBuffer</PublicName>
+      </PublicPartsNames>
+      <InternalPartsNames>
+        <InternalName>MQTT\PktConnect_old</InternalName>
+        <InternalName>MQTT\mqGetPublishData_old</InternalName>
+        <InternalName>MQTT\mqGetPublishData_old2</InternalName>
+        <InternalName>MQTT\PktPublish</InternalName>
+        <InternalName>MQTT\PktPublishArr</InternalName>
+        <InternalName>MQTT\getOverallQoS</InternalName>
+        <InternalName>MQTT\PktPubComp</InternalName>
+        <InternalName>MQTT\PktPubRec</InternalName>
+        <InternalName>MQTT\PktPubRel</InternalName>
+        <InternalName>MQTT\PktPubAck</InternalName>
+        <InternalName>MQTT\getQoS_old</InternalName>
+        <InternalName>MQTT\PktUnsubscribe</InternalName>
+        <InternalName>MQTT\PktDisconnect</InternalName>
+        <InternalName>MQTT\PktPublishArr_old</InternalName>
+        <InternalName>MQTT\PktPingReq</InternalName>
+        <InternalName>MQTT\mqGetMessage</InternalName>
+        <InternalName>MQTT\PktSubscribe</InternalName>
+        <InternalName>MQTT\getPubPacketID</InternalName>
+        <InternalName>MQTT\RLDecode</InternalName>
+        <InternalName>MQTT\mqCode</InternalName>
+        <InternalName>MQTT\PktMultSubscribe</InternalName>
+        <InternalName>MQTT\PktPublish_old</InternalName>
+        <InternalName>MQTT\PubFlagEncode</InternalName>
+        <InternalName>MQTT\BOOL_TO_BYTE</InternalName>
+        <InternalName>MQTT\ConnectionFlagEncode</InternalName>
+        <InternalName>MQTT\RLEncode</InternalName>
+        <InternalName>MQTT\mqGetPointer</InternalName>
+        <InternalName>MQTT\mqGetPacketID</InternalName>
+        <InternalName>MQTT\getQoS</InternalName>
+        <InternalName>MQTT\mqGetPublishData</InternalName>
+        <InternalName>MQTT\mqTopicCmp</InternalName>
+        <InternalName>MQTT\mqRingToMem</InternalName>
+        <InternalName>MQTT\mqMemToRing</InternalName>
+        <InternalName>MQTT\PktConnect</InternalName>
+        <InternalName>MQTT\ReadMqttMessage_old</InternalName>
+        <InternalName>MQTT\MQTTSubscribe_old</InternalName>
+        <InternalName>MQTT\MQTTClient_old</InternalName>
+        <InternalName>MQTT\MQTTConnect_old</InternalName>
+        <InternalName>MQTT\ServerConnect</InternalName>
+        <InternalName>MQTT\MQTTSend</InternalName>
+        <InternalName>MQTT\MQTTConnect</InternalName>
+        <InternalName>MQTT\MQTTDisconnect</InternalName>
+        <InternalName>MQTT\RcvSocketStack</InternalName>
+        <InternalName>MQTT\MQTTrcv</InternalName>
+        <InternalName>MQTT\ReadMqttMessage</InternalName>
+        <InternalName>MQTT\flags</InternalName>
+        <InternalName>MQTT\pubFlags</InternalName>
+        <InternalName>MQTT\SubsTopics</InternalName>
+        <InternalName>MQTT\eSubscribeMode</InternalName>
+      </InternalPartsNames>
+      <BuildDevice>
+        <Category>Controller</Category>
+        <Family>Nex</Family>
+        <FullModel>NX102-1000</FullModel>
+        <MajorVersion>1</MajorVersion>
+        <MinorVersion>43</MinorVersion>
+        <Revision>0</Revision>
+        <DisplayVersion>1.43</DisplayVersion>
+        <Packages>
+          <Package Name="Motion" Version="1.43" />
+          <Package Name="OPCUA" Version="1.43" />
+        </Packages>
+      </BuildDevice>
+      <DependencyId>20f92fc3-40ae-498d-9eb7-ad71ab667bd4</DependencyId>
+      <IsSource>true</IsSource>
+      <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+      <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+      <LibraryFilePath>C:\Users\Andreas\Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_MQTT_Client_Library\MQTT 0.46b.slr</LibraryFilePath>
+      <LibraryFileRelativePath>Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\FB_MQTT_Client_Library\MQTT 0.46b.slr</LibraryFileRelativePath>
+      <LibrarySourceControlRelativeFilePath></LibrarySourceControlRelativeFilePath>
+      <AsOldVer>false</AsOldVer>
+      <SchemaVersion>3</SchemaVersion>
+      <Parameter1>false</Parameter1>
+    </LibraryModel>
+  </data>
+</data>

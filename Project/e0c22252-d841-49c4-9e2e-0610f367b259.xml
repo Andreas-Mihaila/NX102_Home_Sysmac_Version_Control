@@ -1,0 +1,68 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UINT	N=index	G=VAR
+++D=UINT	N=index2	G=VAR
+++D=UINT	N=stop	G=VAR
+++D=BYTE	N=c	G=VAR
+++D=UINT	N=s1	G=VAR
+++D=UINT	N=e1	G=VAR
+++D=BOOL	N=path_overflow	G=VAR
+++D=BOOL	N=empty_tag	G=VAR
+++D=STRING[10]	N=s_code	G=VAR
+++D=STRING[10]	N=e_code	G=VAR
+++D=UINT	N=n	G=VAR
+++D=BOOL	N=Element_Found	G=VAR
+++D=BOOL	N=ElementWithAttributesFound	G=VAR
+++D=BOOL	N=TagEndFound	G=VAR
+++D=BOOL	N=ElementWithAttributesFoundEnd	G=VAR
+++D=BOOL	N=TagEndFoundEnd	G=VAR
+++D=BOOL	N=TagExamination	G=VAR
+++D=BOOL	N=TagExaminationEnd	G=VAR
+++D=EthercatExtendedFunctions\ElementInfo	N=iElementInfo	G=VAR
+++D=BOOL	N=End200Processing	G=VAR
+++D=BOOL	N=End300Processing	G=VAR
+++D=BOOL	N=FirstNormalCharacterFound	G=VAR
+++D=BOOL	N=AttributeNameStartSearchExecution	G=VAR
+++D=BOOL	N=AttributeNameEndSearchExecution	G=VAR
+++D=BOOL	N=AttributeNameEndSearchFound	G=VAR
+++D=BOOL	N=AttributeValueStartSearchExecution	G=VAR
+++D=BOOL	N=AttributeValueEndSearchExecution	G=VAR
+++D=BOOL	N=AttributeValueEndSearchFound	G=VAR
+++D=BOOL	N=NextElementStartPostionSearchExecution	G=VAR
+++D=BOOL	N=NextElementEndPostionSearchExecution	G=VAR
+++D=BOOL	N=AnyDTDFound	G=VAR
+++D=BOOL	N=BlockStartSearch	G=VAR
+++D=BOOL	N=CDATAorCommentSearch	G=VAR
+++D=EEF_BufferSearch	N=BufferSearch	G=VAR
+++D=ARRAY[0..10] OF BYTE	N=ar_code	G=VAR
+++D=BOOL	N=SearchingEndIdentifier	G=VAR
+++D=BOOL	N=SearchingEndTag	G=VAR
+++D=ARRAY[0..10] OF BYTE	N=e_code_arr	G=VAR
+++D=INT	N=e_code_length	G=VAR
+++D=BOOL	N=ExtractingContent	G=VAR
+++D=INT	N=mode	G=VAR
+++D=R_TRIG	N=TriggerExecute	G=VAR
+++D=INT	N=iState	G=VAR
+++D=WORD	N=iErrorID	G=VAR
+++D=BOOL	N=iEOF	G=VAR
+++D=INT	N=Nextmode	G=VAR
+++D=UINT	N=iBytesProcessedByCycle	G=VAR
+++D=BOOL	N=SearchingNextPrintableText	G=VAR
+++D=BOOL	N=ExitLoop	G=VAR
+++D=BOOL	N=Ini500Variables	G=VAR
+++D=BOOL	N=CDATAorCommentSearch2	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Execute	Ord=0	G=VAR_INPUT
+++D=EthercatExtendedFunctions\eEEF_XML_READER_OPTIONS	N=Options	Ord=1	G=VAR_INPUT
+++D=UINT	N=StartPosition	Ord=2	G=VAR_INPUT
+++D=UINT	N=EndPosition	Ord=3	G=VAR_INPUT
+++D=UINT	N=BytesProcessedByCycle	Ord=4	G=VAR_INPUT
+++D=BOOL	N=Done	Ord=5	G=VAR_OUTPUT
+++D=BOOL	N=EOF	Ord=6	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=7	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=8	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=9	G=VAR_OUTPUT
+++D=ARRAY[*] OF BYTE	N=XML_Buffer	Ord=10	G=VAR_IN_OUT
+++D=EthercatExtendedFunctions\ElementInfo	N=Element_Info	Ord=11	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

@@ -1,0 +1,15 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=array[0..3] of byte	N=abyAux	G=VAR
+++D=STRING[256]	N=sAux	G=VAR
+++D=UINT	N=uiDotPos	G=VAR
+++D=UINT	N=uiIter	G=VAR
+++D=UDINT	N=udiResult	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=EN	Ord=0	RO=1	G=VAR_INPUT
+++D=BOOL	N=ENO	Ord=1	RO=1	G=VAR_OUTPUT
+++D=string[16]	N=i_sIP	Ord=2	G=VAR_INPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
++GN=RETURN	GA=Return	GVT=ReturnGroup
+++D=UDINT	N=FC_StringIPToUdintIP	G=RETURN

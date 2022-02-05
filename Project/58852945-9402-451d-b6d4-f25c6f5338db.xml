@@ -1,0 +1,20 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=EN_I	Ord=0	G=VAR_INPUT
+++D=BOOL	N=EN_Q	Ord=1	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=BOOL	N=Status_Machine_Error	G=VAR_EXTERNAL
+++D=BOOL	N=IO_DI_Panel_Emergency_Stop	G=VAR_EXTERNAL
+++D=BOOL	N=IO_DI_Sensor_1	G=VAR_EXTERNAL
+++D=BOOL	N=IO_DI_Sensor_2	G=VAR_EXTERNAL
+++D=BOOL	N=IO_DQ_Panel_Reset_Light	G=VAR_EXTERNAL
+++D=BOOL	N=IO_DI_Panel_Start	G=VAR_EXTERNAL
+++D=BOOL	N=IO_DI_Panel_Auto	G=VAR_EXTERNAL
+++D=BOOL	N=Status_Machine_Auto_Mode	G=VAR_EXTERNAL
+++D=BOOL	N=Status_Machine_Ready	G=VAR_EXTERNAL
+++D=BOOL	N=IO_DI_Panel_Manual_Mode	G=VAR_EXTERNAL
+++D=BOOL	N=IO_DI_Panel_Jog_Mode	G=VAR_EXTERNAL
+++D=BOOL	N=Status_Machine_Manual_Mode	G=VAR_EXTERNAL
+++D=BOOL	N=Status_Machine_Jog_Permissive	G=VAR_EXTERNAL
