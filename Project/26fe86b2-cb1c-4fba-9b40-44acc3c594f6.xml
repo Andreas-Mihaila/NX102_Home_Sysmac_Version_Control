@@ -188,3 +188,14 @@ _EN=Variables
 ++D=UINT	N=KM_50_Phase_1_Maximum_Active_Power_Measurement_Word_UINT	G=VAR_GLOBAL
 ++D=REAL	N=KM_50_Phase_1_Maximum_Active_Power_Measurement_Word_REAL	G=VAR_GLOBAL
 ++D=REAL	N=KM_50_Phase_1_Maximum_Active_Power_Measurement_Word_REAL_kW	G=VAR_GLOBAL
+++D=BOOL	N=Modbus_RTU_KM_2_Busy	G=VAR_GLOBAL
+++D=BOOL	N=Modbus_RTU_KM_2_Command_Aborted	G=VAR_GLOBAL
+++D=BOOL	N=Modbus_RTU_KM_2_Error	G=VAR_GLOBAL
+++D=WORD	N=Modbus_RTU_KM_2_Error_ID	G=VAR_GLOBAL
+++D=DWORD	N=Modbus_RTU_KM_2_Error_Index	G=VAR_GLOBAL
+++D=UINT	N=Modbus_RTU_KM_2_Read_Data_Size	G=VAR_GLOBAL
+++D=ARRAY[0..19] OF WORD	N=Modbus_RTU_Read_Data_2	G=VAR_GLOBAL
+++D=_sSERIAL_MODBUSRTU_READ	N=Modbus_RTU_KM_Read_2_Command	G=VAR_GLOBAL
+++D=WORD	N=KM_50_Phase_1_Total_Power_Consumption_Measurement_Word	G=VAR_GLOBAL
+++D=REAL	N=KM_50_Phase_1_Total_Power_Consumption_Measurement_Word_REAL	G=VAR_GLOBAL
+++D=REAL	N=KM_50_Phase_1_Maximum_Active_Power_Measurement_Word_REAL_kWH	G=VAR_GLOBAL
