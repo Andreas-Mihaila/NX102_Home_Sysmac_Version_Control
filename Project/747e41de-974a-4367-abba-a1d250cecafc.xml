@@ -4,6 +4,7 @@ _EN=Variables
 ++D=NX_ModbusRtuRead	N=KM_Modbus_RTU_Reading_Instance	G=VAR
 ++D=NX_ModbusRtuCmd	N=Modbus_CMD_Instance	G=VAR
 ++D=NX_ModbusRtuRead	N=KM_Modbus_RTU_Reading_2_Instance	G=VAR
+++D=NX_ModbusRtuRead	N=KM_Modbus_RTU_Reading_3_Instance	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=BOOL	N=Execute_KM_Reading	G=VAR_EXTERNAL
 ++D=UINT	N=Modbus_RTU_KM_Slave_Address	G=VAR_EXTERNAL
@@ -56,3 +57,19 @@ _EN=Variables
 ++D=WORD	N=KM_50_Phase_1_Total_Power_Consumption_Measurement_Word	G=VAR_EXTERNAL
 ++D=REAL	N=KM_50_Phase_1_Total_Power_Consumption_Measurement_Word_REAL	G=VAR_EXTERNAL
 ++D=REAL	N=KM_50_Phase_1_Maximum_Active_Power_Measurement_Word_REAL_kWH	G=VAR_EXTERNAL
+++D=WORD	N=KM_50_Phase_1_Reactive_Power_Measurement_Word	G=VAR_EXTERNAL
+++D=INT	N=KM_50_Phase_1_Total_Power_Consumption_Measurement_Word_INT	G=VAR_EXTERNAL
+++D=LREAL	N=KM_50_Phase_1_Total_Power_Consumption_Measurement_INT_REAL	G=VAR_EXTERNAL
+++D=REAL	N=KM_50_Phase_1_Total_Power_Consumption_Measurement_INT_REAL_kVar	G=VAR_EXTERNAL
+++D=WORD	N=KM_50_Version_Word	G=VAR_EXTERNAL
+++D=REAL	N=KM_50_Version_Word_REAL	G=VAR_EXTERNAL
+++D=UINT	N=Modbus_RTU_KM_3_Read_Data_Size	G=VAR_EXTERNAL
+++D=DWORD	N=Modbus_RTU_KM_3_Error_Index	G=VAR_EXTERNAL
+++D=WORD	N=Modbus_RTU_KM_3_Error_ID	G=VAR_EXTERNAL
+++D=BOOL	N=Modbus_RTU_KM_3_Error	G=VAR_EXTERNAL
+++D=BOOL	N=Modbus_RTU_KM_3_Command_Aborted	G=VAR_EXTERNAL
+++D=BOOL	N=Modbus_RTU_KM_3_Busy	G=VAR_EXTERNAL
+++D=ARRAY[0..19] OF WORD	N=Modbus_RTU_Read_Data_3	G=VAR_EXTERNAL
+++D=_sSERIAL_MODBUSRTU_READ	N=Modbus_RTU_KM_Read_3_Command	G=VAR_EXTERNAL
+++D=LREAL	N=KM_50_Phase_1_Total_Power_Consumption_Measurement_INT_LREAL	G=VAR_EXTERNAL
+++D=LREAL	N=KM_50_Phase_1_Total_Power_Consumption_Measurement_INT_LREAL_kVar	G=VAR_EXTERNAL
