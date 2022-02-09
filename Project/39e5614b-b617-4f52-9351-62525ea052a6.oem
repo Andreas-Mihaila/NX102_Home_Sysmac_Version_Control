@@ -657,7 +657,7 @@
                         <AccessInfos />
                         <ChildEntities />
                       </Entity>
-                      <Entity type="Variables" subtype="Ladder" id="747e41de-974a-4367-abba-a1d250cecafc" name="Variables" version="0" dateCreated="02/01/2022 20:40:28" dateLastModified="02/09/2022 07:52:54" trackingId="dba35ca2-9a45-4398-82f0-2652a6c455dd" hash="1ca1ed132f4fbad004d7925dd9116840">
+                      <Entity type="Variables" subtype="Ladder" id="747e41de-974a-4367-abba-a1d250cecafc" name="Variables" version="0" dateCreated="02/01/2022 20:40:28" dateLastModified="02/09/2022 21:42:50" trackingId="dba35ca2-9a45-4398-82f0-2652a6c455dd" hash="edf336b9c57dc024d07754aa7126a78c">
                         <AccessInfos />
                         <ChildEntities>
                           <Entity type="SourceHolder" subtype="" id="d4120679-848b-44dc-a81c-e939dd2c74cd" name="Source" version="0" dateCreated="02/01/2022 20:40:28" trackingId="eff8e571-212e-4a55-bfba-b7b6afa89e57">
@@ -687,7 +687,7 @@
                           </Entity>
                         </ChildEntities>
                       </Entity>
-                      <Entity type="PouBody" subtype="Ladder" id="0f173243-430d-47e5-be7b-24019445fb77" name="Modbus_RTU_Communication_Parameters_Logic" version="0" dateCreated="02/09/2022 07:50:41" dateLastModified="02/09/2022 07:52:54" trackingId="d5cb8063-9f0e-4b04-8c0b-75e1859acb72" DN="Modbus_RTU_Communication_Parameters_Logic" hash="ecaa88f7fa0bf610a5a26cf545dcd3aa">
+                      <Entity type="PouBody" subtype="Ladder" id="0f173243-430d-47e5-be7b-24019445fb77" name="Modbus_RTU_Communication_Parameters_Logic" version="0" dateCreated="02/09/2022 07:50:41" dateLastModified="02/09/2022 21:42:50" trackingId="d5cb8063-9f0e-4b04-8c0b-75e1859acb72" DN="Modbus_RTU_Communication_Parameters_Logic" hash="ec65591dd47d5e3c439f42de64b5c752">
                         <AccessInfos />
                         <ChildEntities>
                           <Entity type="SourceHolder" subtype="" id="e655d8e6-121d-49a9-b287-f43b22b4b608" name="Source" version="0" dateCreated="02/09/2022 07:50:41" trackingId="b0fe2832-d718-4515-a4ba-dd7b9377e8c1">
@@ -695,6 +695,10 @@
                             <ChildEntities />
                           </Entity>
                           <Entity type="PouBodySourceHolder" subtype="" id="8cb4f91e-d888-4538-b9be-140071401de1" name="PouBodySourceHolder" version="0" dateCreated="02/09/2022 07:50:41" trackingId="05068ca1-0f3a-414c-ade1-6136c20cc0c8">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="79fcc2c0-d57b-4828-b1d5-d6df6ebf1a70" name="fa941068-2422-469e-ad24-11f3bc3afee6" version="0" dateCreated="02/09/2022 21:02:54" dateLastModified="02/09/2022 21:42:50" trackingId="fa941068-2422-469e-ad24-11f3bc3afee6">
                             <AccessInfos />
                             <ChildEntities />
                           </Entity>
@@ -948,7 +952,7 @@
                 <AccessInfos />
                 <ChildEntities />
               </Entity>
-              <Entity type="Variables" subtype="Global" id="26fe86b2-cb1c-4fba-9b40-44acc3c594f6" name="Global Variables" version="0" dateCreated="12/02/2021 22:05:08" dateLastModified="02/09/2022 07:52:54" trackingId="b42cf2c4-5484-4f70-9ea1-6249241c59c2" DN="Global Variables" hash="dcd4b1e28e652e473d28039ecb6757cd">
+              <Entity type="Variables" subtype="Global" id="26fe86b2-cb1c-4fba-9b40-44acc3c594f6" name="Global Variables" version="0" dateCreated="12/02/2021 22:05:08" dateLastModified="02/09/2022 21:42:50" trackingId="b42cf2c4-5484-4f70-9ea1-6249241c59c2" DN="Global Variables" hash="3a23440c25484e32a557172b34800399">
                 <AccessInfos />
                 <ChildEntities>
                   <Entity type="SourceHolder" subtype="" id="721a62b3-3fc8-4dd0-a6ba-12639515fe17" name="Source" version="0" dateCreated="12/02/2021 22:05:08" trackingId="9c39133a-9023-4446-91be-e5adabecb7bc">

@@ -104,3 +104,15 @@ _EN=Variables
 ++D=WORD	N=KM_50_Modbus_Vertical_Parity_Transmission_Word	G=VAR_EXTERNAL
 ++D=WORD	N=KM_50_Modbus_Transmission_Wait_Time_Word	G=VAR_EXTERNAL
 ++D=USINT	N=KM_50_Modbus_Transmission_Wait_Time_Word_USINT	G=VAR_EXTERNAL
+++D=STRING[256]	N=KM_50_Modbus_Slave_Address_String	G=VAR_EXTERNAL
+++D=STRING[256]	N=KM_50_Slave_Number	G=VAR_EXTERNAL
+++D=STRING[256]	N=Baudrate_String_Value	G=VAR_EXTERNAL
+++D=STRING[256]	N=KM_50_Modbus_Baud_Rate_String	G=VAR_EXTERNAL
+++D=STRING[256]	N=Data_Length_Bits_String_Value	G=VAR_EXTERNAL
+++D=STRING[256]	N=KM_50_Modbus_Transmission_Data_Length_String	G=VAR_EXTERNAL
+++D=STRING[256]	N=Data_Stop_Bits_String_Value	G=VAR_EXTERNAL
+++D=STRING[256]	N=KM_50_Modbus_Transmission_Stop_Bits_String	G=VAR_EXTERNAL
+++D=STRING[256]	N=Vertical_Parity_String_Value	G=VAR_EXTERNAL
+++D=STRING[256]	N=KM_50_Modbus_Transmission_Vertical_Parity_String	G=VAR_EXTERNAL
+++D=STRING[256]	N=KM_50_Modbus_Transmission_Wait_Time_String	G=VAR_EXTERNAL
+++D=STRING[256]	N=KM_50_Modbus_Transmission_Wait_Time_Value_String	G=VAR_EXTERNAL
