@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Servo>
+  <IODeviceID>4ae20ecf-cf02-4683-a33e-8cf740f4bc0a</IODeviceID>
+  <SlaveData>
+    <VendorId>131</VendorId>
+    <ProductCode>8</ProductCode>
+    <Revision>131073</Revision>
+    <TypeName>R88D-KN08H-ECT</TypeName>
+    <DeviceName>E002</DeviceName>
+    <Family>R88D-KN</Family>
+    <Model>R88D-KN08H-ECT</Model>
+    <Firmware>2.1x</Firmware>
+    <IODeviceID>4ae20ecf-cf02-4683-a33e-8cf740f4bc0a</IODeviceID>
+    <Address Value="2" />
+  </SlaveData>
+</Servo>

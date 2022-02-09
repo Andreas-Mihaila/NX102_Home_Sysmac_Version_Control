@@ -234,3 +234,15 @@ _EN=Variables
 ++D=DWORD	N=Modbus_RTU_KM_4_Error_Index	G=VAR_GLOBAL
 ++D=UINT	N=Modbus_RTU_KM_4_Read_Data_Size	G=VAR_GLOBAL
 ++D=_sSERIAL_MODBUSRTU_READ	N=Modbus_RTU_KM_Read_4_Command	G=VAR_GLOBAL
+++D=WORD	N=KM_50_Modbus_Slave_Number_Word	G=VAR_GLOBAL
+++D=USINT	N=KM_50_Modbus_Slave_Number_Word_USINT	G=VAR_GLOBAL
+++D=WORD	N=KM_50_Modbus_Baud_Rate_Transmission_Word	G=VAR_GLOBAL
+++D=USINT	N=KM_50_Modbus_Baud_Rate_Transmission_Word_USINT	G=VAR_GLOBAL
+++D=WORD	N=KM_50_Modbus_Data_Length_Transmission_Word	G=VAR_GLOBAL
+++D=USINT	N=KM_50_Modbus_Data_Length_Transmission_Word_USINT	G=VAR_GLOBAL
+++D=WORD	N=KM_50_Modbus_Stop_Bits_Transmission_Word	G=VAR_GLOBAL
+++D=USINT	N=KM_50_Modbus_Stop_Bits_Transmission_Word_USINT	G=VAR_GLOBAL
+++D=USINT	N=KM_50_Modbus_Vertical_Parity_Transmission_Word_USINT	G=VAR_GLOBAL
+++D=WORD	N=KM_50_Modbus_Vertical_Parity_Transmission_Word	G=VAR_GLOBAL
+++D=WORD	N=KM_50_Modbus_Transmission_Wait_Time_Word	G=VAR_GLOBAL
+++D=USINT	N=KM_50_Modbus_Transmission_Wait_Time_Word_USINT	G=VAR_GLOBAL
