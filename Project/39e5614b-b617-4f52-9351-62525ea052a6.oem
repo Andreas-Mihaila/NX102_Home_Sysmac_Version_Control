@@ -31,7 +31,7 @@
         <AccessInfos />
         <ChildEntities />
       </Entity>
-      <Entity type="Device" subtype="NJ501" id="65d82a2c-025b-401c-ab41-23e2a86812ac" name="NX102_Home" version="0" dateCreated="12/02/2021 22:05:08" dateLastModified="01/25/2022 20:17:35" trackingId="ff04095f-5080-46d0-a920-d2c67956b84b" DN="new_Controller_0" hash="8dc4b6cdaab18aad6b990c965fd0e361" DHS="20ac39e8c1ed6553857ae5b7279eb3fa" TH="ad227c239e4605daed50a5f07aa07d69">
+      <Entity type="Device" subtype="NJ501" id="65d82a2c-025b-401c-ab41-23e2a86812ac" name="NX102_Home" version="0" dateCreated="12/02/2021 22:05:08" dateLastModified="01/25/2022 20:17:35" trackingId="ff04095f-5080-46d0-a920-d2c67956b84b" DN="new_Controller_0" hash="8dc4b6cdaab18aad6b990c965fd0e361" DHS="7dee1d4ff3d26faf497df7a9beadba0a" TH="4f4171f324c5ffba0e5f1719dfa201b1">
         <AccessInfos />
         <ChildEntities>
           <Entity type="Watch" subtype="" id="9d9c7aa8-4eba-4859-acd2-dea24059dbe8" name="Watch" version="0" dateCreated="12/02/2021 22:05:08" trackingId="66850999-2544-4af8-9d9e-63fe9031d9c8">
@@ -42,7 +42,7 @@
             <AccessInfos />
             <ChildEntities />
           </Entity>
-          <Entity type="NexEcatConfiguration" subtype="EcatConfigurationSubstance" id="457312e6-1823-4ec1-bb88-ee398a53e175" name="EtherCAT" version="0" dateCreated="12/02/2021 22:05:08" dateLastModified="02/09/2022 07:31:56" trackingId="752f018b-650e-4d6e-9dea-240fc43434ef" DN="EtherCAT Network Configuration and Unit Operation Settings" SDName="EtherCAT Configuration" hash="873ddce971c91626e8465feeb155f88f">
+          <Entity type="NexEcatConfiguration" subtype="EcatConfigurationSubstance" id="457312e6-1823-4ec1-bb88-ee398a53e175" name="EtherCAT" version="0" dateCreated="12/02/2021 22:05:08" dateLastModified="02/14/2022 07:08:37" trackingId="752f018b-650e-4d6e-9dea-240fc43434ef" DN="EtherCAT Network Configuration and Unit Operation Settings" SDName="EtherCAT Configuration" hash="dca1eaefbaa105146fcdae2d67102cfd">
             <AccessInfos />
             <ChildEntities />
           </Entity>
@@ -111,10 +111,10 @@
                         <AccessInfos />
                         <ChildEntities />
                       </Entity>
-                      <Entity type="Group" subtype="Parameters" id="027ffe98-a66f-4d85-aba6-bc751ad864a1" name="Parameters" version="0" dateCreated="02/09/2022 07:30:57" dateLastModified="02/09/2022 07:31:56" trackingId="45a5ae92-4c51-4c2d-9202-451f16b56adf" DN="Parameters" hash="b55a56f16d87dbec51e9bcce2cff5ccf">
+                      <Entity type="Group" subtype="Parameters" id="027ffe98-a66f-4d85-aba6-bc751ad864a1" name="Parameters" version="0" dateCreated="02/09/2022 07:30:57" dateLastModified="02/14/2022 07:24:42" trackingId="45a5ae92-4c51-4c2d-9202-451f16b56adf" DN="Parameters" hash="7883fd0179a79c96e07d0c3e1e8eebab">
                         <AccessInfos />
                         <ChildEntities>
-                          <Entity type="Parameters" subtype="ParametersSettings" id="371709e2-ed5b-4d40-8fcd-18371a56e2a8" name="Parameters" version="0" dateCreated="02/09/2022 07:30:57" dateLastModified="02/09/2022 07:30:57" trackingId="63cb6e45-40aa-4876-8120-7f77dab030d1">
+                          <Entity type="Parameters" subtype="ParametersSettings" id="371709e2-ed5b-4d40-8fcd-18371a56e2a8" name="Parameters" version="0" dateCreated="02/09/2022 07:30:57" dateLastModified="02/14/2022 07:24:42" trackingId="63cb6e45-40aa-4876-8120-7f77dab030d1">
                             <AccessInfos />
                             <ChildEntities />
                           </Entity>
@@ -181,11 +181,57 @@
                         <AccessInfos />
                         <ChildEntities />
                       </Entity>
-                      <Entity type="Group" subtype="AutoTune" id="3ed3b10e-8118-4ae7-9e3f-f0f4b724c69c" name="Auto Tuning" version="0" dateCreated="02/09/2022 07:30:57" dateLastModified="02/09/2022 07:30:57" trackingId="ae613a0d-732d-4153-a1dc-ad7a2f054dea">
+                      <Entity type="Group" subtype="AutoTune" id="3ed3b10e-8118-4ae7-9e3f-f0f4b724c69c" name="Auto Tuning" version="0" dateCreated="02/09/2022 07:30:57" dateLastModified="02/13/2022 17:56:37" trackingId="ae613a0d-732d-4153-a1dc-ad7a2f054dea">
                         <AccessInfos />
-                        <ChildEntities />
+                        <ChildEntities>
+                          <Entity type="DataTrace" subtype="NXDstDataTrace" id="1497e95e-c7a9-42da-a469-4b9b2e0437fc" name="Data Trace0" version="0" dateCreated="02/13/2022 17:43:50" dateLastModified="02/13/2022 17:56:37" trackingId="b24f5953-e3d9-4355-adc4-541f9b49ac3b">
+                            <AccessInfos />
+                            <ChildEntities>
+                              <Entity type="DataTraceConfig" subtype="NXDstDataTrace" id="dd26256d-4bc1-465d-a1ae-b1f88cee0f3a" name="Config" version="0" dateCreated="02/13/2022 17:43:50" dateLastModified="02/13/2022 17:43:50" trackingId="03950e28-51c0-4213-91ab-2d7453ab8c1b">
+                                <AccessInfos />
+                                <ChildEntities />
+                              </Entity>
+                              <Entity type="DataTraceSet" subtype="" id="d8e78ad9-7dbb-46d5-8805-6e9181370fe9" name="DataTraceSet" version="0" dateCreated="02/13/2022 17:43:50" dateLastModified="02/13/2022 17:43:50" trackingId="4b6abb7d-e512-42d8-9973-82a64044325d">
+                                <AccessInfos />
+                                <ChildEntities />
+                              </Entity>
+                              <Entity type="DataTraceResults" subtype="Internal" id="ae8b35b5-4aa1-4050-af78-0dc27c4f192c" name="DataTraceResults" version="0" dateCreated="02/13/2022 17:43:50" trackingId="81c9c5a3-f33a-4558-ba2e-4d0fbc5feec0">
+                                <AccessInfos />
+                                <ChildEntities />
+                              </Entity>
+                              <Entity type="DataTraceResults" subtype="External" id="3ce4a0b3-4f92-439b-b0e3-e8da3c3f81e2" name="ExternalDataTraceResults" version="0" dateCreated="02/13/2022 17:43:50" trackingId="658da0eb-3bbd-403d-8692-8105f42c44f6">
+                                <AccessInfos />
+                                <ChildEntities />
+                              </Entity>
+                              <Entity type="DataTraceEnvironment" subtype="" id="4987c5b8-d938-4bf0-a148-d4ffc728e44f" name="DataTraceEnvironment" version="0" dateCreated="02/13/2022 17:43:50" dateLastModified="02/13/2022 17:43:50" trackingId="3ff787e2-927c-4d70-b780-81ce2a54b12e">
+                                <AccessInfos />
+                                <ChildEntities />
+                              </Entity>
+                              <Entity type="HistoryConfig" subtype="" id="d48ad377-4a90-4121-b54d-65823179fbba" name="HistoryConfig" version="0" dateCreated="02/13/2022 17:43:50" dateLastModified="02/13/2022 17:43:50" trackingId="218f1620-8bab-4801-9d95-126f090f9a85">
+                                <AccessInfos />
+                                <ChildEntities />
+                              </Entity>
+                              <Entity type="HistoryGroup" subtype="" id="093328be-aa07-4137-9560-d9369fd5bd87" name="HistoryGroup" version="0" dateCreated="02/13/2022 17:43:50" dateLastModified="02/13/2022 17:43:50" trackingId="5d982541-9fef-4287-ba06-d14a58f7b472">
+                                <AccessInfos />
+                                <ChildEntities />
+                              </Entity>
+                              <Entity type="NXDstDataTraceConfig" subtype="NXDstDataTrace" id="53bd11a8-30c9-4ca2-9589-e5121ee9d95f" name="unused" version="0" dateCreated="02/13/2022 17:43:50" dateLastModified="02/13/2022 17:43:50" trackingId="d6a2d7d9-83e5-4692-be05-81da240f2b97">
+                                <AccessInfos />
+                                <ChildEntities />
+                              </Entity>
+                              <Entity type="NXDstDataTraceProperties" subtype="NXDstDataTrace" id="d0d7dfde-4b53-49a9-abbb-353d35c878ff" name="NXDstDataTraceProperties" version="0" dateCreated="02/13/2022 17:43:50" dateLastModified="02/13/2022 17:43:50" trackingId="f4c5562b-0388-47b3-bfeb-4bd4f87096b2">
+                                <AccessInfos />
+                                <ChildEntities />
+                              </Entity>
+                              <Entity type="TraceStatusCallbackEntityType" subtype="NXDstDataTrace" id="8ce7ba10-305a-4fee-ba78-4657e66e82e7" name="unused" version="0" dateCreated="02/13/2022 17:43:50" dateLastModified="02/13/2022 17:43:50" trackingId="07f4df0b-5297-445a-9007-42d64789bf7e">
+                                <AccessInfos />
+                                <ChildEntities />
+                              </Entity>
+                            </ChildEntities>
+                          </Entity>
+                        </ChildEntities>
                       </Entity>
-                      <Entity type="Group" subtype="MotorAndEncoder" id="5dc75e92-76af-4527-9a68-7fcd64fa788d" name="Motor and Encoder" version="0" dateCreated="02/09/2022 07:30:57" dateLastModified="02/09/2022 07:52:54" trackingId="f3f64e9b-9a36-413a-9e8f-d11e4c27a059">
+                      <Entity type="Group" subtype="MotorAndEncoder" id="5dc75e92-76af-4527-9a68-7fcd64fa788d" name="Motor and Encoder" version="0" dateCreated="02/09/2022 07:30:57" dateLastModified="02/14/2022 07:28:36" trackingId="f3f64e9b-9a36-413a-9e8f-d11e4c27a059">
                         <AccessInfos />
                         <ChildEntities />
                       </Entity>
@@ -240,7 +286,7 @@
             <AccessInfos />
             <ChildEntities />
           </Entity>
-          <Entity type="SourceCompareId" subtype="Configuration" id="d62ed3bf-02e3-4928-83c9-b25e6bb7b0e2" name="Comparison ID for Configurations and Setup" version="0" dateCreated="12/02/2021 22:05:08" dateLastModified="02/09/2022 07:31:56" trackingId="601e692b-c705-4daf-9912-17377101c574" SDName="Comparison ID for Configurations and Setup" hash="3dafea2dc4b84a1bacd99afea66c9117">
+          <Entity type="SourceCompareId" subtype="Configuration" id="d62ed3bf-02e3-4928-83c9-b25e6bb7b0e2" name="Comparison ID for Configurations and Setup" version="0" dateCreated="12/02/2021 22:05:08" dateLastModified="02/14/2022 07:08:37" trackingId="601e692b-c705-4daf-9912-17377101c574" SDName="Comparison ID for Configurations and Setup" hash="8bb2c31cb3cf1f8aa17fe0d42bf6e835">
             <AccessInfos />
             <ChildEntities />
           </Entity>
@@ -290,7 +336,7 @@
           <Entity type="MotionSettingEntity" subtype="" id="162c958c-cb2c-4f38-bf7c-4508a5f38a93" name="Motion Control Setup" version="0" dateCreated="12/02/2021 22:05:08" dateLastModified="01/25/2022 20:17:35" trackingId="30e0b60c-ccc9-4208-aad8-b037ce75ad72" DN="Motion Control Setup">
             <AccessInfos />
             <ChildEntities>
-              <Entity type="AxesRootEntity" subtype="" id="f1411363-70ed-4845-be03-8926a2d3b47f" name="Axis Settings" version="0" dateCreated="12/02/2021 22:05:08" dateLastModified="01/25/2022 20:17:35" trackingId="c23bccf0-1383-4f60-b1ed-9611aa9d3972" DN="Axis Settings">
+              <Entity type="AxesRootEntity" subtype="" id="f1411363-70ed-4845-be03-8926a2d3b47f" name="Axis Settings" version="0" dateCreated="12/02/2021 22:05:08" dateLastModified="02/14/2022 07:08:37" trackingId="c23bccf0-1383-4f60-b1ed-9611aa9d3972" DN="Axis Settings">
                 <AccessInfos />
                 <ChildEntities>
                   <Entity type="AxesMonitorTableEntity" subtype="" id="70e0b200-b6d8-47aa-a269-756015d30456" name="Axis Monitor Table" version="0" dateCreated="12/02/2021 22:05:08" dateLastModified="12/02/2021 22:05:09" trackingId="dd2b9f61-a56c-4e94-a81d-7f8c65a6494b">
@@ -298,6 +344,10 @@
                     <ChildEntities />
                   </Entity>
                   <Entity type="AxesSettingTableEntity" subtype="" id="e89d8ca8-463e-4c21-9a36-e86a13df624d" name="Axis Setting Table" version="0" dateCreated="12/02/2021 22:05:08" dateLastModified="12/02/2021 22:05:09" trackingId="60163281-ab1a-4f1c-b9d8-7357d9aafed3">
+                    <AccessInfos />
+                    <ChildEntities />
+                  </Entity>
+                  <Entity type="AxisSettingEntity" subtype="" id="e2a14c91-b5f1-427d-a48c-e4cd2be6be4f" name="MC_Axis000" version="0" dateCreated="02/14/2022 07:00:08" dateLastModified="02/14/2022 07:08:37" trackingId="9018783a-ecdd-4362-971f-1ccf1cb9547a" DN="MC_Axis000 (0,MC1)" hash="7d1a90609a000b25f7be2907f09d13c4">
                     <AccessInfos />
                     <ChildEntities />
                   </Entity>
@@ -321,7 +371,7 @@
             <AccessInfos />
             <ChildEntities />
           </Entity>
-          <Entity type="TaskConfiguration" subtype="" id="5929f657-7e17-46d9-ba82-7af61301a605" name="Task Settings" version="0" dateCreated="12/02/2021 22:05:08" dateLastModified="02/09/2022 07:31:56" trackingId="86beded2-65d6-4acc-b131-ddac323a586c" DN="Task Settings">
+          <Entity type="TaskConfiguration" subtype="" id="5929f657-7e17-46d9-ba82-7af61301a605" name="Task Settings" version="0" dateCreated="12/02/2021 22:05:08" dateLastModified="02/14/2022 07:08:37" trackingId="86beded2-65d6-4acc-b131-ddac323a586c" DN="Task Settings">
             <AccessInfos />
             <ChildEntities />
           </Entity>
@@ -952,7 +1002,7 @@
                 <AccessInfos />
                 <ChildEntities />
               </Entity>
-              <Entity type="Variables" subtype="Global" id="26fe86b2-cb1c-4fba-9b40-44acc3c594f6" name="Global Variables" version="0" dateCreated="12/02/2021 22:05:08" dateLastModified="02/09/2022 21:42:50" trackingId="b42cf2c4-5484-4f70-9ea1-6249241c59c2" DN="Global Variables" hash="3a23440c25484e32a557172b34800399">
+              <Entity type="Variables" subtype="Global" id="26fe86b2-cb1c-4fba-9b40-44acc3c594f6" name="Global Variables" version="0" dateCreated="12/02/2021 22:05:08" dateLastModified="02/14/2022 07:08:37" trackingId="b42cf2c4-5484-4f70-9ea1-6249241c59c2" DN="Global Variables" hash="cc597d2b39074793a850706c9beb0057">
                 <AccessInfos />
                 <ChildEntities>
                   <Entity type="SourceHolder" subtype="" id="721a62b3-3fc8-4dd0-a6ba-12639515fe17" name="Source" version="0" dateCreated="12/02/2021 22:05:08" trackingId="9c39133a-9023-4446-91be-e5adabecb7bc">

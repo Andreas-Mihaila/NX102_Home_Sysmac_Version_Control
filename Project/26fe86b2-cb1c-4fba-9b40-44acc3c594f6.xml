@@ -258,3 +258,4 @@ _EN=Variables
 ++D=STRING[256]	N=KM_50_Modbus_Transmission_Vertical_Parity_String	G=VAR_GLOBAL
 ++D=STRING[256]	N=KM_50_Modbus_Transmission_Wait_Time_String	G=VAR_GLOBAL
 ++D=STRING[256]	N=KM_50_Modbus_Transmission_Wait_Time_Value_String	G=VAR_GLOBAL
+++D=_sAXIS_REF	N=MC_Axis000	AT=MC://_MC_AX[0]	RO=1	Const=1	G=VAR_GLOBAL
