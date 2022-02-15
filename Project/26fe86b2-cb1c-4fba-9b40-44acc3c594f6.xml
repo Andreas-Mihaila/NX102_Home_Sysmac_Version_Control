@@ -258,4 +258,22 @@ _EN=Variables
 ++D=STRING[256]	N=KM_50_Modbus_Transmission_Vertical_Parity_String	G=VAR_GLOBAL
 ++D=STRING[256]	N=KM_50_Modbus_Transmission_Wait_Time_String	G=VAR_GLOBAL
 ++D=STRING[256]	N=KM_50_Modbus_Transmission_Wait_Time_Value_String	G=VAR_GLOBAL
-++D=_sAXIS_REF	N=MC_Axis000	AT=MC://_MC_AX[0]	RO=1	Const=1	G=VAR_GLOBAL
+++D=_sAXIS_REF	N=MC_Axis_G5_Home	AT=MC://_MC_AX[0]	RO=1	Const=1	G=VAR_GLOBAL
+++D=WORD	N=MC_Power_G5_Axis_Busy_Error_ID	G=VAR_GLOBAL
+++D=BOOL	N=MC_Power_G5_Axis_Busy_Error	G=VAR_GLOBAL
+++D=BOOL	N=MC_Power_G5_Axis_Busy	G=VAR_GLOBAL
+++D=BOOL	N=Execute_MC_Power_Enable_Axis	G=VAR_GLOBAL
+++D=BOOL	N=MC_Power_G5_Axis_Homing_Done	G=VAR_GLOBAL
+++D=WORD	N=MC_Home_G5_Axis_Error_ID	G=VAR_GLOBAL
+++D=BOOL	N=MC_Home_G5_Axis_Error	G=VAR_GLOBAL
+++D=BOOL	N=MC_Home_G5_Axis_Command_Aborted	G=VAR_GLOBAL
+++D=BOOL	N=MC_Home_G5_Axis_Busy	G=VAR_GLOBAL
+++D=BOOL	N=Execute_MC_Home_G5_Axis	G=VAR_GLOBAL
+++D=WORD	N=MC_Reset_G5_Error_ID	G=VAR_GLOBAL
+++D=BOOL	N=MC_Reset_G5_Error	G=VAR_GLOBAL
+++D=BOOL	N=MC_Reset_G5_Failure	G=VAR_GLOBAL
+++D=BOOL	N=MC_Reset_G5_Busy	G=VAR_GLOBAL
+++D=BOOL	N=MC_Reset_G5_Done	G=VAR_GLOBAL
+++D=BOOL	N=Execute_MC_Reset	G=VAR_GLOBAL
+++D=TIME	N=TP_Actual_Time_Value	G=VAR_GLOBAL
+++D=BOOL	N=Execute_MC_Reset_Manually	G=VAR_GLOBAL
