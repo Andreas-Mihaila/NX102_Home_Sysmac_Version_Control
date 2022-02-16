@@ -8,6 +8,7 @@ _EN=Variables
 ++D=MC_MoveJog	N=MC_MoveJog_G5_Instance	G=VAR
 ++D=MC_MoveRelative	N=MC_Move_Relative_G5_Instance	G=VAR
 ++D=MC_MoveZeroPosition	N=MC_Move_Homing_G5_Instance	G=VAR
+++D=MC_MoveAbsolute	N=MC_Move_Absolute_G5_Instance	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=_sAXIS_REF	N=MC_Axis_G5_Home	Const=1	G=VAR_EXTERNAL
 ++D=WORD	N=MC_Power_G5_Axis_Busy_Error_ID	G=VAR_EXTERNAL
@@ -73,3 +74,20 @@ _EN=Variables
 ++D=BOOL	N=MC_MoveRelative_Half_Circle	G=VAR_EXTERNAL
 ++D=BOOL	N=MC_MoveRelative_Quarter_Circle	G=VAR_EXTERNAL
 ++D=BOOL	N=MC_Power_G5_Axis_Move_Homing_Done	G=VAR_EXTERNAL
+++D=WORD	N=MC_MoveAbsolute_G5_Axis_Error_ID	G=VAR_EXTERNAL
+++D=BOOL	N=MC_MoveAbsolute_G5_Axis_Error	G=VAR_EXTERNAL
+++D=BOOL	N=MC_MoveAbsolute_G5_Axis_Command_Aborted	G=VAR_EXTERNAL
+++D=BOOL	N=MC_MoveAbsolute_G5_Axis_Active	G=VAR_EXTERNAL
+++D=BOOL	N=MC_MoveAbsolute_G5_Axis_Busy	G=VAR_EXTERNAL
+++D=_eMC_BUFFER_MODE	N=MC_MoveAbsolute_G5_Axis_Buffer_Mode	G=VAR_EXTERNAL
+++D=_eMC_DIRECTION	N=MC_MoveAbsolute_G5_Axis_Direction	G=VAR_EXTERNAL
+++D=LREAL	N=MC_MoveAbsolute_G5_Axis_Jerk	G=VAR_EXTERNAL
+++D=LREAL	N=MC_MoveAbsolute_G5_Axis_Deceleration	G=VAR_EXTERNAL
+++D=LREAL	N=MC_MoveAbsolute_G5_Axis_Acceleration	G=VAR_EXTERNAL
+++D=LREAL	N=MC_MoveAbsolute_G5_Axis_Velocity	G=VAR_EXTERNAL
+++D=LREAL	N=MC_MoveAbsolute_G5_Axis_Position	G=VAR_EXTERNAL
+++D=BOOL	N=MC_MoveAbsolute_G5_Axis_Done	G=VAR_EXTERNAL
+++D=BOOL	N=MC_MoveAbsolute_G5_Axis_Execute	G=VAR_EXTERNAL
+++D=BOOL	N=MC_MoveAbsolute_G5_Axis_270_Degrees	G=VAR_EXTERNAL
+++D=BOOL	N=MC_MoveAbsolute_G5_Axis_180_Degrees	G=VAR_EXTERNAL
+++D=BOOL	N=MC_MoveAbsolute_G5_Axis_90_Degrees	G=VAR_EXTERNAL
