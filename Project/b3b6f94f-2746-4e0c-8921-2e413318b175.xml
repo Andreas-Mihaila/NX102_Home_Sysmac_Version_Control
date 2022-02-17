@@ -122,3 +122,6 @@ _EN=Variables
 ++D=BOOL	N=MC_Stop_G5_Axis_Busy	G=VAR_EXTERNAL
 ++D=BOOL	N=MC_Stop_G5_Axis_Stopped	G=VAR_EXTERNAL
 ++D=BOOL	N=MC_Stop_G5_Axis_Execute	G=VAR_EXTERNAL
+++D=LREAL	N=G5_Servo_Drive_Actual_Velocity	G=VAR_EXTERNAL
+++D=LREAL	N=G5_Servo_Drive_Actual_Position	G=VAR_EXTERNAL
+++D=LREAL	N=G5_Servo_Drive_Actual_Torque	G=VAR_EXTERNAL
