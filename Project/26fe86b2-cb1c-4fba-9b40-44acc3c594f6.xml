@@ -382,3 +382,15 @@ _EN=Variables
 ++D=UINT	N=G5_Ethercat_SDO_Reading_Timeout	G=VAR_GLOBAL
 ++D=UINT	N=G5_Ethercat_SDO_Reading_Item_Number	G=VAR_GLOBAL
 ++D=UINT	N=G5_Ethercat_SDO_Reading_Node_Address	G=VAR_GLOBAL
+++D=UINT	N=G5_SDO_Reading_Motor_Resistance_Data_Size	G=VAR_GLOBAL
+++D=DINT	N=G5_SDO_Reading_Motor_Resistance_Data_Value	G=VAR_GLOBAL
+++D=UINT	N=G5_SDO_Reading_Motor_Serial_Number_Data_Size	G=VAR_GLOBAL
+++D=DINT	N=G5_SDO_Reading_Motor_Serial_Number_Data_Value	G=VAR_GLOBAL
+++D=UINT	N=G5_SDO_Reading_Motor_Product_Code_Data_Size	G=VAR_GLOBAL
+++D=DINT	N=G5_SDO_Reading_Motor_Product_Code_Data_Value	G=VAR_GLOBAL
+++D=UINT	N=G5_SDO_Reading_Motor_Revision_Number_Data_Size	G=VAR_GLOBAL
+++D=DINT	N=G5_SDO_Reading_Motor_Revision_Number_Data_Value	G=VAR_GLOBAL
+++D=UINT	N=G5_SDO_Reading_Servo_Drive_Cycle_Time_Data_Size	G=VAR_GLOBAL
+++D=DINT	N=G5_SDO_Reading_Servo_Drive_Cycle_Time_Data_Value	G=VAR_GLOBAL
+++D=UINT	N=G5_SDO_Reading_Motor_Vender_ID_Data_Size	G=VAR_GLOBAL
+++D=DINT	N=G5_SDO_Reading_Motor_Vender_ID_Data_Value	G=VAR_GLOBAL
