@@ -394,3 +394,6 @@ _EN=Variables
 ++D=DINT	N=G5_SDO_Reading_Servo_Drive_Cycle_Time_Data_Value	G=VAR_GLOBAL
 ++D=UINT	N=G5_SDO_Reading_Motor_Vender_ID_Data_Size	G=VAR_GLOBAL
 ++D=DINT	N=G5_SDO_Reading_Motor_Vender_ID_Data_Value	G=VAR_GLOBAL
+++D=DATE_AND_TIME	N=ActualTime	G=VAR_GLOBAL
+++D=BOOL	N=TimeOK	G=VAR_GLOBAL
+++D=BOOL	N=GetNTPStatus_Bit	G=VAR_GLOBAL
