@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter index="Pn000" value="1" />
-  <parameter index="Pn003" value="12" />
-  <parameter index="Pn004" value="77" />
-  <parameter index="Pn100" value="390" />
-  <parameter index="Pn101" value="220" />
-  <parameter index="Pn102" value="250" />
-  <parameter index="Pn104" value="103" />
-  <parameter index="Pn105" value="460" />
-  <parameter index="Pn106" value="220" />
-  <parameter index="Pn109" value="103" />
+  <parameter index="Pn003" value="19" />
+  <parameter index="Pn004" value="130" />
+  <parameter index="Pn100" value="1620" />
+  <parameter index="Pn101" value="900" />
+  <parameter index="Pn102" value="80" />
+  <parameter index="Pn104" value="25" />
+  <parameter index="Pn105" value="1880" />
+  <parameter index="Pn106" value="900" />
+  <parameter index="Pn109" value="25" />
   <parameter index="Pn200" value="2" />
   <parameter index="Pn400.0" value="0" />
   <parameter index="Pn400.1" value="0" />
