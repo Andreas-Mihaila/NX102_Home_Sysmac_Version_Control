@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <DataTraceConfigModel>
+    <TraceType></TraceType>
+    <TriggerType></TriggerType>
+    <SamplePeriod>00:00:00</SamplePeriod>
+    <SampleRate>0</SampleRate>
+    <ExternalFileStorage>false</ExternalFileStorage>
+    <MaxSamplesPerFile>0</MaxSamplesPerFile>
+    <MaxDataSetSize>0</MaxDataSetSize>
+    <TargetDirectory />
+    <FilePrefix />
+  </DataTraceConfigModel>
+</data>

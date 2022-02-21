@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <DataTraceEnvironmentalModel>
+    <CursorPosition>1.4654299219687876</CursorPosition>
+    <StartTime>2022-02-21T07:18:16.8576702+02:00</StartTime>
+    <IsInAbsoluteTimeMode>false</IsInAbsoluteTimeMode>
+    <SeriesAxisSettings>
+      <SeriesAxis>
+        <SeriesId>696a3ff1-6845-4477-a468-db8fc44887e3</SeriesId>
+        <AxisMin>0</AxisMin>
+        <AxisMax>0</AxisMax>
+      </SeriesAxis>
+      <SeriesAxis>
+        <SeriesId>c4397ee1-bee4-459a-b7fc-8a6e17f74d94</SeriesId>
+        <AxisMin>0</AxisMin>
+        <AxisMax>0</AxisMax>
+      </SeriesAxis>
+    </SeriesAxisSettings>
+  </DataTraceEnvironmentalModel>
+</data>
