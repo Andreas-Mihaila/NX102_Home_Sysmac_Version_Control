@@ -397,3 +397,12 @@ _EN=Variables
 ++D=DATE_AND_TIME	N=ActualTime	G=VAR_GLOBAL
 ++D=BOOL	N=TimeOK	G=VAR_GLOBAL
 ++D=BOOL	N=GetNTPStatus_Bit	G=VAR_GLOBAL
+++D=_sSOCKET	N=TCP_Active_Client_Connect_Socket_Reference	G=VAR_GLOBAL
+++D=WORD	N=TCP_Active_Client_Connect_Error_ID	G=VAR_GLOBAL
+++D=BOOL	N=TCP_Active_Client_Connect_Error	G=VAR_GLOBAL
+++D=BOOL	N=TCP_Active_Client_Connect_Busy	G=VAR_GLOBAL
+++D=UINT	N=TCP_Active_Client_Connect_Destination_TCP_Port	G=VAR_GLOBAL
+++D=_sSOCKET_ADDRESS	N=TCP_Active_Client_Connect_Destination_IP_Address	G=VAR_GLOBAL
+++D=UINT	N=TCP_Active_Client_Connect_Src_TCP_Port	G=VAR_GLOBAL
+++D=BOOL	N=TCP_Active_Client_Connect_Done	G=VAR_GLOBAL
+++D=BOOL	N=TCP_Active_Client_Connect_Excecute	G=VAR_GLOBAL
