@@ -2,14 +2,21 @@
 _EN=Variables
 +GN=VAR	GVT=DefaultGroup
 ++D=SktTCPConnect	N=TCP_Active_Client_Connect_Instance	G=VAR
+++D=SktGetTCPStatus	N=TCP_Active_Client_Connect_Status_Instance	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=_sSOCKET	N=TCP_Active_Client_Connect_Socket_Reference	G=VAR_EXTERNAL
 ++D=WORD	N=TCP_Active_Client_Connect_Error_ID	G=VAR_EXTERNAL
 ++D=BOOL	N=TCP_Active_Client_Connect_Error	G=VAR_EXTERNAL
 ++D=BOOL	N=TCP_Active_Client_Connect_Busy	G=VAR_EXTERNAL
 ++D=UINT	N=TCP_Active_Client_Connect_Destination_TCP_Port	G=VAR_EXTERNAL
-++D=_sSOCKET_ADDRESS	N=TCP_Active_Client_Connect_Destination_IP_Address	G=VAR_EXTERNAL
+++D=STRING[256]	N=TCP_Active_Client_Connect_Destination_IP_Address	G=VAR_EXTERNAL
 ++D=UINT	N=TCP_Active_Client_Connect_Src_TCP_Port	G=VAR_EXTERNAL
 ++D=BOOL	N=TCP_Active_Client_Connect_Done	G=VAR_EXTERNAL
 ++D=BOOL	N=TCP_Active_Client_Connect_Excecute	G=VAR_EXTERNAL
 ++D=BOOL	N=_EIP1_EtnOnlineSta	Const=1	G=VAR_EXTERNAL
+++D=BOOL	N=TCP_Active_Client_Connect_Status_Data_Receive_Flag	G=VAR_EXTERNAL
+++D=WORD	N=TCP_Active_Client_Connect_Status_Error_ID	G=VAR_EXTERNAL
+++D=BOOL	N=TCP_Active_Client_Connect_Status_Error	G=VAR_EXTERNAL
+++D=BOOL	N=TCP_Active_Client_Connect_Status_Busy	G=VAR_EXTERNAL
+++D=BOOL	N=TCP_Active_Client_Connect_Status_Done	G=VAR_EXTERNAL
+++D=_eCONNECTION_STATE	N=TCP_Active_Client_Connect_Status_TCP_Status	G=VAR_EXTERNAL
