@@ -1,0 +1,7 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=BOOL	N=NX102_Total_Power_On_Time_Active_Reading	G=VAR_EXTERNAL
+++D=TIME	N=NX102_Total_Power_On_Time	G=VAR_EXTERNAL
+++D=_ePLC_UNIT_TYPE	N=NX102_CPU_Unit	G=VAR_EXTERNAL
