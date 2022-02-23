@@ -4212,7 +4212,7 @@
   </NexCpuEipFINSSetting>
   <NexCpuEipTcpUdpMessage>
     <NexCpuEipTcpUdpMessageServiceUseSetting>
-      <CurrentValue>EnumElement1</CurrentValue>
+      <CurrentValue>EnumElement2</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>EnumElement1</DefaultValue>
@@ -4223,7 +4223,7 @@
     </NexCpuEipTcpUdpMessageServiceUseSetting>
     <NexCpuEipTcpUdpMessagePort1PortNo>
       <CurrentValue>64000</CurrentValue>
-      <IsEnabled>false</IsEnabled>
+      <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>64000</DefaultValue>
       <Options />
@@ -4237,7 +4237,7 @@
     </NexCpuEipTcpUdpMessagePort1PortNoValue2>
     <NexCpuEipTcpUdpMessagePort2PortNo>
       <CurrentValue>64000</CurrentValue>
-      <IsEnabled>false</IsEnabled>
+      <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>64000</DefaultValue>
       <Options />
