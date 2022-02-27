@@ -1007,7 +1007,7 @@
                           </Entity>
                         </ChildEntities>
                       </Entity>
-                      <Entity type="PouBody" subtype="Ladder" id="a2076c82-ecc2-4d95-a087-ebf80e937d84" name="Section0" version="0" dateCreated="02/22/2022 17:02:02" dateLastModified="02/22/2022 17:09:44" trackingId="0ca5f99b-3046-484c-a3f1-8480cb62f271" DN="Section0" hash="e1ad26f2f2827c15f7571ee9e1146a91">
+                      <Entity type="PouBody" subtype="Ladder" id="a2076c82-ecc2-4d95-a087-ebf80e937d84" name="Total_Power_On_Time" version="0" dateCreated="02/22/2022 17:02:02" dateLastModified="02/22/2022 17:09:44" trackingId="0ca5f99b-3046-484c-a3f1-8480cb62f271" DN="Total_Power_On_Time" hash="e1ad26f2f2827c15f7571ee9e1146a91">
                         <AccessInfos />
                         <ChildEntities>
                           <Entity type="SourceHolder" subtype="" id="c9778f9f-3273-43ce-a1f1-7172667c4e29" name="Source" version="0" dateCreated="02/22/2022 17:02:02" trackingId="798c9a27-7357-4c76-b300-65e74834fab6">
@@ -1018,7 +1018,7 @@
                             <AccessInfos />
                             <ChildEntities />
                           </Entity>
-                          <Entity type="Inline" subtype="StructuredText" id="01ef80ff-c97f-4794-aa57-db354710d600" name="63de9c38-ca2e-470a-a88a-311afb372c1e" version="0" dateCreated="02/22/2022 17:04:38" dateLastModified="02/22/2022 17:09:51" trackingId="63de9c38-ca2e-470a-a88a-311afb372c1e">
+                          <Entity type="Inline" subtype="StructuredText" id="01ef80ff-c97f-4794-aa57-db354710d600" name="63de9c38-ca2e-470a-a88a-311afb372c1e" version="0" dateCreated="02/22/2022 17:04:38" dateLastModified="02/27/2022 12:48:56" trackingId="63de9c38-ca2e-470a-a88a-311afb372c1e">
                             <AccessInfos />
                             <ChildEntities />
                           </Entity>
