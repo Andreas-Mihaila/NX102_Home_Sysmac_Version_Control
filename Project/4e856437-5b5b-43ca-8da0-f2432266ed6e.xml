@@ -1,0 +1,54 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=SktTCPConnect	N=TCP_Socket_Connection_Instance	G=VAR
+++D=SktGetTCPStatus	N=TCP_Socket_Connection_Status_Instance	G=VAR
+++D=SktClose	N=TCP_Socket_Close_Connection_Instance	G=VAR
+++D=ModbusTCPRead	N=Modbus_TCP_Reading_Instance	G=VAR
+++D=SktSetOption	N=TCP_Socket_Set_Option_Instance	G=VAR
+++D=ModbusTCPWrite	N=Modbus_TCP_Writing_Instance	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=BOOL	N=_EIP1_EtnOnlineSta	Const=1	G=VAR_EXTERNAL
+++D=BOOL	N=TCP_Socket_Connection_Done	G=VAR_EXTERNAL
+++D=BOOL	N=TCP_Socket_Connection_Status_Data_Received_Flag	G=VAR_EXTERNAL
+++D=_eCONNECTION_STATE	N=TCP_Socket_Connection_Status_TCP_Status	G=VAR_EXTERNAL
+++D=WORD	N=TCP_Socket_Connection_Status_Error_ID	G=VAR_EXTERNAL
+++D=BOOL	N=TCP_Socket_Connection_Status_Error	G=VAR_EXTERNAL
+++D=BOOL	N=TCP_Socket_Connection_Status_Busy	G=VAR_EXTERNAL
+++D=_sSOCKET	N=TCP_Socket_Connection_Socket_Reference	G=VAR_EXTERNAL
+++D=WORD	N=TCP_Socket_Connection_Error_ID	G=VAR_EXTERNAL
+++D=BOOL	N=TCP_Socket_Connection_Error	G=VAR_EXTERNAL
+++D=BOOL	N=TCP_Socket_Connection_Busy	G=VAR_EXTERNAL
+++D=UINT	N=TCP_Socket_Connection_Destination_TCP_Port	G=VAR_EXTERNAL
+++D=STRING[256]	N=TCP_Socket_Connection_Destination_IP_Address	G=VAR_EXTERNAL
+++D=UINT	N=TCP_Socket_Connection_Source_TCP_Port	G=VAR_EXTERNAL
+++D=BOOL	N=TCP_Socket_Connection_Execute	G=VAR_EXTERNAL
+++D=BOOL	N=TCP_Socket_Close_Connection_Execute	G=VAR_EXTERNAL
+++D=BOOL	N=TCP_Socket_Close_Connection_Done	G=VAR_EXTERNAL
+++D=WORD	N=TCP_Socket_Close_Connection_Error_ID	G=VAR_EXTERNAL
+++D=BOOL	N=TCP_Socket_Close_Connection_Error	G=VAR_EXTERNAL
+++D=BOOL	N=TCP_Socket_Close_Connection_Busy	G=VAR_EXTERNAL
+++D=WORD	N=TCP_Socket_Set_Option_Error_ID	G=VAR_EXTERNAL
+++D=BOOL	N=TCP_Socket_Set_Option_Error	G=VAR_EXTERNAL
+++D=BOOL	N=TCP_Socket_Set_Option_Busy	G=VAR_EXTERNAL
+++D=BOOL	N=TCP_Socket_Set_Option_Option_Parameter	G=VAR_EXTERNAL
+++D=_eSKT_OPTION_TYPE	N=TCP_Socket_Set_Option_Option_Type	G=VAR_EXTERNAL
+++D=UINT	N=Modbus_TCP_Reading_Read_Size	G=VAR_EXTERNAL
+++D=DWORD	N=Modbus_TCP_Reading_Error_Index	G=VAR_EXTERNAL
+++D=WORD	N=Modbus_TCP_Reading_Error_ID	G=VAR_EXTERNAL
+++D=BOOL	N=Modbus_TCP_Reading_Error	G=VAR_EXTERNAL
+++D=BOOL	N=Modbus_TCP_Reading_Busy	G=VAR_EXTERNAL
+++D=BOOL	N=Modbus_TCP_Reading_Done	G=VAR_EXTERNAL
+++D=UINT	N=Modbus_TCP_Reading_Time_Out	G=VAR_EXTERNAL
+++D=ARRAY[0..9] OF WORD	N=Modbus_TCP_Reading_Instance_Read_Data	G=VAR_EXTERNAL
+++D=_sMODBUS_READ	N=Modbus_TCP_Reading_Read_Command	G=VAR_EXTERNAL
+++D=USINT	N=Modbus_TCP_Reading_UnitIdentifier	G=VAR_EXTERNAL
+++D=BOOL	N=Modbus_TCP_Writing_Execute	G=VAR_EXTERNAL
+++D=BOOL	N=Modbus_TCP_Reading_Execute	G=VAR_EXTERNAL
+++D=DWORD	N=Modbus_TCP_Writing_Error_Index	G=VAR_EXTERNAL
+++D=WORD	N=Modbus_TCP_Writing_Error_ID	G=VAR_EXTERNAL
+++D=BOOL	N=Modbus_TCP_Writing_Error	G=VAR_EXTERNAL
+++D=BOOL	N=Modbus_TCP_Writing_Busy	G=VAR_EXTERNAL
+++D=BOOL	N=Modbus_TCP_Writing_Write_Data	G=VAR_EXTERNAL
+++D=_sMODBUS_WRITE	N=Modbus_TCP_Writing_Write_Command	G=VAR_EXTERNAL
+++D=USINT	N=Modbus_TCP_Writing_UnitIdentifier	G=VAR_EXTERNAL

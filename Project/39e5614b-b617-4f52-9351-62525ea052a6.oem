@@ -1026,6 +1026,88 @@
                       </Entity>
                     </ChildEntities>
                   </Entity>
+                  <Entity type="Program" subtype="MultipartLadder" id="50a78bc7-9ccd-4de6-a050-3faabb9b6043" name="Modbus_TCP_Etherway" version="0" dateCreated="03/01/2022 09:16:52" dateLastModified="03/01/2022 09:56:55" author="mihand" trackingId="07a427ce-4c19-441d-8099-011e9df85d9e" DN="Modbus_TCP_Etherway">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="DebugProgramSetting" subtype="" id="8985527f-ea3d-4632-81fa-ae7343c43b21" name="DebugProgramSetting0,00" version="0" dateCreated="03/01/2022 09:16:52" dateLastModified="03/01/2022 09:56:55" trackingId="9f2fb40d-4fc4-4529-b577-4bcde1f884c1" hash="1ba7c2b4868fa6051083bbf3011b231b">
+                        <AccessInfos />
+                        <ChildEntities />
+                      </Entity>
+                      <Entity type="Variables" subtype="Ladder" id="4e856437-5b5b-43ca-8da0-f2432266ed6e" name="Variables" version="0" dateCreated="03/01/2022 09:16:52" dateLastModified="03/01/2022 09:56:55" trackingId="cfccc5bf-6b3a-4009-a7a8-4b66ad87345a" hash="f9a495cb0c393adda3fd6deffb58f421">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="3fa86318-8c07-447f-8eeb-d7eded1f79cc" name="Source" version="0" dateCreated="03/01/2022 09:16:52" trackingId="6bd9fa37-9ebc-46f9-9af2-9fbed7e60661">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="b952a63e-4185-4242-b027-af8356653ea4" name="Connect_Socket_Etherway" version="0" dateCreated="03/01/2022 09:16:52" dateLastModified="03/01/2022 09:56:55" trackingId="f392b3ff-2cf3-4524-b2b5-de386afe90cb" DN="Connect_Socket_Etherway" hash="343928c6584f505814b92109b4178b2a">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="40ea5c54-909a-4823-a395-6416f5631482" name="Source" version="0" dateCreated="03/01/2022 09:16:52" trackingId="d94f6f64-1a39-42af-8f53-8052271bd03d">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="1d2687f1-c069-49bc-b7af-317d8b1a316c" name="PouBodySourceHolder" version="0" dateCreated="03/01/2022 09:16:52" trackingId="8eefe906-782d-4fe8-b384-b8a36ff23ab6">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="8422a8fb-7d08-4bfc-8254-f2cd4b777672" name="5a756904-a0a5-4ad0-862a-1b79682eecc8" version="0" dateCreated="03/01/2022 09:20:32" dateLastModified="03/01/2022 09:56:55" trackingId="5a756904-a0a5-4ad0-862a-1b79682eecc8">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="583ac01f-4e0b-4b1a-a3ac-6b6771fef432" name="Read_Holding_Registers_Etherway_Server" version="0" dateCreated="03/01/2022 09:18:17" dateLastModified="03/01/2022 09:56:55" trackingId="27d05cd0-aa43-4730-8797-f7a1b033294e" DN="Read_Holding_Registers_Etherway_Server" hash="75890197575d5e84df821c7ebdbd8872">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="3967528c-1db5-4880-841e-5ab0f1309407" name="Source" version="0" dateCreated="03/01/2022 09:18:17" trackingId="fa045804-64ff-487f-bbac-025551bc5114">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="84224301-4959-42cd-b160-6b6dfd159425" name="PouBodySourceHolder" version="0" dateCreated="03/01/2022 09:18:17" trackingId="913b577e-a696-4557-aba8-4fdead0ad9f9">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="04a3279a-2230-4b45-b71a-bd16def936f3" name="27cedb96-facb-4c69-97a1-ce9a7a3ea45a" version="0" dateCreated="03/01/2022 09:31:17" dateLastModified="03/01/2022 09:56:55" trackingId="27cedb96-facb-4c69-97a1-ce9a7a3ea45a">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="206c105b-7e71-4aab-91c9-de78a1beac6f" name="Write_Coil_Etherway_Server" version="0" dateCreated="03/01/2022 09:18:19" dateLastModified="03/01/2022 09:57:17" trackingId="9d37f265-8ab7-4032-94a2-ba956bf3d789" DN="Write_Coil_Etherway_Server" hash="764b8ae71baf1778e4a4cf4388ea377a">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="dba86b31-1866-4496-9e7e-93df3fa6471e" name="Source" version="0" dateCreated="03/01/2022 09:18:19" trackingId="95c04df3-81b2-46db-bcb8-37caf169168f">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="fe6312f5-f27b-4590-bba8-da60c905eac5" name="PouBodySourceHolder" version="0" dateCreated="03/01/2022 09:18:19" trackingId="d68624cd-18a9-4841-83c8-7616b721122c">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="3ab27bef-f5cc-4e4b-843d-dde042f465eb" name="bbee64a7-5fbc-4f8f-a953-68961590fc08" version="0" dateCreated="03/01/2022 09:50:21" dateLastModified="03/01/2022 09:57:17" trackingId="bbee64a7-5fbc-4f8f-a953-68961590fc08">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="c7b9592f-12ee-419a-863c-7eb4e8ed80b1" name="Close_Socket_Connection_Etherway" version="0" dateCreated="03/01/2022 09:19:23" dateLastModified="03/01/2022 09:56:55" trackingId="acb62f4b-dca0-4c0d-a271-ec27a7767529" DN="Close_Socket_Connection_Etherway" hash="e3feb723083b65c44988d11ca9ef4d55">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="3d299305-2ec1-4738-8d7c-9ef6a97b8529" name="Source" version="0" dateCreated="03/01/2022 09:19:23" trackingId="63f02378-2ed6-45d4-98ab-f043cba0f3fc">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="cbef96ef-927d-48e0-a991-598ff84d1d78" name="PouBodySourceHolder" version="0" dateCreated="03/01/2022 09:19:23" trackingId="3dd15973-349d-4227-959b-e77a327bc5c2">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
                 </ChildEntities>
               </Entity>
               <Entity type="Group" subtype="IecFunctions" id="f9ff4d30-12fb-40d4-9401-fa7da6f63f9b" name="Functions" version="0" dateCreated="12/02/2021 22:05:08" trackingId="b516cbcb-31d7-471a-b402-34d15ddeec66" DN="Functions">
@@ -1272,7 +1354,7 @@
                 <AccessInfos />
                 <ChildEntities />
               </Entity>
-              <Entity type="Variables" subtype="Global" id="26fe86b2-cb1c-4fba-9b40-44acc3c594f6" name="Global Variables" version="0" dateCreated="12/02/2021 22:05:08" dateLastModified="02/22/2022 17:09:44" trackingId="b42cf2c4-5484-4f70-9ea1-6249241c59c2" DN="Global Variables" hash="53701f4c56b9b7b5e815e772639446d9">
+              <Entity type="Variables" subtype="Global" id="26fe86b2-cb1c-4fba-9b40-44acc3c594f6" name="Global Variables" version="0" dateCreated="12/02/2021 22:05:08" dateLastModified="03/01/2022 09:56:55" trackingId="b42cf2c4-5484-4f70-9ea1-6249241c59c2" DN="Global Variables" hash="a3ea1cd6a6a91dfccc8f50b1d2a9a691">
                 <AccessInfos />
                 <ChildEntities>
                   <Entity type="SourceHolder" subtype="" id="721a62b3-3fc8-4dd0-a6ba-12639515fe17" name="Source" version="0" dateCreated="12/02/2021 22:05:08" trackingId="9c39133a-9023-4446-91be-e5adabecb7bc">
