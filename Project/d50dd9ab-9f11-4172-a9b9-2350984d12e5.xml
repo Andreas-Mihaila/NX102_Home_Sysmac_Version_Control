@@ -17,6 +17,7 @@
     <AssociatedProgramData ProgramName="G5_Servo_Drive" InstanceName="G5_Servo_Drive" IniFileTrackingId="a2b447c929d0441da12ab06fcba0cf88" StartupSetting="TRUE" SequenceNumber="7" IsDebugProgram="false" />
     <AssociatedProgramData ProgramName="TCP_Socket_Connection_Etherway" InstanceName="TCP_Socket_Connection_Etherway" IniFileTrackingId="0d4f6053951546009ee883098e161826" StartupSetting="TRUE" SequenceNumber="8" IsDebugProgram="false" />
     <AssociatedProgramData ProgramName="PLC_Information" InstanceName="PLC_Information" IniFileTrackingId="5f044d4215c44148b715219fae52dd0c" StartupSetting="TRUE" SequenceNumber="9" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="Modbus_TCP_Etherway_Or_FIO" InstanceName="Modbus_TCP_Etherway_Or_FIO" IniFileTrackingId="07a427ce4c19441d8099011e9df85d9e" StartupSetting="TRUE" SequenceNumber="10" IsDebugProgram="false" />
   </Programs>
   <RefreshUnitIds>
     <RefreshUnitId RefreshUnitId="c3f2efd6-1f97-43e2-8822-b7931a4c4715" />

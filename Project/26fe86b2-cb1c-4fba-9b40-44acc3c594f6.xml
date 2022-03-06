@@ -456,7 +456,7 @@ _EN=Variables
 ++D=BOOL	N=Modbus_TCP_Reading_Busy	G=VAR_GLOBAL
 ++D=BOOL	N=Modbus_TCP_Reading_Done	G=VAR_GLOBAL
 ++D=UINT	N=Modbus_TCP_Reading_Time_Out	G=VAR_GLOBAL
-++D=ARRAY[0..9] OF WORD	N=Modbus_TCP_Reading_Instance_Read_Data	G=VAR_GLOBAL
+++D=ARRAY[0..9] OF BOOL	N=Modbus_TCP_Reading_Instance_Read_Data	G=VAR_GLOBAL
 ++D=_sMODBUS_READ	N=Modbus_TCP_Reading_Read_Command	G=VAR_GLOBAL
 ++D=USINT	N=Modbus_TCP_Reading_UnitIdentifier	G=VAR_GLOBAL
 ++D=BOOL	N=Modbus_TCP_Writing_Execute	G=VAR_GLOBAL
@@ -468,3 +468,40 @@ _EN=Variables
 ++D=BOOL	N=Modbus_TCP_Writing_Write_Data	G=VAR_GLOBAL
 ++D=_sMODBUS_WRITE	N=Modbus_TCP_Writing_Write_Command	G=VAR_GLOBAL
 ++D=USINT	N=Modbus_TCP_Writing_UnitIdentifier	G=VAR_GLOBAL
+++D=BOOL	N=TCP_Connection_Done_Latch_Set_TCP_Status	G=VAR_GLOBAL
+++D=BOOL	N=TCP_Socket_Connection_Done_Latch	G=VAR_GLOBAL
+++D=BOOL	N=TCP_Connection_Done_Latch_Reset_TCP_Status	G=VAR_GLOBAL
+++D=BOOL	N=Modbus_TCP_Cmd_Done	G=VAR_GLOBAL
+++D=BOOL	N=Modbus_TCP_Cmd_Busy	G=VAR_GLOBAL
+++D=BOOL	N=Modbus_TCP_Cmd_Error	G=VAR_GLOBAL
+++D=WORD	N=Modbus_TCP_Cmd_Error_ID	G=VAR_GLOBAL
+++D=DWORD	N=Modbus_TCP_Cmd_Error_Index	G=VAR_GLOBAL
+++D=ARRAY[0..4] OF BYTE	N=Modbus_TCP_Cmd_Command_Data	G=VAR_GLOBAL
+++D=UINT	N=Modbus_TCP_Cmd_Command_Size	G=VAR_GLOBAL
+++D=USINT	N=Modbus_TCP_Cmd_UnitIdentifier	G=VAR_GLOBAL
+++D=ARRAY[0..9] OF BYTE	N=Modbus_TCP_Cmd_Response_Data	G=VAR_GLOBAL
+++D=UINT	N=Modbus_TCP_Cmd_Response_Size_2	G=VAR_GLOBAL
+++D=UINT	N=Modbus_TCP_Cmd_Response_Size	G=VAR_GLOBAL
+++D=DWORD	N=Modbus_TCP_Cmd_Error_Index_2	G=VAR_GLOBAL
+++D=WORD	N=Modbus_TCP_Cmd_Error_ID_2	G=VAR_GLOBAL
+++D=BOOL	N=Modbus_TCP_Cmd_Error_2	G=VAR_GLOBAL
+++D=BOOL	N=Modbus_TCP_Cmd_Busy_2	G=VAR_GLOBAL
+++D=ARRAY[0..9] OF BYTE	N=Modbus_TCP_Cmd_Response_Data_2	G=VAR_GLOBAL
+++D=ARRAY[0..4] OF BYTE	N=Modbus_TCP_Cmd_Command_Data_2	G=VAR_GLOBAL
+++D=UINT	N=Modbus_TCP_Cmd_Command_Size_2	G=VAR_GLOBAL
+++D=USINT	N=Modbus_TCP_Cmd_UnitIdentifier_2	G=VAR_GLOBAL
+++D=ARRAY[0..1] OF WORD	N=Factory_IO_Input_Registrers_Word	G=VAR_GLOBAL
+++D=BOOL	N=Discrete_Input_Sensor_1	G=VAR_GLOBAL
+++D=BOOL	N=Discrete_Input_Pusher_1_Front	G=VAR_GLOBAL
+++D=BOOL	N=Discrete_Input_Pusher_1_Back	G=VAR_GLOBAL
+++D=BOOL	N=Discrete_Input_At_Pusher_1_Exit	G=VAR_GLOBAL
+++D=BOOL	N=Discrete_Input_Sensor_2	G=VAR_GLOBAL
+++D=BOOL	N=Discrete_Input_Pusher_2_Front	G=VAR_GLOBAL
+++D=BOOL	N=Discrete_Input_Pusher_2_Back	G=VAR_GLOBAL
+++D=BOOL	N=Discrete_Input_At_Pusher_2_Exit	G=VAR_GLOBAL
+++D=BOOL	N=Discrete_Input_Start	G=VAR_GLOBAL
+++D=BOOL	N=Discrete_Input_Reset	G=VAR_GLOBAL
+++D=BOOL	N=Discrete_Input_Stop	G=VAR_GLOBAL
+++D=BOOL	N=Discrete_Input_Emergency_Stop	G=VAR_GLOBAL
+++D=INT	N=Vision_Sensor_1_INT	G=VAR_GLOBAL
+++D=INT	N=Vision_Sensor_2_INT	G=VAR_GLOBAL
