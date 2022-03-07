@@ -1,0 +1,20 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=INT	N=i	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=EN	Ord=0	RO=1	G=VAR_INPUT
+++D=OEN\nEIP\sEIP_Network	N=EthernetIP	Ord=1	G=VAR_OUTPUT
+++D=WORD	N=Error	Ord=2	G=VAR_OUTPUT
+++D=WORD	N=PortError	Ord=3	G=VAR_OUTPUT
+++D=USINT	N=Registered	Ord=4	G=VAR_OUTPUT
+++D=USINT	N=Communicates	Ord=5	G=VAR_OUTPUT
+++D=USINT	N=NodesInError	Ord=6	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=WORD	N=_EIP_ErrSta	Const=1	G=VAR_EXTERNAL
+++D=WORD	N=_EIP_PortErr	Const=1	G=VAR_EXTERNAL
+++D=ARRAY[0..255] OF BOOL	N=_EIP_RegTargetSta	Const=1	G=VAR_EXTERNAL
+++D=ARRAY[0..255] OF BOOL	N=_EIP_EstbTargetSta	Const=1	G=VAR_EXTERNAL
+++D=ARRAY[0..255] OF BOOL	N=_EIP_TargetNodeErr	Const=1	G=VAR_EXTERNAL
++GN=RETURN	GA=Return	GVT=ReturnGroup
+++D=BOOL	N=EIP_Control	G=RETURN

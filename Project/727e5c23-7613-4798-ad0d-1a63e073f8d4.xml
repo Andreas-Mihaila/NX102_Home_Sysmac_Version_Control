@@ -1,0 +1,28 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UINT	N=State	G=VAR
+++D=_sSERIAL_CFG	N=SendCfg	G=VAR
+++D=_sSERIAL_CFG	N=RcvCfg	G=VAR
+++D=NX_SerialSend	N=iSend	G=VAR
+++D=NX_SerialRcv	N=iRcv	G=VAR
+++D=NX_SerialBufClear	N=iClear	G=VAR
+++D=_eSERIAL_BUF_KIND	N=ClearBufKind	IV=_BUF_SENDRCV	G=VAR
+++D=UINT	N=SendSize	G=VAR
+++D=ARRAY[0..255] OF BYTE	N=SendDat	G=VAR
+++D=STRING[256]	N=SendStr	G=VAR
+++D=ARRAY[0..255] OF BYTE	N=RcvDat	G=VAR
+++D=STRING[256]	N=RcvStr	G=VAR
+++D=_sSERIAL_RCV_OPTION	N=RcvOption	G=VAR
+++D=UINT	N=TimeOut_UINT	G=VAR
+++D=UINT	N=RcvBytePnt	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Execute	Ord=0	G=VAR_INPUT
+++D=_sDEVICE_PORT	N=DevicePort	Ord=1	G=VAR_INPUT
+++D=STRING[256]	N=PhoneNo	Ord=2	G=VAR_INPUT
+++D=STRING[256]	N=SMS_Text	Ord=3	G=VAR_INPUT
+++D=TIME	N=TimeOut	Ord=4	G=VAR_INPUT
+++D=BOOL	N=Done	Ord=5	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=6	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=7	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

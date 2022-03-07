@@ -1,0 +1,30 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=INT	N=NStep	G=VAR
+++D=OEN\nCommunication\sFBSignals	N=SoktClearBuf	G=VAR
+++D=TON	N=TON_OpenTimout	G=VAR
+++D=BOOL	N=SoktGetTCPStatus_DatRcvFlag	G=VAR
+++D=SktTCPConnect	N=SktTCPConnect_Instance	G=VAR
+++D=SktClearBuf	N=SktClearBuf_Instance	G=VAR
+++D=SktGetTCPStatus	N=SktGetTCPStatus_Instance	G=VAR
+++D=SktClose	N=SktClose_Instance	G=VAR
+++D=OEN\nCommunication\sFBSignals	N=SoktTCPConnect	G=VAR
+++D=OEN\nCommunication\sFBSignals	N=SoktClose	G=VAR
+++D=OEN\nCommunication\sFBSignals	N=SoktGetTCPStatus	G=VAR
+++D=TON	N=TON_WaitAWhile	G=VAR
+++D=_eCONNECTION_STATE	N=TCPStatus	G=VAR
+++D=UINT	N=SocketErrorCounter	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Open	Ord=0	G=VAR_INPUT	Com=TRUE opens, FALSE closing
+++D=BOOL	N=EIP_EtnOnlineSta	Ord=1	G=VAR_INPUT	Com=Use predefined signal for EIP-port 
+++D=STRING[200]	N=IPaddress	Ord=2	G=VAR_INPUT	Com=String like '192.168.250.3'
+++D=UINT	N=LocalPort	Ord=3	G=VAR_INPUT	Com=Use UINT#0 for Auto assignment
+++D=UINT	N=TargetPort	Ord=4	G=VAR_INPUT
+++D=BOOL	N=Connected	Ord=5	G=VAR_OUTPUT
+++D=_sSOCKET	N=Socket	Ord=6	G=VAR_OUTPUT	Com=Opened Socket info
+++D=_eCONNECTION_STATE	N=TCPState	Ord=7	G=VAR_OUTPUT
+++D=BOOL	N=SocketError	Ord=8	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=9	G=VAR_OUTPUT	Com=Socket Error Code (see Manual W502)
+++D=STRING[100]	N=ErrorIDtxt	Ord=10	G=VAR_OUTPUT	Com=Error Code Description
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

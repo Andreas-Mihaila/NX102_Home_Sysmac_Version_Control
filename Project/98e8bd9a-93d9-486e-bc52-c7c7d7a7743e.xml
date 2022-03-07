@@ -1,0 +1,26 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=DINT	N=i	G=VAR
+++D=INT	N=Stage	G=VAR
+++D=EC_CoESDOWrite	N=iEC_CoESDOWrite	G=VAR
+++D=DINT	N=IxSDO	G=VAR
+++D=DINT	N=IxNode	G=VAR
+++D=DINT	N=k	G=VAR
+++D=DINT	N=j	G=VAR
+++D=DINT	N=Value	G=VAR
+++D=INT	N=NodeAdr	G=VAR
+++D=BOOL	N=ParamFound	G=VAR
+++D=BOOL	N=NodeFound	G=VAR
+++D=WORD	N=ErrorID	G=VAR
+++D=DWORD	N=AbortCode	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Execute	Ord=0	G=VAR_INPUT
+++D=BOOL	N=ExcludeEquals	Ord=0	G=VAR_INPUT
+++D=UINT	N=NoOfSDOs	Ord=2	G=VAR_INPUT	Com=Max 40
+++D=ARRAY[*] OF OEN\nECat\nSDO\sNodeDat	N=NodeDat	Ord=3	G=VAR_IN_OUT
+++D=BOOL	N=Done	Ord=4	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=5	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=6	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=ARRAY[1..192] OF BOOL	N=_EC_MBXSlavTbl	Const=1	G=VAR_EXTERNAL

@@ -1,0 +1,60 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=DINT	N=i	G=VAR
+++D=DINT	N=NextSocketPnt	G=VAR
+++D=UINT	N=ConnectState	G=VAR
+++D=UINT	N=CloseState	G=VAR
+++D=DINT	N=SktToClosePnt	G=VAR
+++D=ARRAY[0..9] OF UINT	N=SktState	G=VAR
+++D=ARRAY[0..9] OF BOOL	N=SktConnected	G=VAR
+++D=ARRAY[0..9] OF BOOL	N=SktDoClose	G=VAR
+++D=SktTCPAccept	N=iSktTCPAccept	G=VAR
+++D=ARRAY[0..9] OF SktGetTCPStatus	N=iSktGetTCPStatus	G=VAR
+++D=ARRAY[0..9] OF BOOL	N=SktRcv_Done	G=VAR
+++D=ARRAY[0..9] OF BOOL	N=SktRcv_Busy	G=VAR
+++D=ARRAY[0..9] OF BOOL	N=SktRcv_Error	G=VAR
+++D=ARRAY[0..9] OF WORD	N=SktRcv_Error_ID	G=VAR
+++D=ARRAY[0..9] OF UINT	N=SktRcv_Size	G=VAR
+++D=ARRAY[0..9] OF UINT	N=SktSend_Size	G=VAR
+++D=ARRAY[0..9] OF BOOL	N=SktSend_Done	G=VAR
+++D=ARRAY[0..9] OF BOOL	N=SktSend_Busy	G=VAR
+++D=ARRAY[0..9] OF BOOL	N=SktSend_Error	G=VAR
+++D=ARRAY[0..9] OF WORD	N=SktSend_Error_ID	G=VAR
+++D=SktClose	N=iSktClose	G=VAR
+++D=ARRAY[0..9] OF SktTCPRcv	N=iSktTCPRcv	G=VAR
+++D=ARRAY[0..9] OF SktTCPSend	N=iSktTCPSend	G=VAR
+++D=UINT	N=idxByte	G=VAR
+++D=UINT	N=Qty	G=VAR
+++D=DINT	N=Address	G=VAR
+++D=INT	N=Funct_Code	G=VAR
+++D=DINT	N=j	G=VAR
+++D=DINT	N=idxCoil	G=VAR
+++D=UINT	N=QtyByte	G=VAR
+++D=ARRAY[0..1999] OF BYTE	N=SendDat	Ord=9	G=VAR
+++D=UINT	N=SendDat_Size	Ord=9	G=VAR
+++D=ARRAY[0..9] OF BOOL	N=SendDat_Ex	Ord=5	G=VAR
+++D=ARRAY[0..1999] OF BYTE	N=RcvDat	Ord=5	G=VAR
+++D=BOOL	N=AccessGranted	G=VAR
+++D=BOOL	N=AccessGrantedWrite	G=VAR
+++D=UINT	N=idxBit	G=VAR
+++D=UINT	N=QtyWrite	G=VAR
+++D=DINT	N=AddressWrite	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Enable	Ord=0	G=VAR_INPUT
+++D=UINT	N=Port_No	Ord=1	G=VAR_INPUT
+++D=BOOL	N=UseAccesslist	Ord=2	G=VAR_INPUT
+++D=ARRAY[*] OF OEN\Modbus\sModbusAccess	N=AccessList	Ord=3	G=VAR_IN_OUT
+++D=UINT	N=MaxNoOfClients	IV=10	Ord=4	G=VAR_INPUT	Com=Maximum of 10 clients
+++D=ARRAY[*] OF BOOL	N=Coils	Ord=5	G=VAR_IN_OUT
+++D=ARRAY[*] OF BOOL	N=DiscreteInputs	Ord=6	G=VAR_IN_OUT
+++D=ARRAY[*] OF WORD	N=InputRegisters	Ord=7	G=VAR_IN_OUT
+++D=ARRAY[*] OF WORD	N=HoldingRegisters	Ord=8	G=VAR_IN_OUT
+++D=BOOL	N=Connected	Ord=9	G=VAR_OUTPUT
+++D=UINT	N=NoOfClientsConnected	Ord=10	G=VAR_OUTPUT
+++D=ARRAY[0..9] OF BOOL	N=RcvDat_Done	Ord=11	G=VAR_OUTPUT
+++D=ARRAY[0..9] OF UINT	N=RcvSize	Ord=12	G=VAR_OUTPUT
+++D=ARRAY[0..9] OF BOOL	N=SendDat_Done	Ord=13	G=VAR_OUTPUT
+++D=ARRAY[0..9] OF BOOL	N=SendDat_Error	Ord=14	G=VAR_OUTPUT
+++D=ARRAY[0..9] OF _sSOCKET	N=Socket	Ord=15	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

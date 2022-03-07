@@ -1,0 +1,59 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=TIME	N=UpdateRateTimer	G=VAR
+++D=DINT	N=RequestPnt	G=VAR
+++D=UINT	N=State	G=VAR
+++D=DINT	N=i	G=VAR
+++D=BOOL	N=FoundRequest	G=VAR
+++D=ULINT	N=RequestCycleStart	G=VAR
+++D=_sSERIAL_MODBUSRTU_READ	N=ReadCmd	G=VAR
+++D=_sSERIAL_MODBUSRTU_WRITE	N=WriteCmd	G=VAR
+++D=ARRAY[0..0] OF WORD	N=DummyWrd	G=VAR
+++D=UINT	N=PacketSize	G=VAR
+++D=WORD	N=Value	G=VAR
+++D=WORD	N=CRC_Word	G=VAR
+++D=ARRAY[0..1999] OF BYTE	N=SendAr	G=VAR
+++D=NX_SerialRcv	N=iNX_SerialRcv	G=VAR
+++D=_sSERIAL_CFG	N=RcvCfg	G=VAR
+++D=WORD	N=CRC_Word_Rcvd	G=VAR
+++D=UINT	N=TimeOut	G=VAR
+++D=_sSERIAL_MODBUSRTU_OPTION	N=Option	G=VAR
+++D=_sSERIAL_CFG	N=SendCfg	G=VAR
+++D=_sSERIAL_RCV_OPTION	N=RcvOption	G=VAR
+++D=LINT	N=CycleTime_ns	G=VAR
+++D=SktTCPConnect	N=iSktTCPConnect	G=VAR
+++D=SktClearBuf	N=iSktClearBuf	G=VAR
+++D=SktTCPRcv	N=iSktTCPRcv	G=VAR
+++D=SktTCPSend	N=iSktTCPSend	G=VAR
+++D=SktGetTCPStatus	N=iSktGetTCPStatus	G=VAR
+++D=SktClose	N=iSktClose	G=VAR
+++D=_sSOCKET	N=Socket	G=VAR
+++D=UINT	N=BytePnt	G=VAR
+++D=USINT	N=BitPnt	G=VAR
+++D=UINT	N=TransactionID	G=VAR
+++D=UINT	N=BytesInMessage	G=VAR
+++D=ARRAY[0..1999] OF BYTE	N=RcvAr	G=VAR
+++D=UINT	N=ModbusByteCount	G=VAR
+++D=BOOL	N=CloseSocket	G=VAR
+++D=DINT	N=Test	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Enable	Ord=0	G=VAR_INPUT
+++D=STRING[20]	N=IPAddress	Ord=1	G=VAR_INPUT
+++D=UINT	N=PortNo	Ord=2	G=VAR_INPUT
+++D=TIME	N=UpdateRate	Ord=3	G=VAR_INPUT
+++D=TIME	N=NodeTimeOut	Ord=4	G=VAR_INPUT
+++D=BOOL	N=Status	Ord=5	G=VAR_OUTPUT
+++D=BOOL	N=RequestCycleDone	Ord=6	G=VAR_OUTPUT
+++D=TIME	N=RequestCycleTime	Ord=7	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=8	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=9	G=VAR_OUTPUT
+++D=DWORD	N=ErrorIDEx	Ord=10	G=VAR_OUTPUT
+++D=DINT	N=ErrorRequestNO	Ord=11	G=VAR_OUTPUT
+++D=ARRAY[*] OF OEN\Modbus\sModbusReq	N=Requests	Ord=12	G=VAR_IN_OUT
+++D=ARRAY[*] OF BOOL	N=Coils	Ord=13	G=VAR_IN_OUT
+++D=ARRAY[*] OF BOOL	N=DiscreteInputs	Ord=14	G=VAR_IN_OUT
+++D=ARRAY[*] OF WORD	N=InputRegisters	Ord=15	G=VAR_IN_OUT
+++D=ARRAY[*] OF WORD	N=HoldingRegisters	Ord=16	G=VAR_IN_OUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=DATE_AND_TIME	N=_CurrentTime	Const=1	G=VAR_EXTERNAL

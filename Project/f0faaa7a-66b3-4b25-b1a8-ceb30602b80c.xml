@@ -1,0 +1,12 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=EN	Ord=0	RO=1	G=VAR_INPUT
+++D=_sOPTBOARD_ID	N=SerialBoard_ID	Ord=1	G=VAR_INPUT	Com=Create and use variable from I/O Map
+++D=_sNXUNIT_ID	N=NX_CIF_Unit_ID	Ord=2	G=VAR_INPUT	Com=Create and use variable from I/O Map
+++D=USINT(0..2)	N=NX_CIF_Port	IV=0	Ord=3	G=VAR_INPUT	Com=Port#1 or #2 on the CIF
+++D=_sDEVICE_PORT	N=DevicePort	Ord=4	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
++GN=RETURN	GA=Return	GVT=ReturnGroup
+++D=BOOL	N=DevicePort_Setup	G=RETURN

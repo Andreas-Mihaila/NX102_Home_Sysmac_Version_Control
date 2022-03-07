@@ -1,0 +1,28 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=SktTCPConnect	N=TCPConnect	G=VAR
+++D=SktClose	N=TCPClose	G=VAR
+++D=SktTCPAccept	N=TCPAccept	G=VAR
+++D=SktGetTCPStatus	N=TCPStatus	G=VAR
+++D=SktClearBuf	N=TCPClearBuffer	G=VAR
+++D=SktTCPSend	N=TCPSend	G=VAR
+++D=SktTCPRcv	N=TCPReceive	G=VAR
+++D=BOOL	N=DoTCP	G=VAR
+++D=INT	N=Stage	G=VAR
+++D=ARRAY[0..255] OF BYTE	N=MessageAsByte	G=VAR
+++D=UINT	N=MessageLength	G=VAR
+++D=_sSOCKET	N=TCPSocket	G=VAR
+++D=ULINT	N=SendTime	G=VAR
+++D=ULINT	N=ResponseTime	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Enable	Ord=0	G=VAR_INPUT
+++D=OEN\nEth\sSetup	N=Setup	Ord=1	G=VAR_INPUT
+++D=BOOL	N=Trigger	E=UpDirection	Ord=2	G=VAR_INPUT
+++D=STRING[256]	N=Message	Ord=3	G=VAR_INPUT
+++D=BOOL	N=Done	Ord=4	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=5	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=6	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=7	G=VAR_OUTPUT
+++D=ARRAY[0..255] OF BYTE	N=ReplyAsBytes	Ord=8	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

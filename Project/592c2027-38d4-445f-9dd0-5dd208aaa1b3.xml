@@ -1,0 +1,22 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=OEN\Modbus\ModbusTCP_Client	N=Modbus_TCP_Client_To_FIO_Server_Instance	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=ARRAY[0..7] OF WORD	N=Modbus_TCP_Client_To_FIO_Server_Array_Holding_Registers	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF WORD	N=Modbus_TCP_Client_To_FIO_Server_Array_Input_Registers	G=VAR_EXTERNAL
+++D=ARRAY[0..15] OF BOOL	N=Modbus_TCP_Client_To_FIO_Server_Array_Discrete_Inputs	G=VAR_EXTERNAL
+++D=ARRAY[0..15] OF BOOL	N=Modbus_TCP_Client_To_FIO_Server_Array_Coils	G=VAR_EXTERNAL
+++D=ARRAY[0..3] OF OEN\Modbus\sModbusReq	N=Modbus_TCP_Client_To_FIO_Server_Array_Requests	G=VAR_EXTERNAL
+++D=DINT	N=Modbus_TCP_Client_To_FIO_Server_Error_Request_Array_Number	G=VAR_EXTERNAL
+++D=DWORD	N=Modbus_TCP_Client_To_FIO_Server_Error_Index	G=VAR_EXTERNAL
+++D=WORD	N=Modbus_TCP_Client_To_FIO_Server_Error_ID	G=VAR_EXTERNAL
+++D=BOOL	N=Modbus_TCP_Client_To_FIO_Server_Error	G=VAR_EXTERNAL
+++D=TIME	N=Modbus_TCP_Client_To_FIO_Server_Cycle_Time	G=VAR_EXTERNAL
+++D=BOOL	N=Modbus_TCP_Client_To_FIO_Server_Cyclic_Done	G=VAR_EXTERNAL
+++D=TIME	N=Modbus_TCP_Client_To_FIO_Server_Node_Time_Out	G=VAR_EXTERNAL
+++D=TIME	N=Modbus_TCP_Client_To_FIO_Server_Update_Rate	G=VAR_EXTERNAL
+++D=UINT	N=Modbus_TCP_Client_To_FIO_Server_TCP_Port_Number	G=VAR_EXTERNAL
+++D=STRING[20]	N=Modbus_TCP_Client_To_FIO_Server_IP_Address	G=VAR_EXTERNAL
+++D=BOOL	N=Modbus_TCP_Client_To_FIO_Server_Activated	G=VAR_EXTERNAL
+++D=BOOL	N=Modbus_TCP_Client_To_FIO_Server_Execute	G=VAR_EXTERNAL

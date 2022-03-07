@@ -166,7 +166,7 @@
       </Options>
     </NexCpuEipTcpIpIsKeepAlive>
     <NexCpuEipTcpIpKeepAliveSuperviseTime>
-      <CurrentValue>300</CurrentValue>
+      <CurrentValue>5</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>300</DefaultValue>

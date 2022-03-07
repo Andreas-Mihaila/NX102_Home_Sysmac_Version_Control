@@ -647,6 +647,94 @@
             </LibraryModel>
           </data>
         </ReferredLibrary>
+        <ReferredLibrary>
+          <data>
+            <LibraryModel>
+              <Name>OEN_Communication</Name>
+              <NameSpace></NameSpace>
+              <Version>1.01.00</Version>
+              <Revision>1</Revision>
+              <LibraryId>5e5ab9e8-a029-475a-89e0-b052a90cae3b</LibraryId>
+              <Author>OEE-N Bjarte Myklebust/Kjell Baardsgaard</Author>
+              <Company>Omron Electronics Norway AS</Company>
+              <DateCreated>2012-05-08T14:04:04.1180337+03:00</DateCreated>
+              <DateModified>2021-11-17T12:23:40.3513264+02:00</DateModified>
+              <Comment>For NX/NJ FW 1.18 --&gt;</Comment>
+              <Password></Password>
+              <AttachedFiles />
+              <AttachedFilesRelativePaths />
+              <PublicPartsNames>
+                <PublicName>OEN\Serial\CIF\GetByteCount</PublicName>
+                <PublicName>OEN\ECat\SDO\NodeDatCmp_Read_Write</PublicName>
+                <PublicName>OEN\EIP\OS32C_DM</PublicName>
+                <PublicName>OEN\EIP\EIP_Control</PublicName>
+                <PublicName>OEN\Serial\DevicePort_Setup</PublicName>
+                <PublicName>OEN\ECat\SDO\NodeDatRead</PublicName>
+                <PublicName>OEN\ECat\SDO\NodeDatWrite</PublicName>
+                <PublicName>OEN\Serial\CIF\NX_SendSMS</PublicName>
+                <PublicName>OEN\Serial\CIF\NX_RcvSMS</PublicName>
+                <PublicName>OEN\Serial\CIF\NX_ClearModemBuffer</PublicName>
+                <PublicName>OEN\Modbus\NX_ModbusRTU_Master</PublicName>
+                <PublicName>OEN\Modbus\NX_ModbusRTU_Slave</PublicName>
+                <PublicName>OEN\Modbus\ModbusTCP_Client</PublicName>
+                <PublicName>OEN\Modbus\ModbusTCP_Server</PublicName>
+                <PublicName>OEN\Eth\TCP\TCP_Server</PublicName>
+                <PublicName>OEN\Serial\SCU\SCU_PortSetup</PublicName>
+                <PublicName>OEN\ECat\EC_Control</PublicName>
+                <PublicName>OEN\Eth\TCP_Messaging</PublicName>
+                <PublicName>OEN\Eth\TCP_Connect</PublicName>
+                <PublicName>OEN\sNetw_Command</PublicName>
+                <PublicName>OEN\nECat\sEC_Network</PublicName>
+                <PublicName>OEN\nECat\sEC_Status</PublicName>
+                <PublicName>OEN\nECat\sNetw_Status</PublicName>
+                <PublicName>OEN\nECat\sEC_Control</PublicName>
+                <PublicName>OEN\nECat\sEC_ControlMonitor</PublicName>
+                <PublicName>OEN\nECat\sErrorStatusBits</PublicName>
+                <PublicName>OEN\nECat\nSDO\sNodeDat</PublicName>
+                <PublicName>OEN\nECat\nSDO\sSdoList</PublicName>
+                <PublicName>OEN\nEth\sTCPMessaging</PublicName>
+                <PublicName>OEN\nEth\sSetup</PublicName>
+                <PublicName>OEN\Modbus\eFun</PublicName>
+                <PublicName>OEN\Modbus\sModbusReq</PublicName>
+                <PublicName>OEN\Modbus\sAddressReq</PublicName>
+                <PublicName>OEN\Modbus\sAddress</PublicName>
+                <PublicName>OEN\Modbus\sModbusAccess</PublicName>
+                <PublicName>OEN\Modbus\eAccess</PublicName>
+                <PublicName>OEN\Modbus\eRegisterType</PublicName>
+                <PublicName>OEN\nEIP\sOS32C_In_EIP</PublicName>
+                <PublicName>OEN\nEIP\sOS32C_Out_EIP</PublicName>
+                <PublicName>OEN\nEIP\sEIP_Network</PublicName>
+                <PublicName>OEN\nEIP\sEIP_Status</PublicName>
+                <PublicName>OEN\nEIP\sEIP_Errors</PublicName>
+                <PublicName>OEN\nEIP\sNetw_Status</PublicName>
+                <PublicName>OEN\nCommunication\sFBSignals</PublicName>
+              </PublicPartsNames>
+              <InternalPartsNames />
+              <BuildDevice>
+                <Category>Controller</Category>
+                <Family>Nex</Family>
+                <FullModel>NX1P2-1040DT</FullModel>
+                <MajorVersion>1</MajorVersion>
+                <MinorVersion>18</MinorVersion>
+                <Revision>0</Revision>
+                <DisplayVersion>1.18</DisplayVersion>
+                <Packages>
+                  <Package Name="Motion" Version="1.18" />
+                </Packages>
+              </BuildDevice>
+              <DependencyId>a51d4973-7d2f-42e5-b95a-78e2c9fe090b</DependencyId>
+              <IsSource>true</IsSource>
+              <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+              <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+              <LibraryFilePath>C:\Users\mihand\OneDrive - OMRON\Desktop\OEN_Communication1.01.slr</LibraryFilePath>
+              <LibraryFileRelativePath>OneDrive - OMRON\Desktop\OEN_Communication1.01.slr</LibraryFileRelativePath>
+              <LibrarySourceControlRelativeFilePath>..\..\..\..\..\..\Users\mihand\OneDrive - OMRON\Desktop\OEN_Communication1.01.slr</LibrarySourceControlRelativeFilePath>
+              <AsOldVer>true</AsOldVer>
+              <SchemaVersion>1</SchemaVersion>
+              <Parameter1>false</Parameter1>
+            </LibraryModel>
+          </data>
+        </ReferredLibrary>
       </ReferredLibraries>
       <BuildOption>
         <data>
