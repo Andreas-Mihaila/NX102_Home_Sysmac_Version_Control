@@ -5,8 +5,8 @@ _EN=Variables
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=ARRAY[0..7] OF WORD	N=Modbus_TCP_Client_To_FIO_Server_Array_Holding_Registers	G=VAR_EXTERNAL
 ++D=ARRAY[0..7] OF WORD	N=Modbus_TCP_Client_To_FIO_Server_Array_Input_Registers	G=VAR_EXTERNAL
-++D=ARRAY[0..15] OF BOOL	N=Modbus_TCP_Client_To_FIO_Server_Array_Discrete_Inputs	G=VAR_EXTERNAL
-++D=ARRAY[0..15] OF BOOL	N=Modbus_TCP_Client_To_FIO_Server_Array_Coils	G=VAR_EXTERNAL
+++D=ARRAY[0..19] OF BOOL	N=Modbus_TCP_Client_To_FIO_Server_Array_Discrete_Inputs	G=VAR_EXTERNAL
+++D=ARRAY[0..19] OF BOOL	N=Modbus_TCP_Client_To_FIO_Server_Array_Coils	G=VAR_EXTERNAL
 ++D=ARRAY[0..3] OF OEN\Modbus\sModbusReq	N=Modbus_TCP_Client_To_FIO_Server_Array_Requests	G=VAR_EXTERNAL
 ++D=DINT	N=Modbus_TCP_Client_To_FIO_Server_Error_Request_Array_Number	G=VAR_EXTERNAL
 ++D=DWORD	N=Modbus_TCP_Client_To_FIO_Server_Error_Index	G=VAR_EXTERNAL
@@ -20,3 +20,43 @@ _EN=Variables
 ++D=STRING[20]	N=Modbus_TCP_Client_To_FIO_Server_IP_Address	G=VAR_EXTERNAL
 ++D=BOOL	N=Modbus_TCP_Client_To_FIO_Server_Activated	G=VAR_EXTERNAL
 ++D=BOOL	N=Modbus_TCP_Client_To_FIO_Server_Execute	G=VAR_EXTERNAL
+++D=BOOL	N=DQ_1st_Port	G=VAR_EXTERNAL
+++D=BOOL	N=DI_Start_Push_Button	G=VAR_EXTERNAL
+++D=BOOL	N=DI_Stop_Push_Button	G=VAR_EXTERNAL
+++D=BOOL	N=DI_Home_Position_Button	G=VAR_EXTERNAL
+++D=BOOL	N=DI_Emergency_Switch	G=VAR_EXTERNAL
+++D=BOOL	N=DI_Sensor_Conveyor_Inlet	G=VAR_EXTERNAL
+++D=BOOL	N=DI_Sensor_Conveyor_Weight_Measuring	G=VAR_EXTERNAL
+++D=BOOL	N=DI_Sensor_Ramp_Light	G=VAR_EXTERNAL
+++D=BOOL	N=DI_Sensor_Ramp_Middle	G=VAR_EXTERNAL
+++D=BOOL	N=DI_Sensor_Ramp_Heavy	G=VAR_EXTERNAL
+++D=BOOL	N=DI_Factory_IO_Running	G=VAR_EXTERNAL
+++D=BOOL	N=DI_Factory_IO_Paused	G=VAR_EXTERNAL
+++D=BOOL	N=DI_Factory_IO_Reset	G=VAR_EXTERNAL
+++D=WORD	N=AI_Weight_Measuring	G=VAR_EXTERNAL
+++D=WORD	N=AI_FIO_Time_Scale	G=VAR_EXTERNAL
+++D=BOOL	N=DQ_Light_Start	G=VAR_EXTERNAL
+++D=BOOL	N=DQ_Light_Stop	G=VAR_EXTERNAL
+++D=BOOL	N=DQ_Light_Home	G=VAR_EXTERNAL
+++D=BOOL	N=DQ_Traffic_Light_Green	G=VAR_EXTERNAL
+++D=BOOL	N=DQ_Traffic_Light_Yellow	G=VAR_EXTERNAL
+++D=BOOL	N=DQ_Traffic_Light_Red	G=VAR_EXTERNAL
+++D=BOOL	N=DQ_Motor_Conveyor_Inlet	G=VAR_EXTERNAL
+++D=BOOL	N=DQ_Motor_Conveyor_Weight_Measuring	G=VAR_EXTERNAL
+++D=BOOL	N=DQ_Sorting_Left	G=VAR_EXTERNAL
+++D=BOOL	N=DQ_Sorting_Right	G=VAR_EXTERNAL
+++D=BOOL	N=DQ_Sorting_Straight	G=VAR_EXTERNAL
+++D=BOOL	N=DQ_Request_New_Package	G=VAR_EXTERNAL
+++D=BOOL	N=DQ_Remove_Package_Light	G=VAR_EXTERNAL
+++D=BOOL	N=DQ_Remove_Package_Middle	G=VAR_EXTERNAL
+++D=BOOL	N=DQ_Remove_Package_Heavy	G=VAR_EXTERNAL
+++D=BOOL	N=DQ_Conveyor_Scale_1	G=VAR_EXTERNAL
+++D=BOOL	N=DQ_Run_FIO	G=VAR_EXTERNAL
+++D=BOOL	N=DQ_Pause_FIO	G=VAR_EXTERNAL
+++D=BOOL	N=DQ_Reset_FIO	G=VAR_EXTERNAL
+++D=INT	N=AQ_FIO_Camera_Position	G=VAR_EXTERNAL
+++D=INT	N=AI_Weight_Measuring_INT	G=VAR_EXTERNAL
+++D=REAL	N=AI_Weight_Measuring_REAL	G=VAR_EXTERNAL
+++D=INT	N=AI_FIO_Time_Scale_INT	G=VAR_EXTERNAL
+++D=REAL	N=AI_FIO_Time_Scale_REAL	G=VAR_EXTERNAL
+++D=WORD	N=AQ_FIO_Camera_Position_WORD	G=VAR_EXTERNAL
