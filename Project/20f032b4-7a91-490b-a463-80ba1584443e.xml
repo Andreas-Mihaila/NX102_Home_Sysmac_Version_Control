@@ -1,21 +1,49 @@
 [SLWD version=1.0]
 _EN=Variables
 +GN=VAR	GVT=DefaultGroup
-++D=BOOL	N=Done_Connect	G=VAR
-++D=STRING[256]	N=NX102_SQL	G=VAR
-++D=BOOL	N=Busy_Connect	G=VAR
-++D=BOOL	N=Error_Connect	G=VAR
-++D=WORD	N=ErrorID_Connect	G=VAR
-++D=DWORD	N=SQL_Connection	G=VAR
 ++D=DB_Connect	N=DB_SQL_Connect	G=VAR
-++D=BOOL	N=Close_DB_Connection	G=VAR
-++D=DB_Close	N=DB_SQL_Close	G=VAR
-++D=BOOL	N=Busy_Close	G=VAR
-++D=BOOL	N=Error_Close	G=VAR
-++D=WORD	N=ErrorID_Close	G=VAR
-++D=BOOL	N=Connect_DB_Connection	G=VAR
-++D=BOOL	N=Done_Close	G=VAR
-++D=BOOL	N=test	G=VAR
+++D=DB_GetServiceStatus	N=DB_SQL_Get_Service_Status_Instance	G=VAR
+++D=DB_GetConnectionStatus	N=DB_SQL_Get_Connection_Status_Instance	G=VAR
+++D=DB_Close	N=DB_SQL_Close_Instance	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=BOOL	N=_EIP_EtnOnlineSta	Const=1	G=VAR_EXTERNAL
 ++D=_sDBC_STATUS	N=_DBC_Status	Const=1	G=VAR_EXTERNAL
+++D=BOOL	N=Done_Close	G=VAR_EXTERNAL
+++D=BOOL	N=Connect_DB_Connection	G=VAR_EXTERNAL
+++D=WORD	N=ErrorID_Close	G=VAR_EXTERNAL
+++D=BOOL	N=Error_Close	G=VAR_EXTERNAL
+++D=BOOL	N=Busy_Close	G=VAR_EXTERNAL
+++D=BOOL	N=Close_DB_Connection	G=VAR_EXTERNAL
+++D=DWORD	N=SQL_Connection	G=VAR_EXTERNAL
+++D=WORD	N=ErrorID_Connect	G=VAR_EXTERNAL
+++D=BOOL	N=Error_Connect	G=VAR_EXTERNAL
+++D=BOOL	N=Busy_Connect	G=VAR_EXTERNAL
+++D=STRING[256]	N=NX102_SQL	G=VAR_EXTERNAL
+++D=BOOL	N=Done_Connect	G=VAR_EXTERNAL
+++D=STRING[256]	N=DB_SQL_Connection_Name	G=VAR_EXTERNAL
+++D=TIME	N=DB_SQL_Service_Operating_Time	G=VAR_EXTERNAL
+++D=DINT	N=DB_SQL_Service_Execution_Connection	G=VAR_EXTERNAL
+++D=DINT	N=DB_SQL_Service_Failed_Connection	G=VAR_EXTERNAL
+++D=BOOL	N=DB_SQL_Service_Debug_Log	G=VAR_EXTERNAL
+++D=_eDBC_STATUS	N=DB_SQL_Service_Status	G=VAR_EXTERNAL
+++D=_eDBC_CONNECTION_STATUS	N=DB_SQL_Connection_Status	G=VAR_EXTERNAL
+++D=TIME	N=DB_SQL_Connection_Status_Connected_Time	G=VAR_EXTERNAL
+++D=TIME	N=DB_SQL_Connection_Status_Disconnected_Time	G=VAR_EXTERNAL
+++D=TIME	N=DB_SQL_Connection_Status_DB_Response_Time	G=VAR_EXTERNAL
+++D=DINT	N=DB_SQL_Connection_Status_Execution_Connection	G=VAR_EXTERNAL
+++D=DINT	N=DB_SQL_Connection_Status_Failed_Connection	G=VAR_EXTERNAL
+++D=STRING[8]	N=DB_SQL_Connection_Status_SQL_State	G=VAR_EXTERNAL
+++D=BOOL	N=DB_SQL_Get_Connection_Status_Done	G=VAR_EXTERNAL
+++D=_sDBC_CONNECTION_STATUS	N=DB_SQL_Get_Connection_Status_Actual	G=VAR_EXTERNAL
+++D=WORD	N=DB_SQL_Get_Connection_Status_Error_ID	G=VAR_EXTERNAL
+++D=BOOL	N=DB_SQL_Get_Connection_Status_Error	G=VAR_EXTERNAL
+++D=BOOL	N=DB_SQL_Get_Connection_Status_Busy	G=VAR_EXTERNAL
+++D=BOOL	N=DB_SQL_Get_Service_Status_Busy	G=VAR_EXTERNAL
+++D=BOOL	N=DB_SQL_Get_Service_Status_Error	G=VAR_EXTERNAL
+++D=WORD	N=DB_SQL_Get_Service_Status_Error_ID	G=VAR_EXTERNAL
+++D=_sDBC_SERVICE_STATUS	N=DB_SQL_Get_Service_Status_Actual	G=VAR_EXTERNAL
+++D=WORD	N=DB_SQL_Close_Error_ID	G=VAR_EXTERNAL
+++D=BOOL	N=DB_SQL_Close_Error	G=VAR_EXTERNAL
+++D=BOOL	N=DB_SQL_Close_Busy	G=VAR_EXTERNAL
+++D=DWORD	N=DB_SQL_Close_Connection_Name	G=VAR_EXTERNAL
+++D=BOOL	N=DB_SQL_Connection_Close	G=VAR_EXTERNAL
