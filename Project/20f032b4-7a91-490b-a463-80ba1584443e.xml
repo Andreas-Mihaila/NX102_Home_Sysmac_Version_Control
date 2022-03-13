@@ -5,6 +5,10 @@ _EN=Variables
 ++D=DB_GetServiceStatus	N=DB_SQL_Get_Service_Status_Instance	G=VAR
 ++D=DB_GetConnectionStatus	N=DB_SQL_Get_Connection_Status_Instance	G=VAR
 ++D=DB_Close	N=DB_SQL_Close_Instance	G=VAR
+++D=DB_CreateMapping	N=DB_Create_Mapping_Select_Instance	G=VAR
+++D=DB_CreateMapping	N=DB_Create_Mapping_Insert_Instance	G=VAR
+++D=DB_CreateMapping	N=DB_Create_Mapping_Update_Instance	G=VAR
+++D=DB_Select	N=DB_Select_Instance	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=BOOL	N=_EIP_EtnOnlineSta	Const=1	G=VAR_EXTERNAL
 ++D=_sDBC_STATUS	N=_DBC_Status	Const=1	G=VAR_EXTERNAL
@@ -47,3 +51,36 @@ _EN=Variables
 ++D=BOOL	N=DB_SQL_Close_Busy	G=VAR_EXTERNAL
 ++D=DWORD	N=DB_SQL_Close_Connection_Name	G=VAR_EXTERNAL
 ++D=BOOL	N=DB_SQL_Connection_Close	G=VAR_EXTERNAL
+++D=STRING[256]	N=DB_Create_Mapping_Update_Table_Name	G=VAR_EXTERNAL
+++D=STRING[256]	N=DB_Create_Mapping_Insert_Table_Name	G=VAR_EXTERNAL
+++D=STRING[256]	N=DB_Create_Mapping_Select_Table_Name	G=VAR_EXTERNAL
+++D=_eDBC_SQLTYPE	N=DB_Create_Mapping_Update_SQL_Type	G=VAR_EXTERNAL
+++D=_eDBC_SQLTYPE	N=DB_Create_Mapping_Insert_SQL_Type	G=VAR_EXTERNAL
+++D=_eDBC_SQLTYPE	N=DB_Create_Mapping_Select_SQL_Type	G=VAR_EXTERNAL
+++D=BOOL	N=DB_Create_Variables_Mappings_Done	G=VAR_EXTERNAL
+++D=WORD	N=DB_Create_Mapping_Update_Error_ID	G=VAR_EXTERNAL
+++D=BOOL	N=DB_Create_Mapping_Update_Error	G=VAR_EXTERNAL
+++D=BOOL	N=DB_Create_Mapping_Update_Busy	G=VAR_EXTERNAL
+++D=WORD	N=DB_Create_Mapping_Insert_Error_ID	G=VAR_EXTERNAL
+++D=BOOL	N=DB_Create_Mapping_Insert_Error	G=VAR_EXTERNAL
+++D=BOOL	N=DB_Create_Mapping_Insert_Busy	G=VAR_EXTERNAL
+++D=WORD	N=DB_Create_Mapping_Select_Error_ID	G=VAR_EXTERNAL
+++D=BOOL	N=DB_Create_Mapping_Select_Error	G=VAR_EXTERNAL
+++D=BOOL	N=DB_Create_Mapping_Select_Busy	G=VAR_EXTERNAL
+++D=TIME	N=DB_Select_Time_Out	G=VAR_EXTERNAL
+++D=SQL_Motor_Data	N=Insert_SQL_Data	G=VAR_EXTERNAL
+++D=SQL_Motor_Data	N=Update_SQL_Data	G=VAR_EXTERNAL
+++D=Var_Mapping_SQL	N=Select_SQL_Data	G=VAR_EXTERNAL
+++D=BOOL	N=DB_Select_Execute	G=VAR_EXTERNAL
+++D=BOOL	N=DB_Select_Done	G=VAR_EXTERNAL
+++D=STRING[1986]	N=DB_Select_Sort	G=VAR_EXTERNAL
+++D=STRING[1986]	N=DB_Select_Where_Condition	G=VAR_EXTERNAL
+++D=DINT	N=DB_Select_Number_Of_Retrieved_Records_Map_Variables	G=VAR_EXTERNAL
+++D=DINT	N=DB_Select_Number_Of_Records_Map_Variables	G=VAR_EXTERNAL
+++D=WORD	N=DB_Select_Error_ID	G=VAR_EXTERNAL
+++D=BOOL	N=DB_Select_Error	G=VAR_EXTERNAL
+++D=BOOL	N=DB_Select_Busy	G=VAR_EXTERNAL
+++D=DINT	N=Production_Counter_Blue	G=VAR_EXTERNAL
+++D=STRING[256]	N=Barcode	G=VAR_EXTERNAL
+++D=DATE_AND_TIME	N=Timestamp	G=VAR_EXTERNAL
+++D=UINT	N=Product_ID	G=VAR_EXTERNAL
