@@ -619,7 +619,7 @@ _EN=Variables
 ++D=TIME	N=DB_Select_Time_Out	G=VAR_GLOBAL
 ++D=SQL_Motor_Data	N=Insert_SQL_Data	G=VAR_GLOBAL
 ++D=SQL_Motor_Data	N=Update_SQL_Data	G=VAR_GLOBAL
-++D=Var_Mapping_SQL	N=Select_SQL_Data	G=VAR_GLOBAL
+++D=ARRAY[0..49] OF Var_Mapping_SQL	N=Select_SQL_Data	G=VAR_GLOBAL
 ++D=BOOL	N=DB_Select_Execute	G=VAR_GLOBAL
 ++D=BOOL	N=DB_Select_Done	G=VAR_GLOBAL
 ++D=STRING[1986]	N=DB_Select_Sort	G=VAR_GLOBAL
