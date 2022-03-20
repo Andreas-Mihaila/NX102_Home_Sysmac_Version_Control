@@ -1,0 +1,17 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BYTE	N=d	G=VAR
+++D=USINT	N=usIdx	G=VAR
+++D=UDINT	N=uiLength	G=VAR
+++D=BOOL	N=bError	G=VAR
+++D=ARRAY[0..3] OF UINT	N=arrDummy	G=VAR
+++D=UINT	N=uiZeros	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=EN	Ord=0	RO=1	G=VAR_INPUT
+++D=BOOL	N=ENO	Ord=1	RO=1	G=VAR_OUTPUT
+++D=UDINT	N=uiValue	Ord=2	G=VAR_INPUT
+++D=ARRAY[0..3] OF BYTE	N=arrEncoded	Ord=3	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
++GN=RETURN	GA=Return	GVT=ReturnGroup
+++D=UINT	N=RLEncode	G=RETURN

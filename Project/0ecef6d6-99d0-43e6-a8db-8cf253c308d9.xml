@@ -1,0 +1,53 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UDINT	N=udiRcvSize	G=VAR
+++D=BYTE	N=byOPCode	G=VAR
+++D=UINT	N=uiSktRcv	IV=101	G=VAR
+++D=ARRAY[0..65534] OF BYTE	N=arrData	G=VAR
+++D=BYTE	N=byReturnCode	G=VAR
+++D=SktTCPRcv	N=fbSocketRcv	G=VAR
+++D=SktTLSRead	N=fbSecureSocketRcv	G=VAR
+++D=UINT	N=uiPacketIDlength	IV=0	G=VAR
+++D=UINT	N=uiOffset	IV=0	G=VAR
+++D=BOOL	N=bRepeat	G=VAR
+++D=ARRAY[0..1999] OF byte	N=arrRcvData	G=VAR
+++D=ARRAY[0..3] OF BYTE	N=arrRL	G=VAR
+++D=UINT	N=uiBufferPointer	G=VAR
+++D=UDINT	N=RemLength	G=VAR
+++D=UINT	N=RLBoffset	G=VAR
+++D=UDINT	N=DataSize	G=VAR
+++D=UINT	N=uiRes	G=VAR
+++D=BOOL	N=blDone	G=VAR
+++D=BOOL	N=blError	G=VAR
+++D=WORD	N=wlErrorID	G=VAR
+++D=DWORD	N=dwlErrorIDEx	G=VAR
+++D=UINT	N=uilRcvSize	G=VAR
+++D=UINT	N=uiN	G=VAR
+++D=BYTE	N=byCode	G=VAR
+++D=ULINT	N=uliStartDiscardCnt	G=VAR
+++D=ULINT	N=uliNowDiscardCnt	G=VAR
+++D=UDINT	N=udiMaxBufferSize	IV=65535	Const=1	G=VAR
+++D=BOOL	N=bUtfError	G=VAR
+++D=BYTE	N=by1st	G=VAR
+++D=BYTE	N=by2nd	G=VAR
+++D=BYTE	N=by3rd	G=VAR
+++D=BYTE	N=by4th	G=VAR
+++D=UINT	N=uiUtfCheckCnt	G=VAR
+++D=ULINT	N=uliDiscardMsgTime	G=VAR
+++D=UINT	N=uiMaxTopicSize	IV=511	Const=1	G=VAR
+++D=UINT	N=uiRcvDatSize	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Enable	IV=False	Ord=0	G=VAR_INPUT
+++D=_sSOCKET	N=SocketID	IV=(Handle := 0, SrcAdr := (PortNo := 0, IpAdr := ''), DstAdr := (PortNo := 0, IpAdr := ''))	Ord=1	G=VAR_INPUT
+++D=DWORD	N=Handle	IV=0	Ord=2	G=VAR_INPUT
+++D=BOOL	N=TLSUse	IV=True	Ord=3	G=VAR_INPUT
+++D=UINT	N=DiscardMsgTime	IV=1000	Ord=4	G=VAR_INPUT
+++D=OmronLib\MQTT_Comm\sClientReference	N=Buffer	Ord=5	G=VAR_IN_OUT
+++D=BOOL	N=Done	Ord=6	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=7	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=8	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=9	G=VAR_OUTPUT
+++D=DWORD	N=ErrorIDEx	Ord=10	G=VAR_OUTPUT
+++D=UDINT	N=DiscardMsgNum	Ord=11	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

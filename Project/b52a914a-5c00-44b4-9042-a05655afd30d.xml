@@ -1,0 +1,34 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UINT	N=uiSrvStatus	IV=0	G=VAR
+++D=UINT	N=uiSrvSubStatus	G=VAR
+++D=SktClose	N=fb_sktClose	G=VAR
+++D=SktClearBuf	N=fb_sktClearBuffer	G=VAR
+++D=BOOL	N=bRepeat	G=VAR
+++D=SktTLSConnect	N=fb_sktTLSConnect	G=VAR
+++D=SktTLSClearBuf	N=fb_sktTLSClearBuffer	G=VAR
+++D=sktTLSDisconnect	N=fb_sktTLSDisconnect	G=VAR
+++D=WORD	N=wlErrorID	G=VAR
+++D=DWORD	N=dwlErrorIDEx	G=VAR
+++D=_eCONNECTION_STATE	N=elConnStatus	G=VAR
+++D=_sSOCKET	N=slSocketID	G=VAR
+++D=DWORD	N=dwlHandle	G=VAR
+++D=_sSOCKET	N=defSocketID	IV=(Handle := 0, SrcAdr := (PortNo := 0, IpAdr := ''), DstAdr := (PortNo := 0, IpAdr := ''))	G=VAR
+++D=SktGetTCPStatus	N=fb_sktGetTCPStatus	G=VAR
+++D=SktTCPConnect	N=fb_sktTCPConnect	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Enable	IV=False	Ord=0	G=VAR_INPUT
+++D=STRING[256]	N=Host	IV=''	Ord=1	G=VAR_INPUT
+++D=UINT	N=ServerPort	IV=8883	Ord=2	G=VAR_INPUT
+++D=STRING[17]	N=TLSSessionName	IV=''	Ord=3	G=VAR_INPUT
+++D=BOOL	N=TLSUse	IV=True	Ord=4	G=VAR_INPUT
+++D=BOOL	N=Connected	Ord=5	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=6	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=7	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=8	G=VAR_OUTPUT
+++D=DWORD	N=ErrorIDEx	Ord=9	G=VAR_OUTPUT
+++D=_eCONNECTION_STATE	N=ConnStatus	Ord=10	G=VAR_OUTPUT
+++D=_sSOCKET	N=SocketID	Ord=11	G=VAR_OUTPUT
+++D=DWORD	N=Handle	Ord=12	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

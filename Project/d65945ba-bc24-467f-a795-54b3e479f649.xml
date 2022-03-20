@@ -1,0 +1,30 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UINT	N=uiSendBufferPointer	G=VAR
+++D=UINT	N=uiSendSize	G=VAR
+++D=SktTCPSend	N=fbSocketSend	G=VAR
+++D=SktTLSWrite	N=fbSecureSocketSend	G=VAR
+++D=UINT	N=uiSize	G=VAR
+++D=UINT	N=uiSktControl	IV=10	G=VAR
+++D=UINT	N=uiSteps	G=VAR
+++D=UINT	N=uiRemainder	G=VAR
+++D=UINT	N=uiCurrentStep	G=VAR
+++D=BOOL	N=bRepeat	G=VAR
+++D=BOOL	N=blDone	G=VAR
+++D=BOOL	N=blError	G=VAR
+++D=WORD	N=wlErrorID	G=VAR
+++D=DWORD	N=dwlErrorIDEx	G=VAR
+++D=USINT	N=usiRetries	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Enable	IV=False	Ord=0	G=VAR_INPUT
+++D=_sSOCKET	N=SocketID	IV=(Handle := 0, SrcAdr := (PortNo := 0, IpAdr := ''), DstAdr := (PortNo := 0, IpAdr := ''))	Ord=1	G=VAR_INPUT
+++D=DWORD	N=Handle	IV=0	Ord=2	G=VAR_INPUT
+++D=BOOL	N=TLSUse	IV=True	Ord=3	G=VAR_INPUT
+++D=OmronLib\MQTT_Comm\sClientReference	N=BufferIn	Ord=4	G=VAR_IN_OUT
+++D=BOOL	N=Done	Ord=5	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=6	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=7	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=8	G=VAR_OUTPUT
+++D=DWORD	N=ErrorIDEx	Ord=9	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

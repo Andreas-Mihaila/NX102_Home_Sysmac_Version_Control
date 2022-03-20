@@ -735,6 +735,150 @@
             </LibraryModel>
           </data>
         </ReferredLibrary>
+        <ReferredLibrary>
+          <data>
+            <LibraryModel>
+              <Name>OmronLib_MQTT_Comm_V1_0</Name>
+              <NameSpace></NameSpace>
+              <Version>1.0.0</Version>
+              <Revision>1</Revision>
+              <LibraryId>36a560f6-9800-4b9d-a0c0-61d9e168ae3f</LibraryId>
+              <Author>OMRON Corporation</Author>
+              <Company>(c) OMRON Corporation 2021. All Rights Reserved.</Company>
+              <DateCreated>2021-06-03T11:12:03.4246929+03:00</DateCreated>
+              <DateModified>2021-07-06T03:47:43.8980513+03:00</DateModified>
+              <Comment>This is the MQTT communication library.
+これはMQTT通信ライブラリです。</Comment>
+              <Password></Password>
+              <AttachedFiles />
+              <AttachedFilesRelativePaths />
+              <PublicPartsNames>
+                <PublicName>OmronLib\MQTT_Comm\MQTTClient</PublicName>
+                <PublicName>OmronLib\MQTT_Comm\MQTTPubAryByte</PublicName>
+                <PublicName>OmronLib\MQTT_Comm\MQTTPubString</PublicName>
+                <PublicName>OmronLib\MQTT_Comm\MQTTSubAryByte</PublicName>
+                <PublicName>OmronLib\MQTT_Comm\MQTTSubString</PublicName>
+                <PublicName>OmronLib\MQTT_Comm\MQTTPing</PublicName>
+                <PublicName>OmronLib\MQTT_Comm\sClientRcv</PublicName>
+                <PublicName>OmronLib\MQTT_Comm\sClientStatus</PublicName>
+                <PublicName>OmronLib\MQTT_Comm\sClientReference</PublicName>
+                <PublicName>OmronLib\MQTT_Comm\sWillCfg</PublicName>
+                <PublicName>OmronLib\MQTT_Comm\sConnectionSettings</PublicName>
+                <PublicName>OmronLib\MQTT_Comm\sPubFlags</PublicName>
+              </PublicPartsNames>
+              <InternalPartsNames>
+                <InternalName>OmronLib\MQTT_Comm\PktPublish</InternalName>
+                <InternalName>OmronLib\MQTT_Comm\PktUnsubscribe</InternalName>
+                <InternalName>OmronLib\MQTT_Comm\PktSubscribe</InternalName>
+                <InternalName>OmronLib\MQTT_Comm\RLDecode</InternalName>
+                <InternalName>OmronLib\MQTT_Comm\RLEncode</InternalName>
+                <InternalName>OmronLib\MQTT_Comm\PktConnect</InternalName>
+                <InternalName>OmronLib\MQTT_Comm\ServerConnect</InternalName>
+                <InternalName>OmronLib\MQTT_Comm\MQTTSend</InternalName>
+                <InternalName>OmronLib\MQTT_Comm\MQTTConnect</InternalName>
+                <InternalName>OmronLib\MQTT_Comm\MQTTDisconnect</InternalName>
+                <InternalName>OmronLib\MQTT_Comm\MQTTRcv</InternalName>
+                <InternalName>OmronLib\MQTT_Comm\sPacketCache</InternalName>
+                <InternalName>OmronLib\MQTT_Comm\sSendQueue</InternalName>
+              </InternalPartsNames>
+              <BuildDevice>
+                <Category>Controller</Category>
+                <Family>Nex</Family>
+                <FullModel>NX102-9000</FullModel>
+                <MajorVersion>1</MajorVersion>
+                <MinorVersion>46</MinorVersion>
+                <Revision>0</Revision>
+                <DisplayVersion>1.46</DisplayVersion>
+                <Packages>
+                  <Package Name="Motion" Version="1.46" />
+                  <Package Name="OPCUA" Version="1.46" />
+                  <Package Name="SecureSocket" Version="1.46" />
+                </Packages>
+              </BuildDevice>
+              <DependencyId>5fc37718-2559-4223-af5d-76ed3eadd16e</DependencyId>
+              <IsSource>true</IsSource>
+              <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+              <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+              <LibraryFilePath>C:\Users\Andreas\Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\MQTT Sysmac Studio\OmronLib_MQTT_Comm_V1_0.slr</LibraryFilePath>
+              <LibraryFileRelativePath>Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\MQTT Sysmac Studio\OmronLib_MQTT_Comm_V1_0.slr</LibraryFileRelativePath>
+              <LibrarySourceControlRelativeFilePath>..\..\..\..\..\..\Users\Andreas\Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\MQTT Sysmac Studio\OmronLib_MQTT_Comm_V1_0.slr</LibrarySourceControlRelativeFilePath>
+              <AsOldVer>false</AsOldVer>
+              <SchemaVersion>3</SchemaVersion>
+              <Parameter1>false</Parameter1>
+            </LibraryModel>
+          </data>
+        </ReferredLibrary>
+        <ReferredLibrary>
+          <data>
+            <LibraryModel>
+              <Name>JSONDecoding</Name>
+              <NameSpace></NameSpace>
+              <Version>0.0.9</Version>
+              <Revision>1</Revision>
+              <LibraryId>9a5251ca-c225-4913-ab48-70d4c239730d</LibraryId>
+              <Author>gomsan</Author>
+              <Company>OMRON ATCE</Company>
+              <DateCreated>2018-12-17T12:35:05.1933466+02:00</DateCreated>
+              <DateModified>2020-06-05T15:21:28.1784679+03:00</DateModified>
+              <Comment>release 0.0.9</Comment>
+              <Password></Password>
+              <AttachedFiles />
+              <AttachedFilesRelativePaths />
+              <PublicPartsNames>
+                <PublicName>JSON\JSONtoSTRUCT</PublicName>
+                <PublicName>JSON\JSONGet</PublicName>
+                <PublicName>JSON\JSONGetBOOL</PublicName>
+                <PublicName>JSON\JSONGetSINT</PublicName>
+                <PublicName>JSON\JSONGetUSINT</PublicName>
+                <PublicName>JSON\JSONGetINT</PublicName>
+                <PublicName>JSON\JSONGetUINT</PublicName>
+                <PublicName>JSON\JSONGetDINT</PublicName>
+                <PublicName>JSON\JSONGetUDINT</PublicName>
+                <PublicName>JSON\JSONGetLINT</PublicName>
+                <PublicName>JSON\JSONGetULINT</PublicName>
+                <PublicName>JSON\JSONGetREAL</PublicName>
+                <PublicName>JSON\JSONGetLREAL</PublicName>
+                <PublicName>JSON\JSONGetTsToDT</PublicName>
+                <PublicName>JSON\JSONGetBYTE</PublicName>
+                <PublicName>JSON\JSONGetWORD</PublicName>
+                <PublicName>JSON\JSONGetDWORD</PublicName>
+                <PublicName>JSON\JSONGetLWORD</PublicName>
+              </PublicPartsNames>
+              <InternalPartsNames>
+                <InternalName>JSON\PrivateParts\FindReplace</InternalName>
+                <InternalName>JSON\PrivateParts\GetIndex</InternalName>
+                <InternalName>JSON\PrivateParts\TrimIndex</InternalName>
+                <InternalName>JSON\PrivateParts\FindFields</InternalName>
+                <InternalName>JSON\JSONGetSTRING</InternalName>
+                <InternalName>JSON\BK_JSONGet_B</InternalName>
+                <InternalName>JSON\JSONGet_OLD</InternalName>
+                <InternalName>JSON\bk_JSONGet</InternalName>
+                <InternalName>JSON\PrivateParts\bk_FindFields</InternalName>
+                <InternalName>JSON\PrivateParts\JSONpath</InternalName>
+              </InternalPartsNames>
+              <BuildDevice>
+                <Category>Controller</Category>
+                <Family>Nex</Family>
+                <FullModel>NJ101-9000</FullModel>
+                <MajorVersion>1</MajorVersion>
+                <MinorVersion>19</MinorVersion>
+                <Revision>0</Revision>
+                <DisplayVersion>1.19</DisplayVersion>
+                <Packages />
+              </BuildDevice>
+              <DependencyId>2d7bec72-f2bf-4f5f-b055-3d63e6d6dc4e</DependencyId>
+              <IsSource>true</IsSource>
+              <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+              <IsIncludeReferredLibraries>true</IsIncludeReferredLibraries>
+              <LibraryFilePath>C:\Users\Andreas\Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\MQTT Sysmac Studio\JSONDecoding.slr</LibraryFilePath>
+              <LibraryFileRelativePath>Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\MQTT Sysmac Studio\JSONDecoding.slr</LibraryFileRelativePath>
+              <LibrarySourceControlRelativeFilePath>..\..\..\..\..\..\Users\Andreas\Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\MQTT Sysmac Studio\JSONDecoding.slr</LibrarySourceControlRelativeFilePath>
+              <AsOldVer>false</AsOldVer>
+              <SchemaVersion>3</SchemaVersion>
+              <Parameter1>false</Parameter1>
+            </LibraryModel>
+          </data>
+        </ReferredLibrary>
       </ReferredLibraries>
       <BuildOption>
         <data>

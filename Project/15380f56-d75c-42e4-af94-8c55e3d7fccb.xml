@@ -1,0 +1,20 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UINT	N=uiStage	G=VAR
+++D=BOOL	N=bInit	G=VAR
+++D=UINT	N=uiJSONlen	G=VAR
+++D=ARRAY[0..1985] OF BYTE	N=arrBuffer	G=VAR
+++D=BOOL	N=bResult	G=VAR
+++D=UINT	N=uiPos	G=VAR
+++D=UINT	N=uiFindings	G=VAR
+++D=UINT	N=uiFieldCount	G=VAR
+++D=STRING[1986]	N=strBuffer	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Execute	Ord=0	G=VAR_INPUT
+++D=BOOL	N=Done	Ord=1	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=2	G=VAR_OUTPUT
+++D=UINT	N=FieldsCount	Ord=3	G=VAR_OUTPUT
+++D=STRING[1986]	N=JSONstring	Ord=4	G=VAR_INPUT
+++D=JSON\PrivateParts\JSONpath	N=JSONfields	Ord=5	G=VAR_IN_OUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

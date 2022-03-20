@@ -1,0 +1,33 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UINT	N=uiStage	IV=0	G=VAR
+++D=UINT	N=uiColPos	G=VAR
+++D=UINT	N=uiByteLen	G=VAR
+++D=ARRAY[0..1985] OF BYTE	N=arrJSByte	G=VAR
+++D=UINT	N=uiFoundNum	G=VAR
+++D=UINT	N=uiCommaPos	G=VAR
+++D=UINT	N=uiBracketPos	G=VAR
+++D=UINT	N=uiIdx	G=VAR
+++D=UINT	N=uiIdxOut	G=VAR
+++D=BOOL	N=bFound	G=VAR
+++D=BOOL	N=bFoundQuote	G=VAR
+++D=BOOL	N=bCommaFound	G=VAR
+++D=BOOL	N=bkeyFound	G=VAR
+++D=BOOL	N=bInit	G=VAR
+++D=BYTE	N=byChar	G=VAR
+++D=UINT	N=uiOffset	G=VAR
+++D=ARRAY[0..1985] OF BYTE	N=arrOutValue	Ord=6	G=VAR
+++D=BOOL	N=bFoundString	G=VAR
+++D=UINT	N=uiQuotepos	G=VAR
+++D=BOOL	N=bQuoteFound	G=VAR
+++D=BYTE	N=byDelimiter	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Execute	Ord=0	G=VAR_INPUT
+++D=_eDELIMITER	N=Delimiter	Ord=1	G=VAR_INPUT
+++D=BOOL	N=Done	Ord=2	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=3	G=VAR_OUTPUT
+++D=BOOL	N=NoMatch	Ord=4	G=VAR_OUTPUT
+++D=STRING[1986]	N=JSONinput	Ord=5	G=VAR_IN_OUT
+++D=STRING[1986]	N=strOut	Ord=6	G=VAR_IN_OUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

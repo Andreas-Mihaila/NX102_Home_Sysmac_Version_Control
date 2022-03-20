@@ -1,0 +1,23 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UINT	N=uiStage	G=VAR
+++D=BOOL	N=bRepeat	G=VAR
+++D=BOOL	N=bTrigExec	IV=False	G=VAR
+++D=DWORD	N=dwlErrorIDEx	G=VAR
+++D=R_TRIG	N=R_TRIG_inst	G=VAR
+++D=ULINT	N=uliNowPingCnt	G=VAR
+++D=ULINT	N=uliStartPingCnt	G=VAR
+++D=WORD	N=wlErrorID	G=VAR
+++D=ULINT	N=uliHoldTimeout	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Execute	IV=False	Ord=0	G=VAR_INPUT
+++D=OmronLib\MQTT_Comm\sClientReference	N=ClientReference	Ord=1	G=VAR_IN_OUT
+++D=UINT	N=Timeout	IV=1000	Ord=2	G=VAR_INPUT
+++D=BOOL	N=Done	Ord=3	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=4	G=VAR_OUTPUT
+++D=UINT	N=ElapseTime	Ord=5	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=6	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=7	G=VAR_OUTPUT
+++D=DWORD	N=ErrorIDEx	Ord=8	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

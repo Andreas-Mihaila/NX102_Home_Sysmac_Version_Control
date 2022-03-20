@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <data>
+    <LibraryModel>
+      <Name>OmronLib_MQTT_Comm_V1_0</Name>
+      <NameSpace></NameSpace>
+      <Version>1.0.0</Version>
+      <Revision>1</Revision>
+      <LibraryId>36a560f6-9800-4b9d-a0c0-61d9e168ae3f</LibraryId>
+      <Author>OMRON Corporation</Author>
+      <Company>(c) OMRON Corporation 2021. All Rights Reserved.</Company>
+      <DateCreated>2021-06-03T11:12:03.4246929+03:00</DateCreated>
+      <DateModified>2021-07-06T03:47:43.8980513+03:00</DateModified>
+      <Comment>This is the MQTT communication library.
+これはMQTT通信ライブラリです。</Comment>
+      <Password></Password>
+      <AttachedFiles />
+      <AttachedFilesRelativePaths />
+      <PublicPartsNames>
+        <PublicName>OmronLib\MQTT_Comm\MQTTClient</PublicName>
+        <PublicName>OmronLib\MQTT_Comm\MQTTPubAryByte</PublicName>
+        <PublicName>OmronLib\MQTT_Comm\MQTTPubString</PublicName>
+        <PublicName>OmronLib\MQTT_Comm\MQTTSubAryByte</PublicName>
+        <PublicName>OmronLib\MQTT_Comm\MQTTSubString</PublicName>
+        <PublicName>OmronLib\MQTT_Comm\MQTTPing</PublicName>
+        <PublicName>OmronLib\MQTT_Comm\sClientRcv</PublicName>
+        <PublicName>OmronLib\MQTT_Comm\sClientStatus</PublicName>
+        <PublicName>OmronLib\MQTT_Comm\sClientReference</PublicName>
+        <PublicName>OmronLib\MQTT_Comm\sWillCfg</PublicName>
+        <PublicName>OmronLib\MQTT_Comm\sConnectionSettings</PublicName>
+        <PublicName>OmronLib\MQTT_Comm\sPubFlags</PublicName>
+      </PublicPartsNames>
+      <InternalPartsNames>
+        <InternalName>OmronLib\MQTT_Comm\PktPublish</InternalName>
+        <InternalName>OmronLib\MQTT_Comm\PktUnsubscribe</InternalName>
+        <InternalName>OmronLib\MQTT_Comm\PktSubscribe</InternalName>
+        <InternalName>OmronLib\MQTT_Comm\RLDecode</InternalName>
+        <InternalName>OmronLib\MQTT_Comm\RLEncode</InternalName>
+        <InternalName>OmronLib\MQTT_Comm\PktConnect</InternalName>
+        <InternalName>OmronLib\MQTT_Comm\ServerConnect</InternalName>
+        <InternalName>OmronLib\MQTT_Comm\MQTTSend</InternalName>
+        <InternalName>OmronLib\MQTT_Comm\MQTTConnect</InternalName>
+        <InternalName>OmronLib\MQTT_Comm\MQTTDisconnect</InternalName>
+        <InternalName>OmronLib\MQTT_Comm\MQTTRcv</InternalName>
+        <InternalName>OmronLib\MQTT_Comm\sPacketCache</InternalName>
+        <InternalName>OmronLib\MQTT_Comm\sSendQueue</InternalName>
+      </InternalPartsNames>
+      <BuildDevice>
+        <Category>Controller</Category>
+        <Family>Nex</Family>
+        <FullModel>NX102-9000</FullModel>
+        <MajorVersion>1</MajorVersion>
+        <MinorVersion>46</MinorVersion>
+        <Revision>0</Revision>
+        <DisplayVersion>1.46</DisplayVersion>
+        <Packages>
+          <Package Name="Motion" Version="1.46" />
+          <Package Name="OPCUA" Version="1.46" />
+          <Package Name="SecureSocket" Version="1.46" />
+        </Packages>
+      </BuildDevice>
+      <DependencyId>5fc37718-2559-4223-af5d-76ed3eadd16e</DependencyId>
+      <IsSource>true</IsSource>
+      <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+      <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+      <LibraryFilePath>C:\Users\Andreas\Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\MQTT Sysmac Studio\OmronLib_MQTT_Comm_V1_0.slr</LibraryFilePath>
+      <LibraryFileRelativePath>Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\MQTT Sysmac Studio\OmronLib_MQTT_Comm_V1_0.slr</LibraryFileRelativePath>
+      <LibrarySourceControlRelativeFilePath>..\..\..\..\..\..\Users\Andreas\Desktop\Automation\OMRON\SYSMAC\Sysmac Libraries\MQTT Sysmac Studio\OmronLib_MQTT_Comm_V1_0.slr</LibrarySourceControlRelativeFilePath>
+      <AsOldVer>false</AsOldVer>
+      <SchemaVersion>3</SchemaVersion>
+      <Parameter1>false</Parameter1>
+    </LibraryModel>
+  </data>
+</data>

@@ -116,3 +116,5 @@ _EN=Variables
 ++D=STRING[256]	N=KM_50_Modbus_Transmission_Vertical_Parity_String	G=VAR_EXTERNAL
 ++D=STRING[256]	N=KM_50_Modbus_Transmission_Wait_Time_String	G=VAR_EXTERNAL
 ++D=STRING[256]	N=KM_50_Modbus_Transmission_Wait_Time_Value_String	G=VAR_EXTERNAL
+++D=REAL	N=KM_50_Phase_1_Total_Power_Consumption_Measurement_INT_LREAL_kVar_REAL	G=VAR_EXTERNAL
+++D=UINT	N=KM_50_Phase_1_Power_Factor_Measurement_Percentage_UINT	G=VAR_EXTERNAL

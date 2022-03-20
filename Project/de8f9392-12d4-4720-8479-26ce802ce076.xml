@@ -1,0 +1,25 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UINT	N=uiStage	G=VAR
+++D=UINT	N=uiSize	G=VAR
+++D=BOOL	N=bRepeat	G=VAR
+++D=WORD	N=wlErrorID	G=VAR
+++D=DWORD	N=dwlErrorIDEx	G=VAR
+++D=R_TRIG	N=R_TRIG_inst	G=VAR
+++D=BOOL	N=trigEnable	IV=False	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Enable	IV=False	Ord=0	G=VAR_INPUT
+++D=STRING[256]	N=ClientID	IV=''	Ord=1	G=VAR_INPUT
+++D=STRING[256]	N=UserName	IV=''	Ord=2	G=VAR_INPUT
+++D=STRING[256]	N=Password	IV=''	Ord=3	G=VAR_INPUT
+++D=OmronLib\MQTT_Comm\sWillCfg	N=WillConfig	IV=(WillTopic := '', WillMsg := '', WillRetain := False, WillQoS := 16#0, WillFlag := False)	Ord=4	G=VAR_INPUT
+++D=BOOL	N=CleanSession	IV=False	Ord=5	G=VAR_INPUT
+++D=UINT	N=KeepAlive	IV=60	Ord=6	G=VAR_INPUT
+++D=OmronLib\MQTT_Comm\sClientReference	N=Buffer	Ord=7	G=VAR_IN_OUT
+++D=BOOL	N=Done	Ord=8	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=9	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=10	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=11	G=VAR_OUTPUT
+++D=DWORD	N=ErrorIDEx	Ord=12	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

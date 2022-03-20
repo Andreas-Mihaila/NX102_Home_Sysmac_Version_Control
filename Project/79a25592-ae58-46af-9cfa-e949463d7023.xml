@@ -1,0 +1,16 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=JSON\JSONGet	N=fbGetValues	G=VAR
+++D=STRING[256]	N=strTemp	G=VAR
+++D=BYTE	N=byTemp	G=VAR
+++D=BOOL	N=bENO	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Execute	Ord=0	G=VAR_INPUT
+++D=STRING[1986]	N=JSONin	Ord=1	G=VAR_IN_OUT
+++D=STRING[1986]	N=BrowseFor	Ord=2	G=VAR_INPUT
+++D=BOOL	N=Done	Ord=3	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=4	G=VAR_OUTPUT
+++D=BOOL	N=NoMatch	Ord=5	G=VAR_OUTPUT
+++D=BYTE	N=Value	Ord=6	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

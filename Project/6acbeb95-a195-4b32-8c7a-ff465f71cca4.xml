@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <data>
+    <ReferredLibrariesModel>
+      <ReferredLibraries />
+      <BuildOption>
+        <data>
+          <LibraryModel>
+            <Name>JSONDecoding</Name>
+            <NameSpace></NameSpace>
+            <Version>0.0.9</Version>
+            <Revision>1</Revision>
+            <LibraryId>9a5251ca-c225-4913-ab48-70d4c239730d</LibraryId>
+            <Author>gomsan</Author>
+            <Company>OMRON ATCE</Company>
+            <DateCreated>2018-12-17T12:35:05.1933466+02:00</DateCreated>
+            <DateModified>2020-06-05T15:21:28.1784679+03:00</DateModified>
+            <Comment>release 0.0.9</Comment>
+            <Password></Password>
+            <AttachedFiles />
+            <AttachedFilesRelativePaths />
+            <PublicPartsNames>
+              <PublicName>JSON\JSONtoSTRUCT</PublicName>
+              <PublicName>JSON\JSONGet</PublicName>
+              <PublicName>JSON\JSONGetBOOL</PublicName>
+              <PublicName>JSON\JSONGetSINT</PublicName>
+              <PublicName>JSON\JSONGetUSINT</PublicName>
+              <PublicName>JSON\JSONGetINT</PublicName>
+              <PublicName>JSON\JSONGetUINT</PublicName>
+              <PublicName>JSON\JSONGetDINT</PublicName>
+              <PublicName>JSON\JSONGetUDINT</PublicName>
+              <PublicName>JSON\JSONGetLINT</PublicName>
+              <PublicName>JSON\JSONGetULINT</PublicName>
+              <PublicName>JSON\JSONGetREAL</PublicName>
+              <PublicName>JSON\JSONGetLREAL</PublicName>
+              <PublicName>JSON\JSONGetTsToDT</PublicName>
+              <PublicName>JSON\JSONGetBYTE</PublicName>
+              <PublicName>JSON\JSONGetWORD</PublicName>
+              <PublicName>JSON\JSONGetDWORD</PublicName>
+              <PublicName>JSON\JSONGetLWORD</PublicName>
+            </PublicPartsNames>
+            <InternalPartsNames>
+              <InternalName>JSON\PrivateParts\FindReplace</InternalName>
+              <InternalName>JSON\PrivateParts\GetIndex</InternalName>
+              <InternalName>JSON\PrivateParts\TrimIndex</InternalName>
+              <InternalName>JSON\PrivateParts\FindFields</InternalName>
+              <InternalName>JSON\JSONGetSTRING</InternalName>
+              <InternalName>JSON\BK_JSONGet_B</InternalName>
+              <InternalName>JSON\JSONGet_OLD</InternalName>
+              <InternalName>JSON\bk_JSONGet</InternalName>
+              <InternalName>JSON\PrivateParts\bk_FindFields</InternalName>
+              <InternalName>JSON\PrivateParts\JSONpath</InternalName>
+            </InternalPartsNames>
+            <BuildDevice>
+              <Category>Controller</Category>
+              <Family>Nex</Family>
+              <FullModel>NJ101-9000</FullModel>
+              <MajorVersion>1</MajorVersion>
+              <MinorVersion>19</MinorVersion>
+              <Revision>0</Revision>
+              <DisplayVersion>1.19</DisplayVersion>
+              <Packages />
+            </BuildDevice>
+            <DependencyId>2d7bec72-f2bf-4f5f-b055-3d63e6d6dc4e</DependencyId>
+            <IsSource>true</IsSource>
+            <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+            <IsIncludeReferredLibraries>true</IsIncludeReferredLibraries>
+            <LibraryFilePath></LibraryFilePath>
+            <LibraryFileRelativePath></LibraryFileRelativePath>
+            <LibrarySourceControlRelativeFilePath></LibrarySourceControlRelativeFilePath>
+            <AsOldVer>false</AsOldVer>
+            <SchemaVersion>3</SchemaVersion>
+            <Parameter1>false</Parameter1>
+          </LibraryModel>
+        </data>
+      </BuildOption>
+      <ExcludedParts>
+        <ExcludedPart>b8577d86-cec6-446c-ba72-3fe138dbaa82</ExcludedPart>
+        <ExcludedPart>6503d7e6-cad1-4aa7-ac61-b3d6dbc82bb5</ExcludedPart>
+        <ExcludedPart>50e94225-f8a8-410f-8e8d-699f2cb2628e</ExcludedPart>
+        <ExcludedPart>f8177f62-6e75-4a09-a45b-eed702b357cd</ExcludedPart>
+        <ExcludedPart>1a23860f-d8d8-4484-84eb-2acd3d79c747</ExcludedPart>
+        <ExcludedPart>92359b6e-3c70-4071-ace4-64b202c5d658</ExcludedPart>
+        <ExcludedPart>b0d67f03-00f8-46e7-9306-df2bb73dfe28</ExcludedPart>
+      </ExcludedParts>
+      <InternalParts>
+        <InternalPart>88d9a9a8-def3-4f2c-9a48-6a57ecd924a0</InternalPart>
+        <InternalPart>5915f9b5-a72c-41b9-8fd1-66e1133602f0</InternalPart>
+        <InternalPart>33cf5691-41fc-47af-8216-d0dc9660aa62</InternalPart>
+        <InternalPart>f0e53747-9772-4f7e-8dd9-d2b2b3fb8b77</InternalPart>
+        <InternalPart>50e94225-f8a8-410f-8e8d-699f2cb2628e</InternalPart>
+        <InternalPart>f8177f62-6e75-4a09-a45b-eed702b357cd</InternalPart>
+        <InternalPart>1a23860f-d8d8-4484-84eb-2acd3d79c747</InternalPart>
+        <InternalPart>92359b6e-3c70-4071-ace4-64b202c5d658</InternalPart>
+        <InternalPart>b0d67f03-00f8-46e7-9306-df2bb73dfe28</InternalPart>
+      </InternalParts>
+      <LibraryTrackingIdConversionTable>
+        <LibraryEntityTrackingId>00000000-0000-0000-0000-000000000000</LibraryEntityTrackingId>
+        <PartTrackingIds />
+      </LibraryTrackingIdConversionTable>
+      <AreLibrariesIncluded>true</AreLibrariesIncluded>
+      <IsLibraryIdsDifferenceNotified>false</IsLibraryIdsDifferenceNotified>
+    </ReferredLibrariesModel>
+  </data>
+</data>

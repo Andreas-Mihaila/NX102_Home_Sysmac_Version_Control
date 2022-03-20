@@ -1,0 +1,12 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UINT	N=uiInsertPos	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=EN	Ord=0	RO=1	G=VAR_INPUT
+++D=STRING[1986]	N=InputString	Ord=1	G=VAR_IN_OUT
+++D=STRING[256]	N=FindString	Ord=2	G=VAR_INPUT
+++D=STRING[256]	N=ReplaceBy	Ord=3	G=VAR_INPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
++GN=RETURN	GA=Return	GVT=ReturnGroup
+++D=BOOL	N=FindReplace	G=RETURN

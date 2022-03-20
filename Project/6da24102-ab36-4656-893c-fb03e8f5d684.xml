@@ -1,0 +1,29 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UINT	N=uiJSONlen	G=VAR
+++D=UINT	N=idx	G=VAR
+++D=UINT	N=uiStage	G=VAR
+++D=STRING[1986]	N=strSubString	G=VAR
+++D=UINT	N=uiLevel	G=VAR
+++D=STRING[4]	N=strChar	IV='{'	G=VAR
+++D=STRING[64]	N=strfindField	G=VAR
+++D=JSON\PrivateParts\JSONpath	N=sFields	G=VAR
+++D=UINT	N=uiFirstPos	G=VAR
+++D=UINT	N=FieldsCount	Ord=2	G=VAR
+++D=JSON\PrivateParts\FindFields	N=fbFindFields	G=VAR
+++D=BOOL	N=bFindFields	G=VAR
+++D=BOOL	N=bInit	G=VAR
+++D=UINT	N=uiKey	G=VAR
+++D=UINT	N=uiComma	G=VAR
+++D=UINT	N=uiPointer	G=VAR
+++D=BOOL	N=bTest	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Execute	Ord=0	G=VAR_INPUT
+++D=STRING[1986]	N=JSONin	Ord=1	G=VAR_IN_OUT
+++D=STRING[1986]	N=BrowseFor	Ord=2	G=VAR_INPUT
+++D=BOOL	N=Done	Ord=3	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=4	G=VAR_OUTPUT
+++D=BOOL	N=NoMatch	Ord=5	G=VAR_OUTPUT
+++D=STRING[256]	N=Value	Ord=6	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

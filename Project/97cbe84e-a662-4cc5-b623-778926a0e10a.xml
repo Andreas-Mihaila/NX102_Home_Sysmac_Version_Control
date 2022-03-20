@@ -1,0 +1,10 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UINT	N=uiFindPos	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=EN	Ord=0	RO=1	G=VAR_INPUT
+++D=STRING[1986]	N=InputString	Ord=1	G=VAR_IN_OUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
++GN=RETURN	GA=Return	GVT=ReturnGroup
+++D=BOOL	N=TrimIndex	G=RETURN

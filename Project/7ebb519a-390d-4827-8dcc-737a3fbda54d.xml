@@ -1,0 +1,47 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UINT	N=uiConState	G=VAR
+++D=UINT	N=uiConSubState	G=VAR
+++D=OmronLib\MQTT_Comm\ServerConnect	N=fb_srvConnect	G=VAR
+++D=OmronLib\MQTT_Comm\MQTTConnect	N=fb_mqCONNECT	G=VAR
+++D=OmronLib\MQTT_Comm\MQTTSend	N=fb_clSEND	G=VAR
+++D=OmronLib\MQTT_Comm\MQTTRcv	N=fb_clRCV	G=VAR
+++D=OmronLib\MQTT_Comm\MQTTDisconnect	N=fb_clDisconnect	G=VAR
+++D=BOOL	N=bConnect	G=VAR
+++D=WORD	N=wlErrorID	G=VAR
+++D=DWORD	N=dwlErrorIDEx	G=VAR
+++D=BOOL	N=bRepeat	G=VAR
+++D=ULINT	N=uliStartPingCnt	G=VAR
+++D=ULINT	N=uliNowPingCnt	G=VAR
+++D=BOOL	N=bPingSend	G=VAR
+++D=ULINT	N=uliStartKeepAliveCnt	G=VAR
+++D=ULINT	N=uliNowKeepAliveCnt	G=VAR
+++D=STRING[256]	N=slClientID	G=VAR
+++D=OmronLib\MQTT_Comm\sConnectionSettings	N=slConnectionSettings	G=VAR
+++D=ULINT	N=uliStartConnectCnt	G=VAR
+++D=ULINT	N=uliNowConnectCnt	G=VAR
+++D=BOOL	N=bBeforeSendDone	G=VAR
+++D=R_TRIG	N=R_TRIG_inst	G=VAR
+++D=BOOL	N=trigEnable	IV=False	G=VAR
+++D=UINT	N=uiHoldDiscardMsgTime	G=VAR
+++D=UINT	N=uiHoldKeepAlive	G=VAR
+++D=ULINT	N=uliKeepAlive	G=VAR
+++D=ULINT	N=uliTimeOut	G=VAR
+++D=BOOL	N=blSessionPresent	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Enable	IV=False	Ord=0	G=VAR_INPUT
+++D=OmronLib\MQTT_Comm\sClientReference	N=ClientReference	Ord=1	G=VAR_IN_OUT
+++D=STRING[256]	N=ClientID	IV=''	Ord=2	G=VAR_INPUT
+++D=OmronLib\MQTT_Comm\sConnectionSettings	N=ConnectionSettings	IV=(IpAdr := '', PortNo := 0, TLSUse := True, TLSSessionName := '', UserName := '', Password := '', WillCfg := (WillTopic := '', WillMsg := '', WillRetain := False, WillQoS := 16#0, WillFlag := False), CleanSession := True)	Ord=3	G=VAR_INPUT
+++D=UINT	N=KeepAlive	IV=60	Ord=4	G=VAR_INPUT
+++D=UINT	N=Timeout	IV=10	Ord=5	G=VAR_INPUT
+++D=UINT	N=DiscardMsgTime	IV=1000	Ord=6	G=VAR_INPUT
+++D=BOOL	N=Connected	Ord=7	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=8	G=VAR_OUTPUT
+++D=UDINT	N=DiscardMsgNum	Ord=9	G=VAR_OUTPUT
+++D=BOOL	N=SessionPresent	Ord=10	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=11	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=12	G=VAR_OUTPUT
+++D=DWORD	N=ErrorIDEx	Ord=13	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

@@ -1,0 +1,51 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UINT	N=uiStage	G=VAR
+++D=UINT	N=uiSize	G=VAR
+++D=SINT	N=siOverallQoS	G=VAR
+++D=UINT	N=uiPacketID	G=VAR
+++D=BOOL	N=bRepeat	G=VAR
+++D=STRING[512]	N=sHoldTopic	G=VAR
+++D=BYTE	N=byHoldSubQoS	G=VAR
+++D=WORD	N=wlErrorID	G=VAR
+++D=DWORD	N=dwlErrorIDEx	G=VAR
+++D=BOOL	N=blReceived	G=VAR
+++D=R_TRIG	N=R_TRIG_inst	G=VAR
+++D=BOOL	N=bTrigEnable	IV=False	G=VAR
+++D=ULINT	N=uliNowSubCnt	G=VAR
+++D=ULINT	N=uliStartSubCnt	G=VAR
+++D=BOOL	N=bMatch	G=VAR
+++D=UINT	N=uiLenToComp	G=VAR
+++D=BOOL	N=bUseWildcard	G=VAR
+++D=ARRAY[0..9] OF OmronLib\MQTT_Comm\sPacketCache	N=arrPacketCache	G=VAR
+++D=UINT	N=uiMaxPacketCache	IV=10	Const=1	G=VAR
+++D=UINT	N=uiPacketCacheCnt	G=VAR
+++D=UINT	N=uiCnt	G=VAR
+++D=UINT	N=uiIndex	G=VAR
+++D=ULINT	N=uliHoldTimeout	G=VAR
+++D=UINT	N=uiOutPos	G=VAR
+++D=UINT	N=uiCopySize	G=VAR
+++D=BOOL	N=bWildcardOnly	G=VAR
+++D=ARRAY[0..9] OF Omronlib\MQTT_Comm\sSendQueue	N=arrSendQueue	G=VAR
+++D=UINT	N=uiMaxSendQueue	IV=10	Const=1	G=VAR
+++D=UINT	N=uiSendQueueCnt	G=VAR
+++D=BOOL	N=bTopicCmp	G=VAR
+++D=UDINT	N=udiSubMsgSize	G=VAR
+++D=UDINT	N=udiUnsubMsgSize	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Enable	IV=False	Ord=0	G=VAR_INPUT
+++D=OmronLib\MQTT_Comm\sClientReference	N=ClientReference	Ord=1	G=VAR_IN_OUT
+++D=ARRAY[*] OF BYTE	N=RcvMsg	Ord=2	G=VAR_IN_OUT
+++D=BYTE	N=SubQoS	IV=0	Ord=3	G=VAR_INPUT
+++D=STRING[512]	N=Topic	IV=''	Ord=4	G=VAR_INPUT
+++D=UINT	N=Timeout	IV=10	Ord=5	G=VAR_INPUT
+++D=BOOL	N=Subscribed	Ord=6	G=VAR_OUTPUT
+++D=SINT	N=Status	Ord=7	G=VAR_OUTPUT
+++D=BOOL	N=Received	Ord=8	G=VAR_OUTPUT
+++D=UINT	N=MsgSize	Ord=9	G=VAR_OUTPUT
+++D=STRING[512]	N=RcvTopic	Ord=10	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=11	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=12	G=VAR_OUTPUT
+++D=DWORD	N=ErrorIDEx	Ord=13	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
