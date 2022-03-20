@@ -657,3 +657,14 @@ _EN=Variables
 ++D=STRING[1986]	N=KM_50_JSON_String	G=VAR_GLOBAL
 ++D=REAL	N=KM_50_Phase_1_Total_Power_Consumption_Measurement_INT_LREAL_kVar_REAL	G=VAR_GLOBAL
 ++D=UINT	N=KM_50_Phase_1_Power_Factor_Measurement_Percentage_UINT	G=VAR_GLOBAL
+++D=DWORD	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Error_Index	G=VAR_GLOBAL
+++D=WORD	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Error_ID	G=VAR_GLOBAL
+++D=BOOL	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Error	G=VAR_GLOBAL
+++D=BOOL	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Busy	G=VAR_GLOBAL
+++D=STRING[1986]	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Publish_Message	G=VAR_GLOBAL
+++D=USINT	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Message_Type	G=VAR_GLOBAL
+++D=UINT	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Packet_ID	G=VAR_GLOBAL
+++D=BOOL	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Done	G=VAR_GLOBAL
+++D=UINT	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Time_Out	G=VAR_GLOBAL
+++D=STRING[512]	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Topic	G=VAR_GLOBAL
+++D=OmronLib\MQTT_Comm\sPubFlags	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Publish_Settings	G=VAR_GLOBAL

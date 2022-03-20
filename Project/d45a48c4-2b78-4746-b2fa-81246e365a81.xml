@@ -6,10 +6,6 @@ _EN=Variables
 ++D=OmronLib\MQTT_Comm\MQTTClient	N=MQTTS_AWS_Cloud_Broker_Connection_Instance	G=VAR
 ++D=OmronLib\MQTT_Comm\MQTTPing	N=MQTTS_AWS_Cloud_Broker_Connection_Ping_Instance	G=VAR
 ++D=OmronLib\MQTT_Comm\MQTTPubString	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Instance	G=VAR
-++D=OmronLib\MQTT_Comm\sPubFlags	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Publish_Settings	G=VAR
-++D=STRING[512]	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Topic	G=VAR
-++D=UINT	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Time_Out	G=VAR
-++D=BOOL	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Done	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=BOOL	N=_EIP1_EtnOnlineSta	Const=1	G=VAR_EXTERNAL
 ++D=STRING[256]	N=Connection_Broker_IP	G=VAR_EXTERNAL
@@ -71,3 +67,14 @@ _EN=Variables
 ++D=STRING[1986]	N=KM_50_JSON_String	G=VAR_EXTERNAL
 ++D=REAL	N=KM_50_Phase_1_Total_Power_Consumption_Measurement_INT_LREAL_kVar_REAL	G=VAR_EXTERNAL
 ++D=UINT	N=KM_50_Phase_1_Power_Factor_Measurement_Percentage_UINT	G=VAR_EXTERNAL
+++D=DWORD	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Error_Index	G=VAR_EXTERNAL
+++D=WORD	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Error_ID	G=VAR_EXTERNAL
+++D=BOOL	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Error	G=VAR_EXTERNAL
+++D=BOOL	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Busy	G=VAR_EXTERNAL
+++D=STRING[1986]	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Publish_Message	G=VAR_EXTERNAL
+++D=USINT	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Message_Type	G=VAR_EXTERNAL
+++D=UINT	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Packet_ID	G=VAR_EXTERNAL
+++D=BOOL	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Done	G=VAR_EXTERNAL
+++D=UINT	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Time_Out	G=VAR_EXTERNAL
+++D=STRING[512]	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Topic	G=VAR_EXTERNAL
+++D=OmronLib\MQTT_Comm\sPubFlags	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Publish_Settings	G=VAR_EXTERNAL
