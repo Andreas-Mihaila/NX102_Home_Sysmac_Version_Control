@@ -78,3 +78,4 @@ _EN=Variables
 ++D=UINT	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Time_Out	G=VAR_EXTERNAL
 ++D=STRING[512]	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Topic	G=VAR_EXTERNAL
 ++D=OmronLib\MQTT_Comm\sPubFlags	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Publish_Settings	G=VAR_EXTERNAL
+++D=DATE_AND_TIME	N=ActualTime	G=VAR_EXTERNAL

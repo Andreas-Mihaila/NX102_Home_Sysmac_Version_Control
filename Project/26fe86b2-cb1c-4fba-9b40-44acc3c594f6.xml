@@ -668,3 +668,9 @@ _EN=Variables
 ++D=UINT	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Time_Out	G=VAR_GLOBAL
 ++D=STRING[512]	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Topic	G=VAR_GLOBAL
 ++D=OmronLib\MQTT_Comm\sPubFlags	N=MQTTS_AWS_Cloud_Broker_Publish_JSON_String_Publish_Settings	G=VAR_GLOBAL
+++D=LREAL	N=G5_Servo_Drive_Actual_Velocity_LREAL	G=VAR_GLOBAL
+++D=LREAL	N=G5_Servo_Drive_Actual_Position_LREAL	G=VAR_GLOBAL
+++D=LREAL	N=G5_Servo_Drive_Actual_Torque_LREAL	G=VAR_GLOBAL
+++D=REAL	N=G5_Servo_Drive_Actual_Velocity_REAL	G=VAR_GLOBAL
+++D=REAL	N=G5_Servo_Drive_Actual_Position_REAL	G=VAR_GLOBAL
+++D=REAL	N=G5_Servo_Drive_Actual_Torque_REAL	G=VAR_GLOBAL
