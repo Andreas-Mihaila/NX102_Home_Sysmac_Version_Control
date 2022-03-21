@@ -674,3 +674,4 @@ _EN=Variables
 ++D=REAL	N=G5_Servo_Drive_Actual_Velocity_REAL	G=VAR_GLOBAL
 ++D=REAL	N=G5_Servo_Drive_Actual_Position_REAL	G=VAR_GLOBAL
 ++D=REAL	N=G5_Servo_Drive_Actual_Torque_REAL	G=VAR_GLOBAL
+++D=STRING[1986]	N=JSON_Data_String	G=VAR_GLOBAL
