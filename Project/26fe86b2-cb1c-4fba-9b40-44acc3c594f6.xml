@@ -702,3 +702,8 @@ _EN=Variables
 ++D=BOOL	N=MQTTS_Client_Broker_Mosquitto_TLS_Connection_Busy	G=VAR_GLOBAL
 ++D=OmronLib\MQTT_Comm\sClientReference	N=MQTTS_Client_Broker_Mosquitto_TLS_Connection_Client_Reference	G=VAR_GLOBAL
 ++D=BOOL	N=MQTTS_Client_Broker_Mosquitto_TLS_Connection_Done	G=VAR_GLOBAL
+++D=WORD	N=AI_Tank_Water_Level_WORD	G=VAR_GLOBAL
+++D=REAL	N=AI_Tank_Water_Level_REAL	G=VAR_GLOBAL
+++D=WORD	N=AI_FIO_Time_Scale_WORD	G=VAR_GLOBAL
+++D=REAL	N=AQ_Valve_Filling_REAL	G=VAR_GLOBAL
+++D=REAL	N=AQ_Valve_Empty_REAL	G=VAR_GLOBAL
