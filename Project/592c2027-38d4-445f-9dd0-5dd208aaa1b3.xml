@@ -2,6 +2,7 @@
 _EN=Variables
 +GN=VAR	GVT=DefaultGroup
 ++D=OEN\Modbus\ModbusTCP_Client	N=Modbus_TCP_Client_To_FIO_Server_Instance	G=VAR
+++D=PIDAT	N=OEN_Modbus_PID_Tank_Instance	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=ARRAY[0..7] OF WORD	N=Modbus_TCP_Client_To_FIO_Server_Array_Holding_Registers	G=VAR_EXTERNAL
 ++D=ARRAY[0..7] OF WORD	N=Modbus_TCP_Client_To_FIO_Server_Array_Input_Registers	G=VAR_EXTERNAL
@@ -65,3 +66,20 @@ _EN=Variables
 ++D=WORD	N=AI_FIO_Time_Scale_WORD	G=VAR_EXTERNAL
 ++D=REAL	N=AQ_Valve_Filling_REAL	G=VAR_EXTERNAL
 ++D=REAL	N=AQ_Valve_Empty_REAL	G=VAR_EXTERNAL
+++D=BOOL	N=OEN_Modbus_PID_Tank_Execute	G=VAR_EXTERNAL
+++D=REAL	N=OEN_Modbus_PID_Tank_Manipulated_Value	G=VAR_EXTERNAL
+++D=WORD	N=OEN_Modbus_PID_Tank_Error_ID	G=VAR_EXTERNAL
+++D=BOOL	N=OEN_Modbus_PID_Tank_Error	G=VAR_EXTERNAL
+++D=BOOL	N=OEN_Modbus_PID_Tank_Autotuning_Busy	G=VAR_EXTERNAL
+++D=BOOL	N=OEN_Modbus_PID_Tank_Auto_Tuning_Done	G=VAR_EXTERNAL
+++D=REAL	N=OEN_Modbus_PID_Tank_Manual_Manipulated_Variable	G=VAR_EXTERNAL
+++D=TIME	N=OEN_Modbus_PID_Tank_Derivative_Time	G=VAR_EXTERNAL
+++D=TIME	N=OEN_Modbus_PID_Tank_Integration_Time	G=VAR_EXTERNAL
+++D=REAL	N=OEN_Modbus_PID_Tank_Proportional_Band	G=VAR_EXTERNAL
+++D=_sINIT_SET_PARAMS	N=OEN_Modbus_PID_Tank_Initial_Setting_Parameters	G=VAR_EXTERNAL
+++D=_sOPR_SET_PARAMS	N=OEN_Modbus_PID_Tank_Operation_Setting_Parameters	G=VAR_EXTERNAL
+++D=_sOPR_SET_PARAMS	N=OEN_Modbus_PID_Tank_Operati	G=VAR_EXTERNAL
+++D=REAL	N=OEN_Modbus_PID_Tank_Setpoint	G=VAR_EXTERNAL
+++D=REAL	N=OEN_Modbus_PID_Tank_Process_Value	G=VAR_EXTERNAL
+++D=BOOL	N=OEN_Modbus_PID_Tank_Start_Autotuning	G=VAR_EXTERNAL
+++D=BOOL	N=OEN_Modbus_PID_Tank_Manual_Control	G=VAR_EXTERNAL
