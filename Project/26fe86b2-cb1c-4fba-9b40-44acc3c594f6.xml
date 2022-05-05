@@ -724,3 +724,4 @@ _EN=Variables
 ++D=REAL	N=OEN_Modbus_PID_Tank_Process_Value	G=VAR_GLOBAL
 ++D=BOOL	N=OEN_Modbus_PID_Tank_Start_Autotuning	G=VAR_GLOBAL
 ++D=BOOL	N=OEN_Modbus_PID_Tank_Manual_Control	G=VAR_GLOBAL
+++D=REAL	N=HMI_PLC_Waterlevel_Setpoint	G=VAR_GLOBAL
