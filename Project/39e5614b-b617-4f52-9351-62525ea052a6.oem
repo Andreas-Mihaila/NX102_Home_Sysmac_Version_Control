@@ -8796,14 +8796,14 @@
         <AccessInfos />
         <ChildEntities />
       </Entity>
-      <Entity type="Device" subtype="NA" id="80ac4eca-6cf1-4735-84f1-44d4c267c293" name="HMI_NA_0" version="0" dateCreated="05/09/2022 07:35:08" dateLastModified="05/09/2022 07:35:44" trackingId="60808dd2-bd9f-4c65-a511-73db0e36189b" DN="HMI_NA_0" hash="706eb92ca0f60a863abdfcd7eef9ad09" DHS="3f1d45366cfcbea828c36ca50c8094dd" TH="1c85c811065ce58697cb378ba2dc47d9">
+      <Entity type="Device" subtype="NA" id="80ac4eca-6cf1-4735-84f1-44d4c267c293" name="HMI_Runtime_NA" version="0" dateCreated="05/09/2022 07:35:08" dateLastModified="05/09/2022 07:44:17" trackingId="60808dd2-bd9f-4c65-a511-73db0e36189b" DN="HMI_Runtime_NA" hash="d38ccd4fc8661a8412a03c351d7adf6d" DHS="17128464c314d96190d4a5ef10f014bc" TH="c085e19697ca365232c23543c540fe98">
         <AccessInfos />
         <ChildEntities>
           <Entity type="Watch" subtype="" id="30c45385-9028-4b01-8104-9a0ec802255d" name="Watch" version="0" dateCreated="05/09/2022 07:35:08" trackingId="4e399582-7a52-4696-b9a7-eba2818ece16">
             <AccessInfos />
             <ChildEntities />
           </Entity>
-          <Entity type="CommsSettings" subtype="" id="486626fa-45c0-4607-b73e-c7ecd2b24639" name="Communications Settings" version="0" dateCreated="05/09/2022 07:35:08" dateLastModified="05/09/2022 07:35:08" trackingId="f1030746-54e9-4e9e-8325-023ed613f78a">
+          <Entity type="CommsSettings" subtype="" id="486626fa-45c0-4607-b73e-c7ecd2b24639" name="Communications Settings" version="0" dateCreated="05/09/2022 07:35:08" dateLastModified="05/09/2022 07:44:17" trackingId="f1030746-54e9-4e9e-8325-023ed613f78a" hash="8bedb531c77877cb900a09a8eff3f205">
             <AccessInfos />
             <ChildEntities />
           </Entity>
