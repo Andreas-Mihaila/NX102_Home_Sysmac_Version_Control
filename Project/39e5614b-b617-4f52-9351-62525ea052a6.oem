@@ -8796,7 +8796,7 @@
         <AccessInfos />
         <ChildEntities />
       </Entity>
-      <Entity type="Device" subtype="NA" id="80ac4eca-6cf1-4735-84f1-44d4c267c293" name="HMI_Runtime_NA" version="0" dateCreated="05/09/2022 07:35:08" dateLastModified="05/09/2022 07:44:17" trackingId="60808dd2-bd9f-4c65-a511-73db0e36189b" DN="HMI_Runtime_NA" hash="d38ccd4fc8661a8412a03c351d7adf6d" DHS="f6ea100302d54ad8060b6ab928690a45" TH="6530a1e5d108af3880bd1024f09d02e3">
+      <Entity type="Device" subtype="NA" id="80ac4eca-6cf1-4735-84f1-44d4c267c293" name="HMI_Runtime_NA" version="0" dateCreated="05/09/2022 07:35:08" dateLastModified="05/09/2022 07:44:17" trackingId="60808dd2-bd9f-4c65-a511-73db0e36189b" DN="HMI_Runtime_NA" hash="d38ccd4fc8661a8412a03c351d7adf6d" DHS="b44191f9b83a854de822b87112228617" TH="052d8fbcad6cc124e3ce1e9377a013b5">
         <AccessInfos />
         <ChildEntities>
           <Entity type="Watch" subtype="" id="30c45385-9028-4b01-8104-9a0ec802255d" name="Watch" version="0" dateCreated="05/09/2022 07:35:08" trackingId="4e399582-7a52-4696-b9a7-eba2818ece16">
@@ -8901,7 +8901,7 @@
           <Entity type="HmiPagesGroup" subtype="MainPagesGroup" id="d109fe5d-d13e-400e-9ef9-66d63b978a20" name="Pages" version="0" dateCreated="05/09/2022 07:35:08" dateLastModified="05/09/2022 07:35:44" trackingId="ef0137b7-9f7a-4a5f-8ce5-feddad9cace2" DN="Pages">
             <AccessInfos />
             <ChildEntities>
-              <Entity type="HmiPage" subtype="GraphicalPage" id="79d80c9a-16bd-4f67-b9d3-9b964c7773ed" name="PID_Monitoring" version="0" dateCreated="05/09/2022 07:35:10" dateLastModified="05/09/2022 09:25:32" trackingId="46a93e3a-f914-4665-bfed-3e43358981d2" hash="f944eeed84b4a23037da7c9f6fb28875">
+              <Entity type="HmiPage" subtype="GraphicalPage" id="79d80c9a-16bd-4f67-b9d3-9b964c7773ed" name="PID_Monitoring" version="0" dateCreated="05/09/2022 07:35:10" dateLastModified="05/09/2022 09:33:46" trackingId="46a93e3a-f914-4665-bfed-3e43358981d2" hash="68ad54dc411a5040ee0ee344a66e545d">
                 <AccessInfos />
                 <ChildEntities>
                   <Entity type="HmiPage" subtype="VisualBasicPage" id="17025129-a774-400c-9d4b-016e7f5aa89f" name="PID_Monitoring.vb" version="0" dateCreated="05/09/2022 07:35:10" dateLastModified="05/09/2022 09:25:32" trackingId="1131429b-cd9a-4452-ba2c-2352e1ff398c" hash="f62137838fc2dfe6e8f07a938310dc6d">
@@ -9009,7 +9009,7 @@
           <Entity type="ResourceGroup" subtype="" id="0d32538e-90d9-403c-ad0f-05bbab79189e" name="Resources" version="0" dateCreated="05/09/2022 07:35:10" dateLastModified="05/09/2022 07:35:44" trackingId="4c1ea1c0-1221-48e0-8d46-065f1b0e3db0" DN="Resources">
             <AccessInfos />
             <ChildEntities>
-              <Entity type="LocalisationResources" subtype="" id="63052fb6-d991-481d-b6b8-143faa4d704a" name="Root" version="0" dateCreated="05/09/2022 07:35:12" dateLastModified="05/09/2022 09:25:32" trackingId="63bf985b-320e-4183-af66-fd5c791752f0" DN="Root" hash="0f673557dee43117dfb59022b8e0d663">
+              <Entity type="LocalisationResources" subtype="" id="63052fb6-d991-481d-b6b8-143faa4d704a" name="Root" version="0" dateCreated="05/09/2022 07:35:12" dateLastModified="05/09/2022 09:33:46" trackingId="63bf985b-320e-4183-af66-fd5c791752f0" DN="Root" hash="dc250e9ca1a50cf2e848dd314b778619">
                 <AccessInfos />
                 <ChildEntities />
               </Entity>
