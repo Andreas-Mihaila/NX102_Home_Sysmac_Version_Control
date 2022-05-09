@@ -84,3 +84,10 @@ _EN=Variables
 ++D=BOOL	N=OEN_Modbus_PID_Tank_Start_Autotuning	G=VAR_EXTERNAL
 ++D=BOOL	N=OEN_Modbus_PID_Tank_Manual_Control	G=VAR_EXTERNAL
 ++D=REAL	N=HMI_PLC_Waterlevel_Setpoint	G=VAR_EXTERNAL
+++D=WORD	N=AI_FIO_Valve_Outlet_WORD	G=VAR_EXTERNAL
+++D=REAL	N=AI_FIO_Valve_Outlet_REAL	G=VAR_EXTERNAL
+++D=INT	N=AQ_Valve_Empty_INT	G=VAR_EXTERNAL
+++D=INT	N=OEN_Modbus_PID_Tank_Manipulated_Value_INT	G=VAR_EXTERNAL
+++D=INT	N=Test	G=VAR_EXTERNAL
+++D=REAL	N=AI_Tank_Water_Level_REAL_Percentage	G=VAR_EXTERNAL
+++D=REAL	N=AI_FIO_Valve_Outlet_REAL_Percentage	G=VAR_EXTERNAL
