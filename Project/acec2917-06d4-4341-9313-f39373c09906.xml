@@ -70,5 +70,15 @@
       <DefaultValue>Opcua.Unit.RecordPerFile</DefaultValue>
       <Options />
     </Opcua.Field.ExecutionLogRecordNumberValue2>
+    <Opcua.Field.ExpandStructureNodes>
+      <CurrentValue>EnumElement1</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EnumElement1</DefaultValue>
+      <Options>
+        <Option>EnumElement1</Option>
+        <Option>EnumElement2</Option>
+      </Options>
+    </Opcua.Field.ExpandStructureNodes>
   </Opcua.Section.ServerSetting>
 </data>

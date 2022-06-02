@@ -732,3 +732,16 @@ _EN=Variables
 ++D=INT	N=Test	G=VAR_GLOBAL
 ++D=REAL	N=AI_Tank_Water_Level_REAL_Percentage	G=VAR_GLOBAL
 ++D=REAL	N=AI_FIO_Valve_Outlet_REAL_Percentage	G=VAR_GLOBAL
+++D=ARRAY[0..255] OF BYTE	N=TCP_Messaging_Reply_As_Bytes	G=VAR_GLOBAL
+++D=WORD	N=TCP_Messaging_Error_ID	G=VAR_GLOBAL
+++D=BOOL	N=TCP_Messaging_Error	G=VAR_GLOBAL
+++D=BOOL	N=TCP_Messaging_Busy	G=VAR_GLOBAL
+++D=STRING[256]	N=TCP_Messaging_Message	G=VAR_GLOBAL
+++D=BOOL	N=TCP_Messaging_Trigger	G=VAR_GLOBAL
+++D=OEN\nEth\sSetup	N=TCP_Messaging_Setup	G=VAR_GLOBAL
+++D=BOOL	N=TCP_Messaging_Enable	G=VAR_GLOBAL
+++D=BOOL	N=TCP_Messaging_Done	G=VAR_GLOBAL
+++D=BOOL	N=Clock_1_S	G=VAR_GLOBAL
+++D=ARRAY[0..99] OF BYTE	N=TCP_Send_Send_Data	G=VAR_GLOBAL
+++D=ARRAY[0..99] OF BYTE	N=TCP_Rcv_Data	G=VAR_GLOBAL
+++D=STRING[256]	N=String_Received_Etherway	G=VAR_GLOBAL

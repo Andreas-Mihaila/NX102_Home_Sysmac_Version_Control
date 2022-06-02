@@ -1,0 +1,49 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=OEN\Eth\TCP_Messaging	N=TCP_Messaging_Instance	G=VAR
+++D=BOOL	N=trigger	G=VAR
+++D=BOOL	N=TCP_Connect_Execute	G=VAR
+++D=OEN\Eth\TCP_Connect	N=TCP_Connect_Instance	G=VAR
+++D=BOOL	N=TCP_Connect_Done	G=VAR
+++D=BOOL	N=TCP_Connect_EIP_Online_Status	G=VAR
+++D=STRING[200]	N=TCP_Connect_IP_Address	G=VAR
+++D=UINT	N=TCP_Connect_Local_Port	G=VAR
+++D=UINT	N=TCP_Connect_Target_Port	G=VAR
+++D=_sSOCKET	N=TCP_Connect_Socket	G=VAR
+++D=_eCONNECTION_STATE	N=TCP_Connect_TCP_STate	G=VAR
+++D=BOOL	N=TCP_Connect_Socket_Error	G=VAR
+++D=WORD	N=TCP_Connect_Error_ID	G=VAR
+++D=STRING[100]	N=TCP_Connect_Error_Index	G=VAR
+++D=BOOL	N=TCP_Send_Execute	G=VAR
+++D=SktTCPSend	N=TCP_Send_Instance	G=VAR
+++D=UINT	N=TCP_Send_Size	G=VAR
+++D=BOOL	N=TCP_Send_Busy	G=VAR
+++D=BOOL	N=TCP_Send_Error	G=VAR
+++D=WORD	N=TCP_Send_Error_ID	G=VAR
+++D=BOOL	N=TCP_Send_Done	G=VAR
+++D=SktTCPRcv	N=TCP_Rcv_Instance	G=VAR
+++D=UINT	N=TCP_Rcv_Time_Out	G=VAR
+++D=UINT	N=TCP_Rcv_Size	G=VAR
+++D=BOOL	N=TCP_Rcv_Busy	G=VAR
+++D=BOOL	N=TCP_Rcv_Error	G=VAR
+++D=WORD	N=TCP_Rcv_Error_ID	G=VAR
+++D=UINT	N=TCP_Rcv_Size_Actual	G=VAR
+++D=BOOL	N=TCP_Rcv_Done	G=VAR
+++D=BOOL	N=TCP_RCV_Execute	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=BOOL	N=_EIP_EtnOnlineSta	Const=1	G=VAR_EXTERNAL
+++D=ARRAY[0..255] OF BYTE	N=TCP_Messaging_Reply_As_Bytes	G=VAR_EXTERNAL
+++D=WORD	N=TCP_Messaging_Error_ID	G=VAR_EXTERNAL
+++D=BOOL	N=TCP_Messaging_Error	G=VAR_EXTERNAL
+++D=BOOL	N=TCP_Messaging_Busy	G=VAR_EXTERNAL
+++D=STRING[256]	N=TCP_Messaging_Message	G=VAR_EXTERNAL
+++D=BOOL	N=TCP_Messaging_Trigger	G=VAR_EXTERNAL
+++D=OEN\nEth\sSetup	N=TCP_Messaging_Setup	G=VAR_EXTERNAL
+++D=BOOL	N=TCP_Messaging_Enable	G=VAR_EXTERNAL
+++D=BOOL	N=TCP_Messaging_Done	G=VAR_EXTERNAL
+++D=BOOL	N=Clock_1_S	G=VAR_EXTERNAL
+++D=BOOL	N=_EIP1_EtnOnlineSta	Const=1	G=VAR_EXTERNAL
+++D=ARRAY[0..99] OF BYTE	N=TCP_Send_Send_Data	G=VAR_EXTERNAL
+++D=ARRAY[0..99] OF BYTE	N=TCP_Rcv_Data	G=VAR_EXTERNAL
+++D=STRING[256]	N=String_Received_Etherway	G=VAR_EXTERNAL

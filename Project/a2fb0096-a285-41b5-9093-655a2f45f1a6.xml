@@ -8,13 +8,10 @@
     </ExecutionConditionCJUnit>
   </GeneralSettingsData>
   <Programs>
-    <AssociatedProgramData ProgramName="KM50_Power_Monitoring" InstanceName="KM50_Power_Monitoring" IniFileTrackingId="ecd4c8c49ee24cae95a251fc05d577db" StartupSetting="TRUE" SequenceNumber="1" IsDebugProgram="false" />
-    <AssociatedProgramData ProgramName="PLC_Information" InstanceName="PLC_Information" IniFileTrackingId="5f044d4215c44148b715219fae52dd0c" StartupSetting="TRUE" SequenceNumber="2" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="Factory_IO" InstanceName="Factory_IO" IniFileTrackingId="31cb4ca58ff440989b7b30a7a9d79004" StartupSetting="TRUE" SequenceNumber="1" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="TCP_Socket_Connection_Etherway" InstanceName="TCP_Socket_Connection_Etherway" IniFileTrackingId="0d4f6053951546009ee883098e161826" StartupSetting="TRUE" SequenceNumber="2" IsDebugProgram="false" />
     <AssociatedProgramData ProgramName="Modbus_TCP_Etherway" InstanceName="Modbus_TCP_Etherway" IniFileTrackingId="07a427ce4c19441d8099011e9df85d9e" StartupSetting="TRUE" SequenceNumber="3" IsDebugProgram="false" />
-    <AssociatedProgramData ProgramName="OPC_UA_Connection" InstanceName="OPC_UA_Connection" IniFileTrackingId="1e75266326aa4d15bb158a396bc5337d" StartupSetting="TRUE" SequenceNumber="4" IsDebugProgram="false" />
-    <AssociatedProgramData ProgramName="NTP_Connection" InstanceName="NTP_Connection" IniFileTrackingId="f47b0345948c493985999c3deab54e6c" StartupSetting="TRUE" SequenceNumber="5" IsDebugProgram="false" />
-    <AssociatedProgramData ProgramName="MQTT_Communication" InstanceName="MQTT_Communication" IniFileTrackingId="c83d4e175fc44cd994fbece4280746db" StartupSetting="TRUE" SequenceNumber="6" IsDebugProgram="false" />
-    <AssociatedProgramData ProgramName="TCP_Socket_Connection_Etherway" InstanceName="TCP_Socket_Connection_Etherway" IniFileTrackingId="0d4f6053951546009ee883098e161826" StartupSetting="TRUE" SequenceNumber="7" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="PLC_Information" InstanceName="PLC_Information" IniFileTrackingId="5f044d4215c44148b715219fae52dd0c" StartupSetting="TRUE" SequenceNumber="4" IsDebugProgram="false" />
   </Programs>
   <RefreshUnitIds />
   <TaskInterfaceVariables version="1" />
