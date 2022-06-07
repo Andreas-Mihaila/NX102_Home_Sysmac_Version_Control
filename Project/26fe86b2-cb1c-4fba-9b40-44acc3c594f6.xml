@@ -32,6 +32,7 @@ _EN=Variables
 ++D=BOOL	N=Status_Machine_Ready	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tMACHINE_STATUS
 ++D=BOOL	N=Status_Machine_Error	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tMACHINE_STATUS
 ++D=ARRAY[0..65334] OF REAL	N=FHV7_Measurement_Array	G=VAR_GLOBAL
+++D=ARRAY[0..65334] OF REAL	N=FHV7_Measurement_Array_2	G=VAR_GLOBAL
 ++D=BOOL	N=Status_Machine_Auto_Mode	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tMACHINE_STATUS
 ++D=BOOL	N=Status_Machine_Manual_Mode	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tMACHINE_STATUS
 ++D=BOOL	N=Status_Machine_Jog_Permissive	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tMACHINE_STATUS
@@ -764,3 +765,13 @@ _EN=Variables
 ++D=UINT	N=CTU_Counter_Value_UINT	G=VAR_GLOBAL
 ++D=BOOL	N=Default_Sensor_Delay	G=VAR_GLOBAL
 ++D=TIME	N=Default_Sensor_Delay_Ellapsed_Time	G=VAR_GLOBAL
+++D=LREAL	N=Random_Numbers_Output_Number_LREAL_2	G=VAR_GLOBAL
+++D=REAL	N=Random_Numbers_Output_Number_REAL_2	G=VAR_GLOBAL
+++D=REAL	N=FHV7_Measurement_Smallest_Value_2	G=VAR_GLOBAL
+++D=UINT	N=FHV7_Measurement_Array_Minimum_Found_2	G=VAR_GLOBAL
+++D=REAL	N=FHV7_Measurement_Array_Minimum_Value_2	G=VAR_GLOBAL
+++D=REAL	N=Tolerance_Measurement_Raw	G=VAR_GLOBAL
+++D=REAL	N=Tolerance_Measurement	G=VAR_GLOBAL
+++D=BOOL	N=Status_Wagon_Green	G=VAR_GLOBAL
+++D=BOOL	N=Status_Wagon_Yellow	G=VAR_GLOBAL
+++D=BOOL	N=Status_Wagon_Red	G=VAR_GLOBAL

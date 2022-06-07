@@ -7,6 +7,7 @@ _EN=Variables
 ++D=R_TRIG	N=R_TRIG_Sensor	G=VAR
 ++D=F_TRIG	N=F_TRIG_Sensor_Instance	G=VAR
 ++D=TON	N=TON_Instance	G=VAR
+++D=Rand	N=Random_Numbers_Instance_2	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=BOOL	N=Clock_1_Minute	G=VAR_EXTERNAL
 ++D=BOOL	N=Clock_1_Minute_RE_Output	G=VAR_EXTERNAL
@@ -27,3 +28,14 @@ _EN=Variables
 ++D=UINT	N=CTU_Counter_Value_UINT	G=VAR_EXTERNAL
 ++D=BOOL	N=Default_Sensor_Delay	G=VAR_EXTERNAL
 ++D=TIME	N=Default_Sensor_Delay_Ellapsed_Time	G=VAR_EXTERNAL
+++D=LREAL	N=Random_Numbers_Output_Number_LREAL_2	G=VAR_EXTERNAL
+++D=REAL	N=Random_Numbers_Output_Number_REAL_2	G=VAR_EXTERNAL
+++D=ARRAY[0..65334] OF REAL	N=FHV7_Measurement_Array_2	G=VAR_EXTERNAL
+++D=REAL	N=FHV7_Measurement_Smallest_Value_2	G=VAR_EXTERNAL
+++D=UINT	N=FHV7_Measurement_Array_Minimum_Found_2	G=VAR_EXTERNAL
+++D=REAL	N=FHV7_Measurement_Array_Minimum_Value_2	G=VAR_EXTERNAL
+++D=REAL	N=Tolerance_Measurement_Raw	G=VAR_EXTERNAL
+++D=REAL	N=Tolerance_Measurement	G=VAR_EXTERNAL
+++D=BOOL	N=Status_Wagon_Green	G=VAR_EXTERNAL
+++D=BOOL	N=Status_Wagon_Yellow	G=VAR_EXTERNAL
+++D=BOOL	N=Status_Wagon_Red	G=VAR_EXTERNAL
