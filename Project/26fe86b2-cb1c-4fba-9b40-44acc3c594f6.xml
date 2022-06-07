@@ -31,6 +31,7 @@ _EN=Variables
 ++D=BOOL	N=IO_DQ_Panel_Stop_Light	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tOUTPUTS
 ++D=BOOL	N=Status_Machine_Ready	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tMACHINE_STATUS
 ++D=BOOL	N=Status_Machine_Error	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tMACHINE_STATUS
+++D=ARRAY[0..65334] OF REAL	N=FHV7_Measurement_Array	G=VAR_GLOBAL
 ++D=BOOL	N=Status_Machine_Auto_Mode	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tMACHINE_STATUS
 ++D=BOOL	N=Status_Machine_Manual_Mode	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tMACHINE_STATUS
 ++D=BOOL	N=Status_Machine_Jog_Permissive	NTP=PublicationOnly	G=VAR_GLOBAL	Com=$t$t$t$tMACHINE_STATUS
@@ -745,3 +746,19 @@ _EN=Variables
 ++D=ARRAY[0..99] OF BYTE	N=TCP_Send_Send_Data	G=VAR_GLOBAL
 ++D=ARRAY[0..99] OF BYTE	N=TCP_Rcv_Data	G=VAR_GLOBAL
 ++D=STRING[256]	N=String_Received_Etherway	G=VAR_GLOBAL
+++D=BOOL	N=Clock_1_Minute	G=VAR_GLOBAL
+++D=BOOL	N=Clock_1_Minute_RE_Output	G=VAR_GLOBAL
+++D=REAL	N=Random_Numbers_Output_Number_REAL	G=VAR_GLOBAL
+++D=LREAL	N=Random_Numbers_Output_Number_LREAL	G=VAR_GLOBAL
+++D=UINT	N=Random_Numbers_Seed	G=VAR_GLOBAL
+++D=BOOL	N=Default_Sensor	G=VAR_GLOBAL
+++D=INT	N=CTU_Preset_Value	G=VAR_GLOBAL
+++D=BOOL	N=CTU_Output	G=VAR_GLOBAL
+++D=INT	N=CTU_Counter_Value	G=VAR_GLOBAL
+++D=BOOL	N=Default_Sensor_Rising	G=VAR_GLOBAL
+++D=BOOL	N=Default_Sensor_Falling	G=VAR_GLOBAL
+++D=UINT	N=FHV7_Measurement_Array_Minimum_Found	G=VAR_GLOBAL
+++D=REAL	N=FHV7_Measurement_Array_Minimum_Value	G=VAR_GLOBAL
+++D=BOOL	N=Clock_1_Second	G=VAR_GLOBAL
+++D=REAL	N=FHV7_Measurement_Smallest_Value	G=VAR_GLOBAL
+++D=UINT	N=CTU_Counter_Value_UINT	G=VAR_GLOBAL

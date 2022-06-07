@@ -9,6 +9,7 @@
   </GeneralSettingsData>
   <Programs>
     <AssociatedProgramData ProgramName="TCP_MessagingOEN" InstanceName="TCP_MessagingOEN" IniFileTrackingId="4a0157e393d545be89df31e36d12810a" StartupSetting="TRUE" SequenceNumber="1" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="Mondial_Tests" InstanceName="Mondial_Tests" IniFileTrackingId="b86568e8ddff446e8b119d546e7b3e2f" StartupSetting="TRUE" SequenceNumber="2" IsDebugProgram="false" />
   </Programs>
   <RefreshUnitIds>
     <RefreshUnitId RefreshUnitId="c3f2efd6-1f97-43e2-8822-b7931a4c4715" />
