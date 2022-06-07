@@ -6,6 +6,7 @@ _EN=Variables
 ++D=CTU	N=CTU_Instance	G=VAR
 ++D=R_TRIG	N=R_TRIG_Sensor	G=VAR
 ++D=F_TRIG	N=F_TRIG_Sensor_Instance	G=VAR
+++D=TON	N=TON_Instance	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=BOOL	N=Clock_1_Minute	G=VAR_EXTERNAL
 ++D=BOOL	N=Clock_1_Minute_RE_Output	G=VAR_EXTERNAL
@@ -24,3 +25,5 @@ _EN=Variables
 ++D=BOOL	N=Clock_1_Second	G=VAR_EXTERNAL
 ++D=REAL	N=FHV7_Measurement_Smallest_Value	G=VAR_EXTERNAL
 ++D=UINT	N=CTU_Counter_Value_UINT	G=VAR_EXTERNAL
+++D=BOOL	N=Default_Sensor_Delay	G=VAR_EXTERNAL
+++D=TIME	N=Default_Sensor_Delay_Ellapsed_Time	G=VAR_EXTERNAL

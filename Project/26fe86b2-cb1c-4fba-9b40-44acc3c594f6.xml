@@ -762,3 +762,5 @@ _EN=Variables
 ++D=BOOL	N=Clock_1_Second	G=VAR_GLOBAL
 ++D=REAL	N=FHV7_Measurement_Smallest_Value	G=VAR_GLOBAL
 ++D=UINT	N=CTU_Counter_Value_UINT	G=VAR_GLOBAL
+++D=BOOL	N=Default_Sensor_Delay	G=VAR_GLOBAL
+++D=TIME	N=Default_Sensor_Delay_Ellapsed_Time	G=VAR_GLOBAL
