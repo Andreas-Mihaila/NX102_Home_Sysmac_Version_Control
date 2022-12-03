@@ -123,6 +123,34 @@
         <Option>EnumElement2</Option>
       </Options>
     </NexCpuActionProhibitSDBackup>
+    <NexCpuActionSDCardProgramTransferConfirmPassword>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuActionSDCardProgramTransferConfirmPassword>
+    <NexCpuActionSDCardProgramTransferConfirmPasswordValue2>
+      <CurrentValue>NexCpuActionEmptyUnit</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexCpuActionEmptyUnit</DefaultValue>
+      <Options />
+    </NexCpuActionSDCardProgramTransferConfirmPasswordValue2>
+    <NexCpuActionSDCardRestoreConfirmPassword>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuActionSDCardRestoreConfirmPassword>
+    <NexCpuActionSDCardRestoreConfirmPasswordValue2>
+      <CurrentValue>NexCpuActionEmptyUnit</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexCpuActionEmptyUnit</DefaultValue>
+      <Options />
+    </NexCpuActionSDCardRestoreConfirmPasswordValue2>
   </NexCpuActionGeneral>
   <NexCpuEipFINSSetting>
     <NexCpuEipFINSRoutingTable>

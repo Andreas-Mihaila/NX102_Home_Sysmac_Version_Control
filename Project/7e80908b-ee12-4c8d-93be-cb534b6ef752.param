@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter index="Pn000" value="1" />
+  <parameter index="Pn003" value="19" />
+  <parameter index="Pn004" value="130" />
+  <parameter index="Pn100" value="1620" />
+  <parameter index="Pn101" value="900" />
+  <parameter index="Pn102" value="80" />
+  <parameter index="Pn104" value="25" />
+  <parameter index="Pn105" value="1880" />
+  <parameter index="Pn106" value="900" />
+  <parameter index="Pn109" value="25" />
+  <parameter index="Pn200" value="2" />
+  <parameter index="Pn400.0" value="0" />
+  <parameter index="Pn400.1" value="0" />
+  <parameter index="Pn400.2" value="0" />
+  <parameter index="Pn401.0" value="0" />
+  <parameter index="Pn401.1" value="0" />
+  <parameter index="Pn401.2" value="0" />
+  <parameter index="Pn402.0" value="0" />
+  <parameter index="Pn402.1" value="0" />
+  <parameter index="Pn402.2" value="0" />
+  <parameter index="Pn730" value="3000" />
+  <parameter index="Pn731" value="3000" />
+  <parameter index="Pn739" value="1000000" />
+  <parameter index="Pn743" value="-5000000" />
+  <parameter index="Pn744" value="5000000" />
+  <parameter index="Pn753" value="3000" />
+  <parameter index="Pn754" value="3000" />
+</parameters>

@@ -8,7 +8,7 @@
     <ExternalFileStorage>false</ExternalFileStorage>
     <MaxSamplesPerFile>0</MaxSamplesPerFile>
     <MaxDataSetSize>0</MaxDataSetSize>
-    <TargetDirectory />
-    <FilePrefix />
+    <TargetDirectory></TargetDirectory>
+    <FilePrefix></FilePrefix>
   </DataTraceConfigModel>
 </data>
